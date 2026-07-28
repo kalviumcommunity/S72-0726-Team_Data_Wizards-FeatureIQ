@@ -12,8 +12,8 @@ Modules 2.18-2.24:
 import pandas as pd
 import numpy as np
 
-RAW = "/home/claude/data-foundation/data/raw"
-OUT = "/home/claude/data-foundation/data/processed"
+RAW = "data/raw"
+OUT = "data/processed"
 
 # ---------------------------------------------------------------
 # CONVERSION DATA

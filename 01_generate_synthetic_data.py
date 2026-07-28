@@ -62,7 +62,7 @@ mask = conversion_df.sample(frac=0.02, random_state=2).index
 conversion_df.loc[mask, "converted"] = None
 
 conversion_df_public = conversion_df.drop(columns=["_engagement_propensity"])
-conversion_df_public.to_csv("/home/claude/data-foundation/data/raw/conversion_data.csv", index=False)
+conversion_df_public.to_csv("data/raw/conversion_data.csv", index=False)
 
 # ---------------------------------------------------------------
 # 2. Activity logs (session-level events)
@@ -84,7 +84,7 @@ for u in users:
 activity_df = pd.DataFrame(activity_rows)
 # duplicate a chunk of rows (double-logged events)
 activity_df = pd.concat([activity_df, activity_df.sample(frac=0.01, random_state=3)], ignore_index=True)
-activity_df.to_csv("/home/claude/data-foundation/data/raw/activity_logs.csv", index=False)
+activity_df.to_csv("data/raw/activity_logs.csv", index=False)
 
 # ---------------------------------------------------------------
 # 3. Feature usage logs
@@ -112,7 +112,7 @@ usage_df = pd.DataFrame(usage_rows)
 # inject a few extreme outliers (bot/test accounts)
 outlier_idx = usage_df.sample(5, random_state=4).index
 usage_df.loc[outlier_idx, "usage_count"] = np.random.randint(500, 2000, size=5)
-usage_df.to_csv("/home/claude/data-foundation/data/raw/feature_usage_logs.csv", index=False)
+usage_df.to_csv("data/raw/feature_usage_logs.csv", index=False)
 
 print("Generated raw files:")
 print(f"  conversion_data.csv    : {conversion_df_public.shape}")
