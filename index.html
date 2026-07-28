@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FeatureIQ - Product Analytics Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo-icon">
+          <i data-lucide="zap"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Feature<span class="highlight">IQ</span></span>
+          <span class="brand-tag">SaaS Analytics</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <div class="nav-section-title">MAIN MENU</div>
+        <a href="#" class="nav-item active">
+          <i data-lucide="layout-dashboard"></i>
+          <span>Overview</span>
+        </a>
+        <a href="#" class="nav-item">
+          <i data-lucide="filter"></i>
+          <span>Funnel Analysis</span>
+        </a>
+        <a href="#" class="nav-item">
+          <i data-lucide="bar-chart-3"></i>
+          <span>Feature Adoption</span>
+        </a>
+        <a href="#" class="nav-item">
+          <i data-lucide="user-check"></i>
+          <span>Lead Propensity</span>
+          <span class="badge neon-badge">HOT</span>
+        </a>
+
+        <div class="nav-section-title" style="margin-top: 1.5rem;">SYSTEM</div>
+        <a href="#" class="nav-item">
+          <i data-lucide="settings"></i>
+          <span>Settings</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="user-card">
+          <div class="avatar">PM</div>
+          <div class="user-info">
+            <span class="user-name">Product Manager</span>
+            <span class="user-role">Enterprise Workspace</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="top-header">
+        <div class="header-title-container">
+          <h1 class="page-title">Trial Conversion Overview</h1>
+          <p class="page-subtitle">Connecting free-trial behavior patterns to high-converting user upgrades</p>
+        </div>
+
+        <div class="header-actions">
+          <div class="date-picker-wrapper">
+            <i data-lucide="calendar"></i>
+            <select class="date-select">
+              <option value="6m">Last 6 Months (Trial Dataset)</option>
+              <option value="90d">Last 90 Days</option>
+              <option value="30d">Last 30 Days</option>
+              <option value="7d">Last 7 Days</option>
+            </select>
+          </div>
+
+          <button class="btn btn-secondary">
+            <i data-lucide="download"></i>
+            <span>Export</span>
+          </button>
+
+          <button class="btn btn-primary">
+            <i data-lucide="sparkles"></i>
+            <span>AI Insights</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Placeholder View Content for Day 1 Shell -->
+      <div class="dashboard-body">
+        <div class="welcome-banner">
+          <div class="banner-content">
+            <h2>Welcome to FeatureIQ Layout Shell 🚀</h2>
+            <p>Your dark-themed SaaS workspace layout is active. Navigations, glassmorphic headers, and control pickers are fully rendered.</p>
+          </div>
+          <div class="banner-badge">
+            <i data-lucide="shield-check"></i> Day 1 Complete
+          </div>
+        </div>
+
+        <div class="wireframe-grid">
+          <div class="wireframe-card">
+            <div class="wireframe-icon"><i data-lucide="layout"></i></div>
+            <h3>Sleek Dark Theme</h3>
+            <p>Built with HSL slate & navy tokens with vibrant cyan/violet neon glow accents.</p>
+          </div>
+          <div class="wireframe-card">
+            <div class="wireframe-icon"><i data-lucide="layers"></i></div>
+            <h3>Responsive Sidebar</h3>
+            <p>Features active state indicators, section grouping, and user profile metadata.</p>
+          </div>
+          <div class="wireframe-card">
+            <div class="wireframe-icon"><i data-lucide="sliders"></i></div>
+            <h3>Header Controls</h3>
+            <p>Global date range selection, quick exports, and call-to-action trigger points.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+  </script>
+</body>
+</html>
