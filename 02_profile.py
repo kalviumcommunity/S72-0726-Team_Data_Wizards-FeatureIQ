@@ -5,7 +5,7 @@ Prints null/dupe/type/value-range summary for each raw source before any cleanin
 """
 import pandas as pd
 
-RAW = "/home/claude/data-foundation/data/raw"
+RAW = "data/raw"
 
 def profile(name, df):
     print(f"\n{'='*60}\n{name}  shape={df.shape}\n{'='*60}")

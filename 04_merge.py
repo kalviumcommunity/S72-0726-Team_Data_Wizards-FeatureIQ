@@ -7,7 +7,7 @@ by checking row counts and unmatched keys before/after.
 """
 import pandas as pd
 
-PROC = "/home/claude/data-foundation/data/processed"
+PROC = "data/processed"
 
 conv = pd.read_csv(f"{PROC}/conversion_clean.csv", parse_dates=["signup_date", "trial_end_date", "conversion_date"])
 act = pd.read_csv(f"{PROC}/activity_clean.csv", parse_dates=["event_timestamp"])

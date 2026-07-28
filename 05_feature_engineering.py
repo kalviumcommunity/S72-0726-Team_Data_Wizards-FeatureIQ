@@ -8,7 +8,7 @@ the dashboard.
 import pandas as pd
 import numpy as np
 
-PROC = "/home/claude/data-foundation/data/processed"
+PROC = "data/processed"
 usage = pd.read_csv(f"{PROC}/usage_clean.csv", parse_dates=["usage_timestamp"])
 merged = pd.read_csv(
     f"{PROC}/merged_base.csv",
