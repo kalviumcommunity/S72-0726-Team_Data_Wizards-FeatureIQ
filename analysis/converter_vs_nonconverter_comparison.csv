@@ -1,0 +1,15 @@
+feature,non_converted_mean,converted_mean,lift_ratio
+engagement_slope,1.9691,4.0182,2.041
+total_feature_events,34.0293,54.0934,1.59
+events_per_session,6.8232,9.5522,1.4
+is_fast_activator,0.3694,0.4955,1.341
+total_sessions,5.7974,6.7108,1.158
+feature_adoption_breadth,0.4201,0.4861,1.157
+distinct_features_used,4.201,4.8612,1.157
+distinct_active_days,4.7242,5.3385,1.13
+active_day_ratio,0.3374,0.3813,1.13
+has_positive_slope,0.5468,0.5992,1.096
+used_power_feature,0.773,0.834,1.079
+session_frequency,1.2046,1.2375,1.027
+features_per_active_day,1.0953,1.0968,1.001
+time_to_first_value_hrs,40.7209,26.8651,0.66

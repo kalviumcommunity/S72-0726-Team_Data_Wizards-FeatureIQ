@@ -1,0 +1,22 @@
+kpi,users,converted,conversion_rate
+Overall,2000,771,0.3855
+TTFV ≤ 12h,836,382,0.4569
+TTFV ≤ 24h,1199,523,0.4362
+TTFV > 72h,263,62,0.2357
+Used Power Feature,1593,643,0.4036
+No Power Feature,407,128,0.3145
+Positive Slope,1134,462,0.4074
+Flat/Negative Slope,866,309,0.3568
+Completed Trial Window,1774,705,0.3974
+Early Drop-off (≤Day 3),47,13,0.2766
+Mid-Trial Drop-off (≤Day 8),179,53,0.2961
+Enterprise (200+),321,119,0.3707
+Mid-Market (51-200),348,135,0.3879
+SMB (11-50),330,114,0.3455
+Startup (1-10),328,139,0.4238
+High Engagement Segment,1064,483,0.4539
+Medium Engagement Segment,763,249,0.3263
+Low Engagement Segment,173,39,0.2254
+Archetype: Champion,554,271,0.4892
+Archetype: Ghost,0,0,
+Archetype: Window Shopper,74,16,0.2162
