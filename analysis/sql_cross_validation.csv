@@ -1,0 +1,5 @@
+check,python,sql,delta,match
+Overall conversion rate,0.3855,0.3855,0.0,True
+High segment conv rate,0.4539,0.453947,4.7e-05,True
+Low segment conv rate,0.2254,0.225434,3.4e-05,True
+Power feature conv rate,0.4036,0.403641,4.1e-05,True

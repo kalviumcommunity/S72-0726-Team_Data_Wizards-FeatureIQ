@@ -1,0 +1,10 @@
+user_segment,drop_off_stage,total_users,converted_users,conv_rate_pct,avg_ttfv_hrs,avg_sessions,avg_features_used,avg_propensity_score
+High,completed_trial_window,1022,467,45.69,19.54,7.91,5.61,90.56
+High,mid_trial_dropoff,40,16,40.0,21.35,5.0,5.58,85.7
+Medium,completed_trial_window,628,212,33.76,47.25,4.97,3.39,65.15
+Medium,early_dropoff,29,9,31.03,42.31,1.38,3.76,61.28
+Low,mid_trial_dropoff,33,9,27.27,91.18,2.42,1.88,35.48
+Medium,mid_trial_dropoff,106,28,26.42,41.65,2.99,3.84,63.83
+Low,early_dropoff,16,4,25.0,154.63,1.5,1.56,29.38
+Low,completed_trial_window,124,26,20.97,73.33,3.44,1.74,38.85
+High,early_dropoff,2,0,0.0,22.5,2.5,5.5,80.0
