@@ -13,6 +13,45 @@
     "avg_sessions": 6.1,
     "high_engagement_pct": 53.2
   },
+  "funnel": {
+    "stages": [
+      {
+        "stage_num": 1,
+        "name": "Signup",
+        "users": 2000,
+        "pct_of_top": 100.0,
+        "drop_pct_to_next": 5.1,
+        "dropped_to_next": 102
+      },
+      {
+        "stage_num": 2,
+        "name": "Onboarding Completed",
+        "users": 1898,
+        "pct_of_top": 94.9,
+        "drop_pct_to_next": 16.1,
+        "dropped_to_next": 305
+      },
+      {
+        "stage_num": 3,
+        "name": "Key Feature Activated",
+        "users": 1593,
+        "pct_of_top": 79.7,
+        "drop_pct_to_next": 51.6,
+        "dropped_to_next": 822
+      },
+      {
+        "stage_num": 4,
+        "name": "Upgraded to Paid",
+        "users": 771,
+        "pct_of_top": 38.6,
+        "drop_pct_to_next": 0.0,
+        "dropped_to_next": 0
+      }
+    ],
+    "highest_dropoff_step": "3 \u2192 4",
+    "highest_dropoff_pct": 51.6,
+    "highest_dropoff_users_lost": 822
+  },
   "stories": [
     {
       "id": "story-ttfv",
