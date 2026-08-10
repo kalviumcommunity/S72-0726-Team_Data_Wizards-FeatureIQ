@@ -228,6 +228,28 @@ def analyze_and_export():
         'user_segment', 'conversion_propensity_score'
     ]].to_dict(orient='records')
 
+    # 11. Conversion Funnel 4-Stage Analysis (Day 3 Milestone)
+    s1 = total_users
+    s2 = int(((df['distinct_features_used'] >= 2) | (df['time_to_first_value_hrs'] <= 48)).sum())
+    s3 = int(df['used_power_feature'].sum())
+    s4 = converted_users
+
+    d12_pct = float(round((s1 - s2) / s1 * 100, 1)) if s1 > 0 else 0.0
+    d23_pct = float(round((s2 - s3) / s2 * 100, 1)) if s2 > 0 else 0.0
+    d34_pct = float(round((s3 - s4) / s3 * 100, 1)) if s3 > 0 else 0.0
+
+    funnel_summary = {
+        "stages": [
+            {"stage_num": 1, "name": "Signup", "users": s1, "pct_of_top": 100.0, "drop_pct_to_next": d12_pct, "dropped_to_next": s1 - s2},
+            {"stage_num": 2, "name": "Onboarding Completed", "users": s2, "pct_of_top": float(round(s2/s1*100, 1)), "drop_pct_to_next": d23_pct, "dropped_to_next": s2 - s3},
+            {"stage_num": 3, "name": "Key Feature Activated", "users": s3, "pct_of_top": float(round(s3/s1*100, 1)), "drop_pct_to_next": d34_pct, "dropped_to_next": s3 - s4},
+            {"stage_num": 4, "name": "Upgraded to Paid", "users": s4, "pct_of_top": float(round(s4/s1*100, 1)), "drop_pct_to_next": 0.0, "dropped_to_next": 0}
+        ],
+        "highest_dropoff_step": "3 → 4",
+        "highest_dropoff_pct": d34_pct,
+        "highest_dropoff_users_lost": s3 - s4
+    }
+
     dashboard_payload = {
         "metadata": {
             "title": "FeatureIQ - Executive SaaS Data Product",
@@ -243,6 +265,7 @@ def analyze_and_export():
             "avg_sessions": avg_sessions,
             "high_engagement_pct": high_engagement_pct
         },
+        "funnel": funnel_summary,
         "stories": stories,
         "trends": {
             "monthly": monthly_trend

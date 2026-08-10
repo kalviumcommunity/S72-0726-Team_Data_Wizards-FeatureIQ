@@ -38,6 +38,11 @@
             <i data-lucide="layout-dashboard"></i>
             <span>Executive Dashboard</span>
           </a>
+          <a href="#conversion-funnel-section" class="nav-item">
+            <i data-lucide="filter"></i>
+            <span>Conversion Funnel</span>
+            <span class="badge neon-badge">DAY 3</span>
+          </a>
           <a href="#" class="nav-item" onclick="switchTab('cohorts')">
             <i data-lucide="layers"></i>
             <span>Cohort Funnel</span>
@@ -227,6 +232,63 @@
                 <span class="kpi-change positive"><i data-lucide="trending-up"></i> 1,064 accounts</span>
               </div>
               <div class="kpi-footer">7.8 avg sessions/trial</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Day 3: Interactive Conversion Funnel Visualizer Component -->
+        <section id="conversion-funnel-section" class="funnel-section">
+          <div class="section-header">
+            <div>
+              <div class="section-badge-wrapper">
+                <span class="badge neon-badge">DAY 3 MILESTONE</span>
+                <span class="badge-stage">4-STAGE JOURNEY</span>
+              </div>
+              <h2 class="section-title"><i data-lucide="filter"></i> Conversion Funnel Visualizer</h2>
+              <p class="section-sub">Interactive stage-by-stage free trial conversion & drop-off analytics with automated bottleneck detection</p>
+            </div>
+            
+            <div class="funnel-header-metrics">
+              <div class="funnel-metric-chip" id="chip-funnel-conv">
+                <span class="chip-label">End-to-End Conv Rate:</span>
+                <span class="chip-value text-emerald">38.6%</span>
+              </div>
+              <div class="funnel-metric-chip" id="chip-funnel-bottleneck">
+                <span class="chip-label">Biggest Drop-off:</span>
+                <span class="chip-value text-rose">Stage 3 → 4 (-51.6%)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="funnel-card">
+            <!-- Funnel Flow Visualizer Grid -->
+            <div class="funnel-flow" id="funnel-flow-container">
+              <!-- Dynamically populated and animated by app.js -->
+            </div>
+
+            <!-- Bottleneck Alert Diagnostic Bar -->
+            <div class="funnel-bottleneck-callout" id="funnel-bottleneck-callout">
+              <div class="bottleneck-icon-pulse">
+                <i data-lucide="alert-octagon"></i>
+              </div>
+              <div class="bottleneck-info">
+                <div class="bottleneck-title-row">
+                  <span class="bottleneck-tag">CRITICAL BOTTLENECK DETECTED</span>
+                  <span class="bottleneck-stage-name" id="bottleneck-stage-text">Stage 3 (Key Feature Activated) → Stage 4 (Upgraded to Paid)</span>
+                  <span class="bottleneck-stat-badge" id="bottleneck-rate-badge">51.6% Drop-off (822 Users Lost)</span>
+                </div>
+                <p class="bottleneck-desc" id="bottleneck-desc-text">
+                  The steepest churn occurs between power feature adoption and checkout completion. While 79.7% of users activate high-signal features, 51.6% of those active users abandon before upgrading to paid plans.
+                </p>
+                <div class="bottleneck-actions">
+                  <button class="btn-funnel-action" onclick="filterByFunnelStage('power_non_conv')">
+                    <i data-lucide="user-x"></i> Inspect Power Feature Drop-offs (822)
+                  </button>
+                  <button class="btn-funnel-action secondary" onclick="filterByFunnelStage('converted')">
+                    <i data-lucide="user-check"></i> Inspect Upgraded Accounts (771)
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </section>
