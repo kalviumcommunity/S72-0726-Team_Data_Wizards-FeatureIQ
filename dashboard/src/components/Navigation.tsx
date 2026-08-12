@@ -8,10 +8,8 @@ import { checkBackendStatus, BackendStatus } from '@/lib/api';
 
 const NAV_ITEMS = [
   { href: '/', label: 'Overview', icon: LayoutDashboard },
-  { href: '/funnel', label: 'Funnel', icon: Filter },
-  { href: '/adoption', label: 'Adoption', icon: Layers },
-  { href: '/cohorts', label: 'Cohorts', icon: Users },
-  { href: '/leads', label: 'Leads', icon: Users },
+  { href: '/funnel', label: 'Funnel Telemetry', icon: Filter },
+  { href: '/leads', label: 'Lead Propensity Roster', icon: Users },
   { href: '/analysis', label: 'Analysis Gallery', icon: LineChart },
   { href: '/settings', label: 'Settings', icon: Settings },
 ];
