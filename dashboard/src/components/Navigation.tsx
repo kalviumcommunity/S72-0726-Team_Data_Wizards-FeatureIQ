@@ -82,11 +82,6 @@ export default function Navigation() {
                       15 CHARTS
                     </span>
                   )}
-                  {item.href === '/funnel' && (
-                    <span className="ml-auto text-[9px] font-extrabold bg-[#8b5cf6]/20 text-[#8b5cf6] border border-[#8b5cf6]/30 px-1.5 py-0.5 rounded-full">
-                      DAY 3
-                    </span>
-                  )}
                 </Link>
               );
             })}
