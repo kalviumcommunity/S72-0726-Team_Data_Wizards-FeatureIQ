@@ -16,6 +16,8 @@ export interface UserRecord {
   drop_off_stage: string;
   user_segment: 'High' | 'Medium' | 'Low';
   conversion_propensity_score: number;
+  archetype?: string;
+  is_anomaly?: boolean;
 }
 
 export interface FunnelStage {
@@ -59,4 +61,23 @@ export interface LeadItem {
   status: 'Hot' | 'Warm' | 'Cold';
   industry: string;
   plan: string;
+  archetype?: string;
+  isAnomaly?: boolean;
+}
+
+export interface BehavioralArchetype {
+  name: string;
+  convRate: number;
+  count: number;
+  description: string;
+  color: string;
+  badge: string;
+}
+
+export interface AnalysisChartItem {
+  id: string;
+  title: string;
+  filename: string;
+  category: 'Conversion & Funnel' | 'Telemetry & Features' | 'Archetypes & Segments' | 'Propensity & Size';
+  insight: string;
 }

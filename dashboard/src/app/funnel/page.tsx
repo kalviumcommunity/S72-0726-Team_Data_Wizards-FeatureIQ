@@ -182,50 +182,85 @@ export default function FunnelAnalysisPage() {
         </div>
       </div>
 
-      {/* Historical Trend Chart (Screen 2 Mockup) */}
-      <div className="glass-card p-5 sm:p-6">
-        <div className="flex items-center justify-between mb-4">
-          <div>
-            <h3 className="font-bold text-white text-base">Historical Trend</h3>
-            <p className="text-xs text-slate-400">Conversion rate over time</p>
+      {/* Historical Trend & Day 5 Time-Series Retention Decay Line Charts */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* 1. Time-Series Activity Decay over Trial Window (Day 1 - Day 14) */}
+        <div className="glass-card p-5 sm:p-6">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h3 className="font-bold text-white text-base flex items-center gap-2">
+                <TrendingUp className="w-4 h-4 text-[#00f2fe]" />
+                Day 5: 14-Day Activity Decay Curve
+              </h3>
+              <p className="text-xs text-slate-400">Daily active session count (Day 1 to Day 14)</p>
+            </div>
           </div>
-          <div className="flex items-center bg-[#0d1322] p-1 rounded-xl border border-white/10">
-            <button
-              onClick={() => setTimeRange('7D')}
-              className={`px-3 py-1 rounded-lg text-xs font-bold transition-colors ${
-                timeRange === '7D' ? 'bg-[#00f2fe]/20 text-[#00f2fe]' : 'text-slate-400 hover:text-white'
-              }`}
-            >
-              7D
-            </button>
-            <button
-              onClick={() => setTimeRange('30D')}
-              className={`px-3 py-1 rounded-lg text-xs font-bold transition-colors ${
-                timeRange === '30D' ? 'bg-[#00f2fe]/20 text-[#00f2fe]' : 'text-slate-400 hover:text-white'
-              }`}
-            >
-              30D
-            </button>
+
+          <div className="h-52 w-full">
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart data={[
+                { day: 'Day 1', converted: 12.4, churned: 8.1 },
+                { day: 'Day 3', converted: 11.2, churned: 4.8 },
+                { day: 'Day 5', converted: 10.5, churned: 2.9 },
+                { day: 'Day 7', converted: 9.8, churned: 1.5 },
+                { day: 'Day 10', converted: 8.9, churned: 0.8 },
+                { day: 'Day 14', converted: 8.4, churned: 0.3 },
+              ]}>
+                <XAxis dataKey="day" stroke="#64748b" fontSize={10} tickLine={false} />
+                <YAxis stroke="#64748b" fontSize={10} tickLine={false} unit=" sessions" />
+                <Tooltip contentStyle={{ backgroundColor: '#0d1322', borderColor: '#334155', borderRadius: '10px', fontSize: '11px' }} />
+                <Line type="monotone" dataKey="converted" name="Converted Users" stroke="#10b981" strokeWidth={3} dot={{ r: 3 }} />
+                <Line type="monotone" dataKey="churned" name="Churned Users" stroke="#f43f5e" strokeWidth={2} strokeDasharray="4 4" dot={{ r: 3 }} />
+              </LineChart>
+            </ResponsiveContainer>
           </div>
         </div>
 
-        <div className="h-44 w-full">
-          <ResponsiveContainer width="100%" height="100%">
-            <LineChart data={currentTrend}>
-              <XAxis dataKey="day" stroke="#64748b" fontSize={11} tickLine={false} />
-              <YAxis stroke="#64748b" fontSize={11} domain={[30, 42]} tickLine={false} tickFormatter={(v) => `${v}%`} />
-              <Tooltip
-                contentStyle={{
-                  backgroundColor: '#0d1322',
-                  borderColor: 'rgba(255,255,255,0.1)',
-                  borderRadius: '10px',
-                  fontSize: '12px',
-                }}
-                formatter={(val: any) => [`${val}%`, 'Conversion Rate']}
-              />
-              <Line type="monotone" dataKey="rate" stroke="#00f2fe" strokeWidth={3} dot={{ fill: '#00f2fe', r: 4 }} />
-            </LineChart>
-          </ResponsiveContainer>
+        {/* 2. Historical Conversion Slope Trajectory */}
+        <div className="glass-card p-5 sm:p-6">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h3 className="font-bold text-white text-base">Conversion Slope Trajectory</h3>
+              <p className="text-xs text-slate-400">Macro conversion rate slope over time</p>
+            </div>
+            <div className="flex items-center bg-[#0d1322] p-1 rounded-xl border border-white/10">
+              <button
+                onClick={() => setTimeRange('7D')}
+                className={`px-3 py-1 rounded-lg text-xs font-bold transition-colors ${
+                  timeRange === '7D' ? 'bg-[#00f2fe]/20 text-[#00f2fe]' : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                7D
+              </button>
+              <button
+                onClick={() => setTimeRange('30D')}
+                className={`px-3 py-1 rounded-lg text-xs font-bold transition-colors ${
+                  timeRange === '30D' ? 'bg-[#00f2fe]/20 text-[#00f2fe]' : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                30D
+              </button>
+            </div>
+          </div>
+
+          <div className="h-52 w-full">
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart data={currentTrend}>
+                <XAxis dataKey="day" stroke="#64748b" fontSize={11} tickLine={false} />
+                <YAxis stroke="#64748b" fontSize={11} domain={[30, 42]} tickLine={false} tickFormatter={(v) => `${v}%`} />
+                <Tooltip
+                  contentStyle={{
+                    backgroundColor: '#0d1322',
+                    borderColor: 'rgba(255,255,255,0.1)',
+                    borderRadius: '10px',
+                    fontSize: '12px',
+                  }}
+                  formatter={(val: any) => [`${val}%`, 'Conversion Rate']}
+                />
+                <Line type="monotone" dataKey="rate" stroke="#00f2fe" strokeWidth={3} dot={{ fill: '#00f2fe', r: 4 }} />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
         </div>
       </div>
 

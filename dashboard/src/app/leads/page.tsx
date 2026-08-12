@@ -1,18 +1,58 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { 
   Users, Search, Download, Filter, ArrowUpRight, 
-  TrendingUp, CheckCircle, Mail, Phone, ExternalLink 
+  TrendingUp, CheckCircle, Mail, Phone, ExternalLink, ShieldAlert, Sparkles 
 } from 'lucide-react';
 import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip } from 'recharts';
 import { SAMPLE_LEADS, RAW_USERS } from '@/lib/data';
+import { fetchUsersFromBackend } from '@/lib/api';
+import { UserRecord, LeadItem } from '@/lib/types';
 
 export default function LeadsPage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedIndustry, setSelectedIndustry] = useState('all');
+  const [users, setUsers] = useState<UserRecord[]>(RAW_USERS);
 
-  const filteredLeads = SAMPLE_LEADS.filter((l) => {
+  useEffect(() => {
+    fetchUsersFromBackend().then(({ users }) => {
+      setUsers(users);
+    });
+  }, []);
+
+  // Dynamically map users to prioritized leads roster
+  const leadQueue: LeadItem[] = useMemo(() => {
+    if (users.length === 0) return SAMPLE_LEADS;
+    
+    // Sort by propensity score descending and pick top accounts
+    const sorted = [...users].sort((a, b) => b.conversion_propensity_score - a.conversion_propensity_score);
+    return sorted.slice(0, 30).map((u, i) => {
+      const score = u.conversion_propensity_score;
+      const status: 'Hot' | 'Warm' | 'Cold' = score >= 80 ? 'Hot' : score >= 60 ? 'Warm' : 'Cold';
+      const sampleNames = ['Jane Doe', 'Alex Smith', 'Robert Jones', 'Sarah Chen', 'David Miller', 'Elena Rostova', 'Michael Chang', 'Priya Patel', 'James Wilson', 'Emma Watson'];
+      const sampleDomains = ['techcorp.io', 'growthscale.com', 'cloudapex.dev', 'finflow.co', 'innovatehub.ai', 'datalabs.eu', 'nexus.io', 'hyperdrive.com'];
+      
+      const name = sampleNames[i % sampleNames.length] + ` (#${u.user_id})`;
+      const email = `${name.toLowerCase().replace(/[^a-z]/g, '')}@${sampleDomains[i % sampleDomains.length]}`;
+      
+      return {
+        id: u.user_id,
+        name,
+        email,
+        signupDate: u.signup_date,
+        featuresUsed: u.used_power_feature ? ['Integrations', 'Rules', 'Invites'] : ['Dashboard', 'Reports'],
+        propensityScore: u.conversion_propensity_score,
+        status,
+        industry: u.industry,
+        plan: u.plan_interested.toUpperCase(),
+        archetype: u.archetype,
+        isAnomaly: u.is_anomaly,
+      };
+    });
+  }, [users]);
+
+  const filteredLeads = leadQueue.filter((l) => {
     if (searchQuery && !l.name.toLowerCase().includes(searchQuery.toLowerCase()) && !l.email.toLowerCase().includes(searchQuery.toLowerCase()) && !l.id.toLowerCase().includes(searchQuery.toLowerCase())) {
       return false;
     }
@@ -33,8 +73,8 @@ export default function LeadsPage() {
 
   // Export CSV function
   const handleExportCSV = () => {
-    const headers = ['User ID', 'Name', 'Email', 'Signup Date', 'Propensity Score', 'Status', 'Industry', 'Plan'];
-    const rows = filteredLeads.map((l) => [l.id, l.name, l.email, l.signupDate, l.propensityScore, l.status, `"${l.industry}"`, l.plan]);
+    const headers = ['User ID', 'Name', 'Email', 'Signup Date', 'Propensity Score', 'Status', 'Archetype', 'Industry', 'Plan'];
+    const rows = filteredLeads.map((l) => [l.id, l.name, l.email, l.signupDate, l.propensityScore, l.status, l.archetype || 'N/A', `"${l.industry}"`, l.plan]);
     const csvContent = [headers.join(','), ...rows.map((r) => r.join(','))].join('\n');
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
@@ -43,6 +83,7 @@ export default function LeadsPage() {
     link.download = `FeatureIQ_High_Propensity_Leads_${new Date().toISOString().slice(0, 10)}.csv`;
     link.click();
   };
+
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 space-y-6">

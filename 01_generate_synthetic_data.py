@@ -13,6 +13,9 @@ import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
 import random
+import os
+
+os.makedirs("data/raw", exist_ok=True)
 
 np.random.seed(42)
 random.seed(42)

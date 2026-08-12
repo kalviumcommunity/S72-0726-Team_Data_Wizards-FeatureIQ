@@ -1,11 +1,13 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
-import { RAW_USERS } from '@/lib/data';
+import { BEHAVIORAL_ARCHETYPES } from '@/lib/data';
+import { fetchUsersFromBackend, fetchMonthlyTrends, BackendStatus } from '@/lib/api';
+import { UserRecord } from '@/lib/types';
 import { 
   Users, Target, Clock, Zap, ArrowRight, Sparkles, Filter, 
-  ChevronRight, ArrowUpRight, CheckCircle2, TrendingUp, Layers
+  ChevronRight, ArrowUpRight, CheckCircle2, TrendingUp, Layers, LineChart, Database
 } from 'lucide-react';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip } from 'recharts';
 
@@ -13,16 +15,27 @@ export default function OverviewPage() {
   const [dateScope, setDateScope] = useState('all');
   const [industryFilter, setIndustryFilter] = useState('all');
   const [isNudgeTriggered, setIsNudgeTriggered] = useState(false);
+  const [users, setUsers] = useState<UserRecord[]>([]);
+  const [trendData, setTrendData] = useState<any[]>([]);
+  const [backendStatus, setBackendStatus] = useState<BackendStatus | null>(null);
+
+  useEffect(() => {
+    fetchUsersFromBackend().then(({ users, status }) => {
+      setUsers(users);
+      setBackendStatus(status);
+    });
+    fetchMonthlyTrends().then(setTrendData);
+  }, []);
 
   // Filter users based on scope
   const filteredUsers = useMemo(() => {
-    return RAW_USERS.filter((u) => {
+    return users.filter((u) => {
       if (dateScope === '30d' && u.signup_date < '2026-06-01') return false;
       if (dateScope === '90d' && u.signup_date < '2026-04-01') return false;
       if (industryFilter !== 'all' && u.industry !== industryFilter) return false;
       return true;
     });
-  }, [dateScope, industryFilter]);
+  }, [users, dateScope, industryFilter]);
 
   const totalUsers = filteredUsers.length;
   const convertedCount = filteredUsers.filter((u) => u.converted).length;
@@ -32,15 +45,7 @@ export default function OverviewPage() {
     : '0.0';
   const highPropensityCount = filteredUsers.filter((u) => u.conversion_propensity_score >= 70).length;
 
-  // Trend Data for Mini Chart
-  const trendData = [
-    { period: 'Jan', signups: 320, conversions: 125 },
-    { period: 'Feb', signups: 340, conversions: 132 },
-    { period: 'Mar', signups: 310, conversions: 118 },
-    { period: 'Apr', signups: 360, conversions: 142 },
-    { period: 'May', signups: 330, conversions: 128 },
-    { period: 'Jun', signups: 340, conversions: 126 },
-  ];
+
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
@@ -183,7 +188,7 @@ export default function OverviewPage() {
       </div>
 
       {/* Mini Section: Jump to Deep Dive Modules */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <Link
           href="/funnel"
           className="glass-card glass-card-hover p-5 flex flex-col justify-between group"
@@ -243,6 +248,27 @@ export default function OverviewPage() {
           </div>
           <div className="flex items-center gap-1 text-xs font-bold text-[#00f2fe] mt-4">
             <span>Open Lead Roster</span>
+            <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+          </div>
+        </Link>
+
+        <Link
+          href="/analysis"
+          className="glass-card glass-card-hover p-5 flex flex-col justify-between group"
+        >
+          <div>
+            <div className="w-8 h-8 rounded-lg bg-[#3b82f6]/20 text-[#3b82f6] flex items-center justify-center mb-3">
+              <LineChart className="w-4 h-4" />
+            </div>
+            <div className="font-bold text-white group-hover:text-[#00f2fe] transition-colors">
+              Analysis Gallery (15 Charts)
+            </div>
+            <p className="text-xs text-slate-400 mt-1">
+              View generated charts, behavioral archetypes, and SQL validations.
+            </p>
+          </div>
+          <div className="flex items-center gap-1 text-xs font-bold text-[#00f2fe] mt-4">
+            <span>Open Visual Gallery</span>
             <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
           </div>
         </Link>
