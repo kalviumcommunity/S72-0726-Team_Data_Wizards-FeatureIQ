@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { href: '/', label: 'Overview', icon: LayoutDashboard },
   { href: '/funnel', label: 'Funnel', icon: Filter },
   { href: '/adoption', label: 'Adoption', icon: Layers },
+  { href: '/cohorts', label: 'Cohorts', icon: Users },
   { href: '/leads', label: 'Leads', icon: Users },
   { href: '/analysis', label: 'Analysis Gallery', icon: LineChart },
   { href: '/settings', label: 'Settings', icon: Settings },
