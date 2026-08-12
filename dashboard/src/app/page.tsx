@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { BEHAVIORAL_ARCHETYPES } from '@/lib/data';
 import { fetchUsersFromBackend, fetchMonthlyTrends, BackendStatus } from '@/lib/api';
 import { UserRecord } from '@/lib/types';
@@ -291,6 +292,53 @@ export default function OverviewPage() {
               <Area type="monotone" dataKey="conversions" stroke="#10b981" fillOpacity={1} fill="url(#colorConv)" name="Conversions" />
             </AreaChart>
           </ResponsiveContainer>
+        </div>
+      {/* Real Analysis Gallery Visualizations */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="glass-card p-5 sm:p-6 space-y-3">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-bold text-white text-base flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-[#00f2fe]" />
+                Validated Analysis: Overall Conversion Telemetry
+              </h3>
+              <p className="text-xs text-slate-400">Baseline trial conversion rate across 2,000 accounts</p>
+            </div>
+            <span className="text-[10px] font-extrabold bg-[#00f2fe]/20 text-[#00f2fe] border border-[#00f2fe]/30 px-2 py-0.5 rounded-full">
+              Chart #01
+            </span>
+          </div>
+          <div className="relative w-full h-56 rounded-xl overflow-hidden border border-white/10 bg-[#0d1322] flex items-center justify-center">
+            <Image
+              src="/charts/01_conversion_rate_overview.png"
+              alt="Overall Conversion Rate Overview"
+              fill
+              className="object-contain p-2"
+            />
+          </div>
+        </div>
+
+        <div className="glass-card p-5 sm:p-6 space-y-3">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-bold text-white text-base flex items-center gap-2">
+                <Users className="w-4 h-4 text-[#8b5cf6]" />
+                Validated Analysis: Behavioral Archetypes Breakdown
+              </h3>
+              <p className="text-xs text-slate-400">User distribution across Champions, Power Adopters, and Churned</p>
+            </div>
+            <span className="text-[10px] font-extrabold bg-[#8b5cf6]/20 text-[#8b5cf6] border border-[#8b5cf6]/30 px-2 py-0.5 rounded-full">
+              Chart #08
+            </span>
+          </div>
+          <div className="relative w-full h-56 rounded-xl overflow-hidden border border-white/10 bg-[#0d1322] flex items-center justify-center">
+            <Image
+              src="/charts/08_archetype_breakdown.png"
+              alt="Behavioral Archetype Breakdown"
+              fill
+              className="object-contain p-2"
+            />
+          </div>
         </div>
       </div>
     </div>
