@@ -188,7 +188,7 @@ export default function OverviewPage() {
       </div>
 
       {/* Mini Section: Jump to Deep Dive Modules */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <Link
           href="/funnel"
           className="glass-card glass-card-hover p-5 flex flex-col justify-between group"
@@ -198,35 +198,14 @@ export default function OverviewPage() {
               <Filter className="w-4 h-4" />
             </div>
             <div className="font-bold text-white group-hover:text-[#00f2fe] transition-colors">
-              Conversion Funnel (Day 3)
+              Funnel &amp; Cohort Telemetry
             </div>
             <p className="text-xs text-slate-400 mt-1">
-              Explore the 4 key stages and diagnose the 51.6% churn bottleneck.
+              Explore conversion stages, signup cohorts, and diagnose the churn bottleneck.
             </p>
           </div>
           <div className="flex items-center gap-1 text-xs font-bold text-[#00f2fe] mt-4">
-            <span>Open Funnel Analysis</span>
-            <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-          </div>
-        </Link>
-
-        <Link
-          href="/adoption"
-          className="glass-card glass-card-hover p-5 flex flex-col justify-between group"
-        >
-          <div>
-            <div className="w-8 h-8 rounded-lg bg-[#00f2fe]/20 text-[#00f2fe] flex items-center justify-center mb-3">
-              <Layers className="w-4 h-4" />
-            </div>
-            <div className="font-bold text-white group-hover:text-[#00f2fe] transition-colors">
-              Feature Adoption Depth
-            </div>
-            <p className="text-xs text-slate-400 mt-1">
-              Compare API, Dashboard, and Team Invite usage between converters and churns.
-            </p>
-          </div>
-          <div className="flex items-center gap-1 text-xs font-bold text-[#00f2fe] mt-4">
-            <span>Open Feature Adoption</span>
+            <span>Open Funnel Telemetry</span>
             <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
           </div>
         </Link>

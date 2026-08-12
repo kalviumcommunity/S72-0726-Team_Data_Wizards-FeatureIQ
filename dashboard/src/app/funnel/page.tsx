@@ -303,6 +303,50 @@ export default function FunnelAnalysisPage() {
         </div>
       </div>
 
+      {/* Total Signups & Cohort Retention Grid */}
+      <div className="glass-card p-5 sm:p-6 overflow-x-auto">
+        <div className="flex items-center justify-between mb-4">
+          <div>
+            <h3 className="font-bold text-white text-base">Monthly Signup Cohorts &amp; Retention Telemetry</h3>
+            <p className="text-xs text-slate-400">Total signups tracked from Day 1 onboarding to Day 14 paid conversion</p>
+          </div>
+        </div>
+
+        <table className="w-full text-left text-xs">
+          <thead>
+            <tr className="border-b border-white/10 text-slate-400 font-semibold uppercase tracking-wider">
+              <th className="pb-3 px-2">Cohort Month</th>
+              <th className="pb-3 px-2">Total Signups</th>
+              <th className="pb-3 px-2">Day 1</th>
+              <th className="pb-3 px-2">Day 3</th>
+              <th className="pb-3 px-2">Day 7</th>
+              <th className="pb-3 px-2">Day 14</th>
+              <th className="pb-3 px-2">Paid Conv %</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-white/5 text-slate-200">
+            {[
+              { month: 'Jan 2026', total: 320, d1: '94.8%', d3: '79.7%', d7: '58.2%', d14: '44.1%', conv: '41.2%' },
+              { month: 'Feb 2026', total: 345, d1: '95.1%', d3: '80.2%', d7: '59.0%', d14: '43.8%', conv: '39.4%' },
+              { month: 'Mar 2026', total: 380, d1: '93.9%', d3: '78.5%', d7: '57.4%', d14: '42.9%', conv: '38.9%' },
+              { month: 'Apr 2026', total: 360, d1: '94.2%', d3: '79.0%', d7: '58.1%', d14: '43.0%', conv: '37.8%' },
+              { month: 'May 2026', total: 310, d1: '95.5%', d3: '81.0%', d7: '60.2%', d14: '45.2%', conv: '40.0%' },
+              { month: 'Jun 2026', total: 285, d1: '94.0%', d3: '78.8%', d7: '57.9%', d14: '43.5%', conv: '38.1%' },
+            ].map((c) => (
+              <tr key={c.month} className="hover:bg-white/[0.02]">
+                <td className="py-3 px-2 font-bold text-white">{c.month}</td>
+                <td className="py-3 px-2 font-semibold text-[#00f2fe]">{c.total} Signups</td>
+                <td className="py-3 px-2 text-emerald-400 font-semibold">{c.d1}</td>
+                <td className="py-3 px-2 text-emerald-400 font-semibold">{c.d3}</td>
+                <td className="py-3 px-2 text-blue-400 font-semibold">{c.d7}</td>
+                <td className="py-3 px-2 text-blue-400 font-semibold">{c.d14}</td>
+                <td className="py-3 px-2 font-bold text-[#10b981]">{c.conv}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
       {/* AI Insights Callout (Screen 2 Mockup) */}
       <div className="glass-card p-5 sm:p-6 border-[#8b5cf6]/30 bg-gradient-to-br from-[#121826] to-[#1a1832]">
         <div className="flex items-center gap-2 mb-3">
