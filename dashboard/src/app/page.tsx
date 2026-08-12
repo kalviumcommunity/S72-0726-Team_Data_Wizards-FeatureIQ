@@ -2,19 +2,21 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
+import NextImage from 'next/image';
+import ChartModal from '@/components/ChartModal';
 import { BEHAVIORAL_ARCHETYPES } from '@/lib/data';
 import { fetchUsersFromBackend, fetchMonthlyTrends, BackendStatus } from '@/lib/api';
 import { UserRecord } from '@/lib/types';
 import { 
   Users, Target, Clock, Zap, ArrowRight, Sparkles, Filter, 
-  ChevronRight, ArrowUpRight, CheckCircle2, TrendingUp, Layers, LineChart, Database
+  ChevronRight, ArrowUpRight, CheckCircle2, TrendingUp, Layers, LineChart, Database, Maximize2
 } from 'lucide-react';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip } from 'recharts';
 
 export default function OverviewPage() {
   const [dateScope, setDateScope] = useState('all');
   const [industryFilter, setIndustryFilter] = useState('all');
-  const [isNudgeTriggered, setIsNudgeTriggered] = useState(false);
+  const [activeModalChart, setActiveModalChart] = useState<any | null>(null);
   const [users, setUsers] = useState<UserRecord[]>([]);
   const [trendData, setTrendData] = useState<any[]>([]);
   const [backendStatus, setBackendStatus] = useState<BackendStatus | null>(null);
@@ -93,38 +95,6 @@ export default function OverviewPage() {
         </div>
       </div>
 
-      {/* Hero Insight Callout Banner (Matching User Screen 1) */}
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#121826] via-[#1a2338] to-[#121826] border border-[#00f2fe]/30 p-5 sm:p-6 shadow-[0_10px_30px_rgba(0,0,0,0.4)]">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 relative z-10">
-          <div className="flex items-start gap-3.5">
-            <div className="w-10 h-10 rounded-xl bg-[#00f2fe]/15 border border-[#00f2fe]/30 flex items-center justify-center text-[#00f2fe] shrink-0 mt-0.5">
-              <Zap className="w-5 h-5 fill-current" />
-            </div>
-            <div>
-              <div className="text-xs font-bold text-[#00f2fe] uppercase tracking-wider">
-                Behavioral Discovery
-              </div>
-              <div className="text-base sm:text-lg font-bold text-white mt-0.5">
-                Users who invite a team member within 48h are <span className="text-[#00f2fe]">3.2x more likely</span> to convert.
-              </div>
-              <div className="text-xs text-slate-400 mt-1">
-                Trigger in-app team collaboration nudges on Day 2 of the free trial window.
-              </div>
-            </div>
-          </div>
-
-          <button
-            onClick={() => setIsNudgeTriggered(true)}
-            className={`px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-200 shrink-0 ${
-              isNudgeTriggered
-                ? 'bg-[#10b981] text-white'
-                : 'bg-gradient-to-r from-[#00f2fe] to-[#3b82f6] text-black hover:opacity-90 shadow-[0_0_20px_rgba(0,242,254,0.4)]'
-            }`}
-          >
-            {isNudgeTriggered ? '✔ Nudge Triggered' : 'Trigger Nudge'}
-          </button>
-        </div>
-      </div>
 
       {/* 4 Executive KPI Cards (Matching Screen 1 Mockup) */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
@@ -293,6 +263,83 @@ export default function OverviewPage() {
           </ResponsiveContainer>
         </div>
       </div>
+
+      {/* Real Analysis Gallery Visualizations */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div 
+          onClick={() => setActiveModalChart({
+            title: 'Validated Analysis: Overall Conversion Telemetry',
+            imageSrc: '/charts/01_conversion_rate_overview.png',
+            category: 'Conversion & Funnel',
+            insight: 'Baseline SaaS free-trial conversion is 38.6% across 2,000 analyzed accounts.'
+          })}
+          className="glass-card glass-card-hover p-5 sm:p-6 space-y-3 cursor-pointer group"
+        >
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-bold text-white text-base flex items-center gap-2 group-hover:text-[#00f2fe] transition-colors">
+                <Sparkles className="w-4 h-4 text-[#00f2fe]" />
+                Validated Analysis: Overall Conversion Telemetry
+              </h3>
+              <p className="text-xs text-slate-400">Click to view full-screen chart &amp; statistical findings</p>
+            </div>
+            <span className="text-[10px] font-extrabold bg-[#00f2fe]/20 text-[#00f2fe] border border-[#00f2fe]/30 px-2 py-0.5 rounded-full flex items-center gap-1">
+              <Maximize2 className="w-3 h-3" /> Chart #01
+            </span>
+          </div>
+          <div className="relative w-full h-56 rounded-xl overflow-hidden border border-white/10 bg-[#0d1322] flex items-center justify-center group-hover:border-[#00f2fe]/40 transition-colors">
+            <NextImage
+              src="/charts/01_conversion_rate_overview.png"
+              alt="Overall Conversion Rate Overview"
+              fill
+              className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+        </div>
+
+        <div 
+          onClick={() => setActiveModalChart({
+            title: 'Validated Analysis: Behavioral Archetypes Breakdown',
+            imageSrc: '/charts/08_archetype_breakdown.png',
+            category: 'Archetypes & Segments',
+            insight: 'Champions & Power Adopters account for over 65% of total paid conversions.'
+          })}
+          className="glass-card glass-card-hover p-5 sm:p-6 space-y-3 cursor-pointer group"
+        >
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-bold text-white text-base flex items-center gap-2 group-hover:text-[#00f2fe] transition-colors">
+                <Users className="w-4 h-4 text-[#8b5cf6]" />
+                Validated Analysis: Behavioral Archetypes Breakdown
+              </h3>
+              <p className="text-xs text-slate-400">Click to view full-screen chart &amp; statistical findings</p>
+            </div>
+            <span className="text-[10px] font-extrabold bg-[#8b5cf6]/20 text-[#8b5cf6] border border-[#8b5cf6]/30 px-2 py-0.5 rounded-full flex items-center gap-1">
+              <Maximize2 className="w-3 h-3" /> Chart #08
+            </span>
+          </div>
+          <div className="relative w-full h-56 rounded-xl overflow-hidden border border-white/10 bg-[#0d1322] flex items-center justify-center group-hover:border-[#8b5cf6]/40 transition-colors">
+            <NextImage
+              src="/charts/08_archetype_breakdown.png"
+              alt="Behavioral Archetype Breakdown"
+              fill
+              className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Chart Lightbox Modal */}
+      {activeModalChart && (
+        <ChartModal
+          isOpen={!!activeModalChart}
+          onClose={() => setActiveModalChart(null)}
+          title={activeModalChart.title}
+          imageSrc={activeModalChart.imageSrc}
+          category={activeModalChart.category}
+          insight={activeModalChart.insight}
+        />
+      )}
     </div>
   );
 }

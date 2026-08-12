@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useMemo } from 'react';
+import Image from 'next/image';
 import { 
   Users, Search, Download, Filter, ArrowUpRight, 
   TrendingUp, CheckCircle, Mail, Phone, ExternalLink, ShieldAlert, Sparkles 
@@ -130,33 +131,54 @@ export default function LeadsPage() {
         </div>
       </div>
 
-      {/* Engagement Slope Graph Snippet (Screen 4 Mockup) */}
-      <div className="glass-card p-5">
-        <div className="flex items-center justify-between mb-3">
-          <div>
-            <h3 className="font-bold text-white text-sm">Engagement Slope (Top Quartile)</h3>
-            <p className="text-xs text-slate-400">Rising second-half feature adoption velocity</p>
+      {/* Real Analysis Gallery Visualizations for Propensity & SDR Prioritization */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="glass-card p-5 space-y-3">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-bold text-white text-sm flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-[#8b5cf6]" />
+                Validated Analysis: Propensity Decile Conversion Velocity
+              </h3>
+              <p className="text-xs text-slate-400">Top decile (score 90-99) achieves 91.2% conversion rate</p>
+            </div>
+            <span className="text-[10px] font-extrabold bg-[#8b5cf6]/20 text-[#8b5cf6] border border-[#8b5cf6]/30 px-2 py-0.5 rounded-full">
+              Chart #14
+            </span>
           </div>
-          <span className="text-[11px] font-bold text-[#10b981] bg-[#10b981]/15 px-2.5 py-1 rounded-md">
-            +48.0 Velocity Lift
-          </span>
+
+          <div className="relative w-full h-44 rounded-xl overflow-hidden border border-white/10 bg-[#0d1322] flex items-center justify-center">
+            <Image
+              src="/charts/14_propensity_decile_conv.png"
+              alt="Propensity Decile Conversion Velocity"
+              fill
+              className="object-contain p-2"
+            />
+          </div>
         </div>
-        <div className="h-32 w-full">
-          <ResponsiveContainer width="100%" height="100%">
-            <LineChart data={engagementSlopeData}>
-              <XAxis dataKey="day" stroke="#64748b" fontSize={10} tickLine={false} />
-              <YAxis stroke="#64748b" fontSize={10} tickLine={false} />
-              <Tooltip
-                contentStyle={{
-                  backgroundColor: '#0d1322',
-                  borderColor: 'rgba(255,255,255,0.1)',
-                  borderRadius: '8px',
-                  fontSize: '11px',
-                }}
-              />
-              <Line type="monotone" dataKey="slope" stroke="#10b981" strokeWidth={2.5} dot={{ fill: '#10b981', r: 3 }} />
-            </LineChart>
-          </ResponsiveContainer>
+
+        <div className="glass-card p-5 space-y-3">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-bold text-white text-sm flex items-center gap-2">
+                <TrendingUp className="w-4 h-4 text-[#10b981]" />
+                Validated Analysis: Company Size Conversion Performance
+              </h3>
+              <p className="text-xs text-slate-400">Enterprise accounts (200+) lead in conversion velocity</p>
+            </div>
+            <span className="text-[10px] font-extrabold bg-[#10b981]/20 text-[#10b981] border border-[#10b981]/30 px-2 py-0.5 rounded-full">
+              Chart #15
+            </span>
+          </div>
+
+          <div className="relative w-full h-44 rounded-xl overflow-hidden border border-white/10 bg-[#0d1322] flex items-center justify-center">
+            <Image
+              src="/charts/15_company_size_conv.png"
+              alt="Company Size Conversion Performance"
+              fill
+              className="object-contain p-2"
+            />
+          </div>
         </div>
       </div>
 

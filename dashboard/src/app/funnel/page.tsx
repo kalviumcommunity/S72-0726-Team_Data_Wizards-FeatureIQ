@@ -1,15 +1,18 @@
 'use client';
 
 import React, { useState } from 'react';
+import NextImage from 'next/image';
+import ChartModal from '@/components/ChartModal';
 import { 
   Filter, ArrowDown, AlertTriangle, Sparkles, TrendingUp, 
-  CheckCircle, ChevronRight, Share2, Info, ArrowUpRight 
+  CheckCircle, ChevronRight, Share2, Info, ArrowUpRight, Maximize2
 } from 'lucide-react';
 import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip } from 'recharts';
 import { FRICTION_POINTS } from '@/lib/data';
 
 export default function FunnelAnalysisPage() {
   const [timeRange, setTimeRange] = useState<'7D' | '30D'>('30D');
+  const [activeModalChart, setActiveModalChart] = useState<any | null>(null);
 
   // 4 Funnel Stages matching Day 3 & Mockup 2
   const funnelStages = [
@@ -182,84 +185,71 @@ export default function FunnelAnalysisPage() {
         </div>
       </div>
 
-      {/* Historical Trend & Day 5 Time-Series Retention Decay Line Charts */}
+      {/* Real Analysis Gallery Visualizations for Funnel & Dropoff Telemetry */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* 1. Time-Series Activity Decay over Trial Window (Day 1 - Day 14) */}
-        <div className="glass-card p-5 sm:p-6">
-          <div className="flex items-center justify-between mb-4">
+        {/* 1. Real Chart: Drop-off Stage Conversion Analysis */}
+        <div 
+          onClick={() => setActiveModalChart({
+            title: 'Validated Analysis: Days 4–8 Drop-off Bottleneck',
+            imageSrc: '/charts/10_dropoff_stage_conv.png',
+            category: 'Conversion & Funnel',
+            insight: '82.4% of un-converted trial accounts drop off between Days 4 and 8. Re-engagement prompts on Day 3 are critical.'
+          })}
+          className="glass-card glass-card-hover p-5 sm:p-6 space-y-3 cursor-pointer group"
+        >
+          <div className="flex items-center justify-between">
             <div>
-              <h3 className="font-bold text-white text-base flex items-center gap-2">
+              <h3 className="font-bold text-white text-base flex items-center gap-2 group-hover:text-[#00f2fe] transition-colors">
                 <TrendingUp className="w-4 h-4 text-[#00f2fe]" />
-                Day 5: 14-Day Activity Decay Curve
+                Validated Analysis: Days 4–8 Drop-off Bottleneck
               </h3>
-              <p className="text-xs text-slate-400">Daily active session count (Day 1 to Day 14)</p>
+              <p className="text-xs text-slate-400">Click to view full-screen chart &amp; statistical findings</p>
             </div>
+            <span className="text-[10px] font-extrabold bg-[#00f2fe]/20 text-[#00f2fe] border border-[#00f2fe]/30 px-2 py-0.5 rounded-full flex items-center gap-1">
+              <Maximize2 className="w-3 h-3" /> Chart #10
+            </span>
           </div>
 
-          <div className="h-52 w-full">
-            <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={[
-                { day: 'Day 1', converted: 12.4, churned: 8.1 },
-                { day: 'Day 3', converted: 11.2, churned: 4.8 },
-                { day: 'Day 5', converted: 10.5, churned: 2.9 },
-                { day: 'Day 7', converted: 9.8, churned: 1.5 },
-                { day: 'Day 10', converted: 8.9, churned: 0.8 },
-                { day: 'Day 14', converted: 8.4, churned: 0.3 },
-              ]}>
-                <XAxis dataKey="day" stroke="#64748b" fontSize={10} tickLine={false} />
-                <YAxis stroke="#64748b" fontSize={10} tickLine={false} unit=" sessions" />
-                <Tooltip contentStyle={{ backgroundColor: '#0d1322', borderColor: '#334155', borderRadius: '10px', fontSize: '11px' }} />
-                <Line type="monotone" dataKey="converted" name="Converted Users" stroke="#10b981" strokeWidth={3} dot={{ r: 3 }} />
-                <Line type="monotone" dataKey="churned" name="Churned Users" stroke="#f43f5e" strokeWidth={2} strokeDasharray="4 4" dot={{ r: 3 }} />
-              </LineChart>
-            </ResponsiveContainer>
+          <div className="relative w-full h-56 rounded-xl overflow-hidden border border-white/10 bg-[#0d1322] flex items-center justify-center group-hover:border-[#00f2fe]/40 transition-colors">
+            <NextImage
+              src="/charts/10_dropoff_stage_conv.png"
+              alt="Drop-off Stage Conversion Analysis"
+              fill
+              className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
+            />
           </div>
         </div>
 
-        {/* 2. Historical Conversion Slope Trajectory */}
-        <div className="glass-card p-5 sm:p-6">
-          <div className="flex items-center justify-between mb-4">
+        {/* 2. Real Chart: 4-Stage Conversion Funnel Flow */}
+        <div 
+          onClick={() => setActiveModalChart({
+            title: 'Validated Analysis: 4-Stage Conversion Funnel Flow',
+            imageSrc: '/charts/09_funnel_chart.png',
+            category: 'Conversion & Funnel',
+            insight: 'Stage 3 to Stage 4 exhibits peak drop-off (51.6% bottleneck). Onboarding activation drives paid conversion.'
+          })}
+          className="glass-card glass-card-hover p-5 sm:p-6 space-y-3 cursor-pointer group"
+        >
+          <div className="flex items-center justify-between">
             <div>
-              <h3 className="font-bold text-white text-base">Conversion Slope Trajectory</h3>
-              <p className="text-xs text-slate-400">Macro conversion rate slope over time</p>
+              <h3 className="font-bold text-white text-base flex items-center gap-2 group-hover:text-[#00f2fe] transition-colors">
+                <Filter className="w-4 h-4 text-[#8b5cf6]" />
+                Validated Analysis: 4-Stage Conversion Funnel Flow
+              </h3>
+              <p className="text-xs text-slate-400">Click to view full-screen chart &amp; statistical findings</p>
             </div>
-            <div className="flex items-center bg-[#0d1322] p-1 rounded-xl border border-white/10">
-              <button
-                onClick={() => setTimeRange('7D')}
-                className={`px-3 py-1 rounded-lg text-xs font-bold transition-colors ${
-                  timeRange === '7D' ? 'bg-[#00f2fe]/20 text-[#00f2fe]' : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                7D
-              </button>
-              <button
-                onClick={() => setTimeRange('30D')}
-                className={`px-3 py-1 rounded-lg text-xs font-bold transition-colors ${
-                  timeRange === '30D' ? 'bg-[#00f2fe]/20 text-[#00f2fe]' : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                30D
-              </button>
-            </div>
+            <span className="text-[10px] font-extrabold bg-[#8b5cf6]/20 text-[#8b5cf6] border border-[#8b5cf6]/30 px-2 py-0.5 rounded-full flex items-center gap-1">
+              <Maximize2 className="w-3 h-3" /> Chart #09
+            </span>
           </div>
 
-          <div className="h-52 w-full">
-            <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={currentTrend}>
-                <XAxis dataKey="day" stroke="#64748b" fontSize={11} tickLine={false} />
-                <YAxis stroke="#64748b" fontSize={11} domain={[30, 42]} tickLine={false} tickFormatter={(v) => `${v}%`} />
-                <Tooltip
-                  contentStyle={{
-                    backgroundColor: '#0d1322',
-                    borderColor: 'rgba(255,255,255,0.1)',
-                    borderRadius: '10px',
-                    fontSize: '12px',
-                  }}
-                  formatter={(val: any) => [`${val}%`, 'Conversion Rate']}
-                />
-                <Line type="monotone" dataKey="rate" stroke="#00f2fe" strokeWidth={3} dot={{ fill: '#00f2fe', r: 4 }} />
-              </LineChart>
-            </ResponsiveContainer>
+          <div className="relative w-full h-56 rounded-xl overflow-hidden border border-white/10 bg-[#0d1322] flex items-center justify-center group-hover:border-[#8b5cf6]/40 transition-colors">
+            <NextImage
+              src="/charts/09_funnel_chart.png"
+              alt="4-Stage Conversion Funnel Flow"
+              fill
+              className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
+            />
           </div>
         </div>
       </div>
@@ -366,6 +356,18 @@ export default function FunnelAnalysisPage() {
           </div>
         </div>
       </div>
+
+      {/* Chart Lightbox Modal */}
+      {activeModalChart && (
+        <ChartModal
+          isOpen={!!activeModalChart}
+          onClose={() => setActiveModalChart(null)}
+          title={activeModalChart.title}
+          imageSrc={activeModalChart.imageSrc}
+          category={activeModalChart.category}
+          insight={activeModalChart.insight}
+        />
+      )}
     </div>
   );
 }
