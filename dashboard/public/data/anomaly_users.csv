@@ -1,0 +1,90 @@
+user_id,total_sessions_zscore,distinct_features_used_zscore,time_to_first_value_hrs_zscore,total_feature_events_zscore,max_abs_zscore,is_anomaly,converted,archetype,user_segment,total_sessions,distinct_features_used,time_to_first_value_hrs,total_feature_events
+U00027,-1.605,-1.756,4.789,-1.221,4.789,True,False,Window Shopper,Low,1,1,282.0,5
+U00036,-1.294,-1.756,5.682,-1.155,5.682,True,False,Late Bloomer,Medium,2,1,328.0,7
+U00043,-1.605,-1.756,5.236,-1.354,5.236,True,False,Window Shopper,Low,1,1,305.0,1
+U00072,-0.67,-1.248,3.469,-1.288,3.469,True,False,Late Bloomer,Medium,4,2,214.0,3
+U00104,3.071,1.801,-0.629,2.134,3.071,True,True,Power Adopter,High,16,8,3.0,106
+U00133,-1.605,-1.248,3.313,-1.055,3.313,True,False,Window Shopper,Low,1,2,206.0,10
+U00208,-0.982,-1.756,4.634,-1.288,4.634,True,False,Growing Casual,Low,3,1,274.0,3
+U00225,-1.605,-1.756,4.381,-1.354,4.381,True,False,Window Shopper,Low,1,1,261.0,1
+U00228,-0.982,-1.756,6.149,-1.321,6.149,True,True,Growing Casual,Low,3,1,352.0,2
+U00236,-0.982,-1.756,3.915,-1.321,3.915,True,False,Late Bloomer,Medium,3,1,237.0,2
+U00244,-0.982,-1.248,3.333,-1.221,3.333,True,False,Growing Casual,Low,3,2,207.0,5
+U00282,3.071,1.293,-0.609,1.071,3.071,True,False,Champion,High,16,7,4.0,74
+U00307,1.2,1.801,-0.687,3.396,3.396,True,True,Power Adopter,High,10,8,0.0,144
+U00337,-0.358,-1.248,4.187,-1.188,4.187,True,False,Growing Casual,Medium,5,2,251.0,6
+U00359,-0.047,-1.756,3.255,-1.354,3.255,True,False,Late Bloomer,Medium,6,1,203.0,1
+U00381,-1.605,-1.756,3.391,-1.321,3.391,True,False,Window Shopper,Low,1,1,210.0,2
+U00385,-0.67,-1.756,4.809,-1.354,4.809,True,False,Growing Casual,Medium,4,1,283.0,1
+U00401,2.447,1.801,-0.687,3.33,3.33,True,True,Power Adopter,High,14,8,0.0,142
+U00460,-1.294,-1.756,5.916,-1.255,5.916,True,False,Late Bloomer,Medium,2,1,340.0,4
+U00472,-0.358,-1.756,5.877,-1.255,5.877,True,True,Growing Casual,Medium,5,1,338.0,4
+U00476,2.447,2.31,-0.648,3.463,3.463,True,True,Champion,High,14,9,2.0,146
+U00499,0.889,-1.248,3.003,-1.022,3.003,True,True,Growing Casual,Medium,9,2,190.0,11
+U00538,-1.605,-1.756,3.372,-1.255,3.372,True,False,Late Bloomer,Medium,1,1,209.0,4
+U00584,3.071,1.293,-0.648,1.503,3.071,True,True,Power Adopter,High,16,7,2.0,87
+U00594,3.694,-0.74,-0.668,-0.225,3.694,True,False,Growing Casual,High,18,3,1.0,35
+U00604,-1.294,-1.756,3.294,-1.088,3.294,True,True,Late Bloomer,Medium,2,1,205.0,9
+U00623,-0.67,-1.248,3.605,-1.288,3.605,True,True,Growing Casual,Medium,4,2,221.0,3
+U00635,-1.605,-1.756,5.935,-1.288,5.935,True,False,Late Bloomer,Medium,1,1,341.0,3
+U00714,0.577,-1.248,3.76,-1.055,3.76,True,False,Growing Casual,Medium,8,2,229.0,10
+U00716,-1.294,-1.756,5.799,-1.255,5.799,True,False,Window Shopper,Low,2,1,334.0,4
+U00724,0.265,-1.756,4.401,-1.288,4.401,True,False,Growing Casual,Medium,7,1,262.0,3
+U00730,1.2,2.31,-0.668,3.031,3.031,True,False,Power Adopter,High,10,9,1.0,133
+U00765,-0.047,-1.248,3.508,-1.088,3.508,True,False,Late Bloomer,Medium,6,2,216.0,9
+U00857,0.889,-1.756,3.974,-1.255,3.974,True,False,Growing Casual,Medium,9,1,240.0,4
+U00858,0.265,2.818,-0.59,3.23,3.23,True,True,Champion,High,7,10,5.0,139
+U00865,4.006,0.277,-0.629,0.938,4.006,True,False,Plateaued User,Medium,19,5,3.0,70
+U00866,-0.67,-1.756,4.168,-1.321,4.168,True,True,Growing Casual,Medium,4,1,250.0,2
+U00867,3.694,-1.756,-0.687,-0.922,3.694,True,True,Plateaued User,Medium,18,1,0.0,14
+U00911,-1.294,-1.756,4.77,-1.255,4.77,True,False,Window Shopper,Low,2,1,281.0,4
+U00921,3.383,1.801,-0.512,1.935,3.383,True,True,Power Adopter,High,17,8,9.0,100
+U00926,-0.358,-1.756,3.391,-1.321,3.391,True,True,Growing Casual,Medium,5,1,210.0,2
+U00932,1.2,2.818,-0.532,4.493,4.493,True,True,Champion,High,10,10,8.0,177
+U00972,3.694,1.801,-0.376,1.968,3.694,True,False,Champion,High,18,8,16.0,101
+U00982,3.071,0.277,-0.007,0.34,3.071,True,False,Late Bloomer,High,16,5,35.0,52
+U01040,-1.605,-1.756,4.498,-1.321,4.498,True,False,Window Shopper,Low,1,1,267.0,2
+U01162,3.071,0.785,-0.318,1.204,3.071,True,False,Power Adopter,High,16,6,19.0,78
+U01172,-1.605,-1.248,5.197,-1.155,5.197,True,False,Window Shopper,Low,1,2,303.0,7
+U01173,-0.982,-1.756,4.983,-1.321,4.983,True,False,Growing Casual,Low,3,1,292.0,2
+U01198,2.136,2.31,-0.629,4.094,4.094,True,True,Champion,High,13,9,3.0,165
+U01213,0.265,-1.248,3.915,-1.221,3.915,True,False,Late Bloomer,Medium,7,2,237.0,5
+U01252,0.577,2.818,-0.687,3.097,3.097,True,True,Champion,High,8,10,0.0,135
+U01278,-0.358,-1.756,4.867,-1.255,4.867,True,False,Late Bloomer,Medium,5,1,286.0,4
+U01317,1.512,1.801,-0.648,3.43,3.43,True,True,Champion,High,11,8,2.0,145
+U01321,1.824,1.293,-0.473,3.396,3.396,True,True,Champion,High,12,7,11.0,144
+U01341,-0.358,-1.756,5.799,-1.321,5.799,True,True,Growing Casual,Medium,5,1,334.0,2
+U01372,-0.982,-1.756,3.566,-1.321,3.566,True,False,Growing Casual,Low,3,1,219.0,2
+U01382,-1.605,-1.756,3.488,-1.155,3.488,True,False,Window Shopper,Low,1,1,215.0,7
+U01443,-1.294,-1.756,5.916,-1.321,5.916,True,True,Window Shopper,Low,2,1,340.0,2
+U01453,0.577,-1.756,3.469,-1.188,3.469,True,False,Growing Casual,Medium,8,1,214.0,6
+U01462,-0.67,-1.756,5.216,-1.255,5.216,True,False,Growing Casual,Medium,4,1,304.0,4
+U01498,-0.358,-1.756,3.76,-1.221,3.76,True,True,Growing Casual,Medium,5,1,229.0,5
+U01508,-0.358,-1.248,3.799,-1.122,3.799,True,True,Growing Casual,Medium,5,2,231.0,8
+U01516,0.577,2.31,-0.648,3.961,3.961,True,False,Champion,High,8,9,2.0,161
+U01557,-0.358,1.293,-0.512,3.762,3.762,True,True,Champion,High,5,7,9.0,155
+U01606,3.071,0.785,-0.571,1.204,3.071,True,True,Champion,High,16,6,6.0,78
+U01626,-1.294,-1.756,5.974,-1.354,5.974,True,False,Window Shopper,Low,2,1,343.0,1
+U01638,3.383,-0.231,-0.609,0.373,3.383,True,False,Growing Casual,High,17,4,4.0,53
+U01644,1.512,-1.248,3.139,-1.188,3.139,True,False,Growing Casual,Medium,11,2,197.0,6
+U01651,1.2,2.31,-0.454,3.031,3.031,True,False,Champion,High,10,9,12.0,133
+U01662,-0.358,-1.756,5.197,-1.288,5.197,True,True,Growing Casual,Medium,5,1,303.0,3
+U01672,3.071,1.801,-0.337,0.938,3.071,True,False,Champion,High,16,8,18.0,70
+U01695,-0.982,-1.756,5.333,-1.321,5.333,True,False,Growing Casual,Low,3,1,310.0,2
+U01745,-0.982,-1.248,4.226,-1.155,4.226,True,False,Late Bloomer,Medium,3,2,253.0,7
+U01771,3.071,2.31,-0.629,3.994,3.994,True,False,Power Adopter,High,16,9,3.0,162
+U01778,3.383,1.293,-0.551,1.536,3.383,True,True,Champion,High,17,7,7.0,88
+U01782,-0.358,-1.248,4.284,-1.255,4.284,True,False,Growing Casual,Medium,5,2,256.0,4
+U01788,-0.047,-1.756,5.411,-1.255,5.411,True,True,Growing Casual,Medium,6,1,314.0,4
+U01791,-1.605,-1.248,3.255,-1.188,3.255,True,False,Window Shopper,Low,1,2,203.0,6
+U01828,2.136,2.31,-0.629,3.529,3.529,True,True,Power Adopter,High,13,9,3.0,148
+U01838,-1.294,-1.248,3.488,-1.122,3.488,True,False,Late Bloomer,Medium,2,2,215.0,8
+U01839,0.265,1.293,-0.648,3.264,3.264,True,True,Champion,High,7,7,2.0,140
+U01864,-1.605,-1.756,4.09,-1.354,4.09,True,True,Window Shopper,Low,1,1,246.0,1
+U01865,-1.294,-1.756,3.76,-1.288,3.76,True,False,Window Shopper,Low,2,1,229.0,3
+U01901,1.824,2.818,-0.687,3.197,3.197,True,False,Champion,High,12,10,0.0,138
+U01904,3.383,0.277,-0.24,0.539,3.383,True,False,Champion,High,17,5,23.0,58
+U01913,3.071,-0.231,-0.473,0.373,3.071,True,True,Champion,High,16,4,11.0,53
+U01914,-0.047,-1.756,3.177,-1.188,3.177,True,False,Late Bloomer,Medium,6,1,199.0,6
+U01927,1.824,1.801,-0.454,3.197,3.197,True,False,Power Adopter,High,12,8,12.0,138
+U01994,-0.358,-0.231,3.119,-0.889,3.119,True,False,Late Bloomer,High,5,4,196.0,15

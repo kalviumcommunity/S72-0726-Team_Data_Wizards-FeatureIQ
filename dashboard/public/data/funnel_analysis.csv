@@ -1,0 +1,8 @@
+stage,users,pct_of_total,step_dropoff_pct
+Signed Up (Trial Start),2000,100.0,0.0
+Had Any Session,2000,100.0,0.0
+Used At Least 1 Feature,2000,100.0,0.0
+Used Power Feature,1593,79.6,20.3
+Reached First Value ≤ 24h,1199,60.0,24.7
+Completed Trial Window (Day 14),1774,88.7,-48.0
+Converted to Paid,771,38.6,56.5

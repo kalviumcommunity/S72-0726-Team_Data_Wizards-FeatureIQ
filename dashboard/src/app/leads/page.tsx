@@ -1,194 +1,303 @@
 'use client';
 
 import React, { useState } from 'react';
-import { 
-  Users, Search, Download, Filter, ArrowUpRight, 
-  TrendingUp, CheckCircle, Mail, Phone, ExternalLink 
-} from 'lucide-react';
-import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip } from 'recharts';
-import { SAMPLE_LEADS, RAW_USERS } from '@/lib/data';
+import { useData } from '@/lib/DataContext';
+import { Users, Search, Download, ArrowUpRight } from 'lucide-react';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Cell, PieChart, Pie } from 'recharts';
+import Image from 'next/image';
 
 export default function LeadsPage() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedIndustry, setSelectedIndustry] = useState('all');
+  const { filteredUsers, metrics, timeframe, setTimeframe, isUploaded } = useData();
 
-  const filteredLeads = SAMPLE_LEADS.filter((l) => {
-    if (searchQuery && !l.name.toLowerCase().includes(searchQuery.toLowerCase()) && !l.email.toLowerCase().includes(searchQuery.toLowerCase()) && !l.id.toLowerCase().includes(searchQuery.toLowerCase())) {
-      return false;
-    }
-    if (selectedIndustry !== 'all' && !l.industry.includes(selectedIndustry)) {
-      return false;
-    }
-    return true;
-  });
+  // High propensity lead logic based on dynamic filteredUsers
+  const leads = filteredUsers
+    .filter(u => u.conversion_propensity_score >= 70 && !u.converted)
+    .map(u => ({
+      id: u.user_id,
+      name: `Trial Account ${u.user_id}`,
+      email: `${u.user_id.toLowerCase()}@trial.inc`,
+      signupDate: u.signup_date ? u.signup_date.substring(0, 10) : 'N/A',
+      featuresUsed: u.used_power_feature ? ['Power Features'] : ['Standard Features'],
+      propensityScore: u.conversion_propensity_score,
+      status: u.conversion_propensity_score >= 90 ? 'Hot' : 'Warm',
+      industry: u.industry || 'Unknown',
+      plan: u.plan_interested || 'starter'
+    }))
+    .sort((a, b) => b.propensityScore - a.propensityScore)
+    .filter(l => {
+      if (searchQuery && !l.name.toLowerCase().includes(searchQuery.toLowerCase()) && !l.id.toLowerCase().includes(searchQuery.toLowerCase())) {
+        return false;
+      }
+      return true;
+    });
 
-  const engagementSlopeData = [
-    { day: 'Day 1', slope: 2 },
-    { day: 'Day 3', slope: 5 },
-    { day: 'Day 6', slope: 12 },
-    { day: 'Day 9', slope: 22 },
-    { day: 'Day 12', slope: 34 },
-    { day: 'Day 14', slope: 48 },
-  ];
-
-  // Export CSV function
   const handleExportCSV = () => {
     const headers = ['User ID', 'Name', 'Email', 'Signup Date', 'Propensity Score', 'Status', 'Industry', 'Plan'];
-    const rows = filteredLeads.map((l) => [l.id, l.name, l.email, l.signupDate, l.propensityScore, l.status, `"${l.industry}"`, l.plan]);
-    const csvContent = [headers.join(','), ...rows.map((r) => r.join(','))].join('\n');
+    const rows = leads.map(l => [l.id, l.name, l.email, l.signupDate, l.propensityScore, l.status, `"${l.industry}"`, l.plan]);
+    const csvContent = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `FeatureIQ_High_Propensity_Leads_${new Date().toISOString().slice(0, 10)}.csv`;
+    link.download = `FeatureIQ_Propensity_Roster_${new Date().toISOString().slice(0, 10)}.csv`;
     link.click();
   };
 
+  // Prepare Pie Chart data for Firmographics
+  const industryMap: Record<string, number> = {};
+  leads.forEach(l => {
+    industryMap[l.industry] = (industryMap[l.industry] || 0) + 1;
+  });
+  const pieData = Object.keys(industryMap).map(k => ({ name: k, value: industryMap[k] })).sort((a, b) => b.value - a.value);
+
+  // Extract Anomalies dynamically
+  const anomalies = filteredUsers
+    .filter(u => u.total_sessions > 15 || u.total_sessions === 0 || u.distinct_features_used > 8)
+    .sort((a, b) => b.total_sessions - a.total_sessions)
+    .slice(0, 10);
+
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 space-y-6">
-      {/* Top Filter Bar (Screen 4 Mockup) */}
-      <div className="flex items-center justify-between gap-3 flex-wrap border-b border-white/10 pb-4">
-        <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-[#10b981]/20 border border-[#10b981]/30 flex items-center justify-center text-[#10b981]">
-            <Users className="w-4 h-4" />
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+      {/* ─── HEADER ────────────────────────────────────────────────────────────── */}
+      <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 pb-6 border-b border-[#27272a]">
+        <div>
+          <h1 className="text-3xl sm:text-4xl font-bold text-[#ffffff] tracking-tight">
+            Propensity Roster
+          </h1>
+          <p className="text-base text-[#a1a1aa] mt-2 font-medium">
+            Prioritized active trial accounts queue.
+          </p>
+        </div>
+
+        <div className="flex items-center gap-3 flex-wrap">
+          <div className="flex flex-col gap-1.5">
+            <label className="text-[11px] uppercase tracking-wider font-bold text-[#71717a]">Timeframe</label>
+            <select
+              value={timeframe}
+              onChange={(e) => setTimeframe(e.target.value)}
+              disabled={!isUploaded}
+              className="bg-[#18181b] text-sm font-medium text-[#ffffff] border border-[#3f3f46] rounded-md px-4 py-2 outline-none focus:border-[#3b82f6] transition-colors cursor-pointer appearance-none min-w-[140px] disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              <option value="all">All Time</option>
+              <option value="365d">Last 1 Year</option>
+              <option value="60d">Last 60 Days</option>
+              <option value="30d">Last 30 Days</option>
+            </select>
           </div>
-          <div>
-            <h1 className="text-xl sm:text-2xl font-extrabold text-white tracking-tight">
-              Lead Propensity Roster
-            </h1>
-            <div className="text-xs text-slate-400">Prioritized Sales Outreach Queue</div>
+          <button
+            onClick={handleExportCSV}
+            className="flex items-center gap-2 px-5 py-2.5 rounded-md bg-[#18181b] border border-[#27272a] text-sm font-bold text-[#ffffff] hover:bg-[#27272a] transition-colors shadow-sm mt-5 shrink-0"
+          >
+            <Download className="w-4 h-4 text-[#71717a]" />
+            <span>Export CSV</span>
+          </button>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-6">
+        <div className="space-y-6">
+
+          {/* ─── KPI SUMMARY STRIP ─────────────────────────────────────────────────── */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div className="glass-card p-5 flex flex-col justify-center items-center text-center h-[120px]">
+              <div className="text-[10px] font-bold text-[#71717a] uppercase tracking-widest mb-1.5">Total Users</div>
+              <div className="text-3xl font-bold text-[#ffffff] tracking-tight">{metrics.total.toLocaleString()}</div>
+            </div>
+            <div className="glass-card p-5 flex flex-col justify-center items-center text-center h-[120px]">
+              <div className="text-[10px] font-bold text-[#71717a] uppercase tracking-widest mb-1.5">Conversion</div>
+              <div className="text-3xl font-bold text-[#10b981] tracking-tight">{metrics.convRate.toFixed(1)}%</div>
+            </div>
+            <div className="glass-card p-5 flex flex-col justify-center items-center text-center h-[120px]">
+              <div className="text-[10px] font-bold text-[#71717a] uppercase tracking-widest mb-1.5">Avg TTFV</div>
+              <div className="text-3xl font-bold text-[#3b82f6] tracking-tight">{metrics.avgTtfv.toFixed(1)}h</div>
+            </div>
+            <div className="glass-card p-5 flex flex-col justify-center items-center text-center h-[120px] bg-[#8b5cf6]/5 border-[#8b5cf6]/20">
+              <div className="text-[10px] font-bold text-[#8b5cf6] uppercase tracking-widest mb-1.5">High-Propensity</div>
+              <div className="text-3xl font-bold text-[#8b5cf6] tracking-tight">{leads.length.toLocaleString()}</div>
+            </div>
           </div>
-        </div>
 
-        <button
-          onClick={handleExportCSV}
-          className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/5 border border-white/10 text-xs font-bold text-[#00f2fe] hover:bg-[#00f2fe]/10 transition-colors"
-        >
-          <Download className="w-3.5 h-3.5" />
-          <span>Export CSV</span>
-        </button>
-      </div>
+          {/* ─── LEAD ROSTER LIST ──────────────────────────────────────────────────── */}
+          <div className="glass-card p-6 sm:p-8">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-4">
+              <div>
+                <h2 className="text-lg font-bold text-[#ffffff]">Hot Leads Queue</h2>
+                <p className="text-[11px] font-bold uppercase tracking-wider text-[#71717a] mt-1.5">{leads.length} prioritized accounts</p>
+              </div>
 
-      {/* KPI Summary Strip (Screen 4 Mockup) */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <div className="glass-card p-3 sm:p-4 text-center">
-          <div className="text-[10px] font-bold text-slate-400 uppercase">Total Trial Users</div>
-          <div className="text-xl font-extrabold text-white mt-1">2,000</div>
-        </div>
-        <div className="glass-card p-3 sm:p-4 text-center">
-          <div className="text-[10px] font-bold text-slate-400 uppercase">Conversion Rate</div>
-          <div className="text-xl font-extrabold text-[#10b981] mt-1">38.6%</div>
-        </div>
-        <div className="glass-card p-3 sm:p-4 text-center">
-          <div className="text-[10px] font-bold text-slate-400 uppercase">Avg TTFV</div>
-          <div className="text-xl font-extrabold text-[#00f2fe] mt-1">35.4h</div>
-        </div>
-        <div className="glass-card p-3 sm:p-4 text-center">
-          <div className="text-[10px] font-bold text-slate-400 uppercase">High-Propensity</div>
-          <div className="text-xl font-extrabold text-[#8b5cf6] mt-1">1,064</div>
-        </div>
-      </div>
-
-      {/* Engagement Slope Graph Snippet (Screen 4 Mockup) */}
-      <div className="glass-card p-5">
-        <div className="flex items-center justify-between mb-3">
-          <div>
-            <h3 className="font-bold text-white text-sm">Engagement Slope (Top Quartile)</h3>
-            <p className="text-xs text-slate-400">Rising second-half feature adoption velocity</p>
-          </div>
-          <span className="text-[11px] font-bold text-[#10b981] bg-[#10b981]/15 px-2.5 py-1 rounded-md">
-            +48.0 Velocity Lift
-          </span>
-        </div>
-        <div className="h-32 w-full">
-          <ResponsiveContainer width="100%" height="100%">
-            <LineChart data={engagementSlopeData}>
-              <XAxis dataKey="day" stroke="#64748b" fontSize={10} tickLine={false} />
-              <YAxis stroke="#64748b" fontSize={10} tickLine={false} />
-              <Tooltip
-                contentStyle={{
-                  backgroundColor: '#0d1322',
-                  borderColor: 'rgba(255,255,255,0.1)',
-                  borderRadius: '8px',
-                  fontSize: '11px',
-                }}
-              />
-              <Line type="monotone" dataKey="slope" stroke="#10b981" strokeWidth={2.5} dot={{ fill: '#10b981', r: 3 }} />
-            </LineChart>
-          </ResponsiveContainer>
-        </div>
-      </div>
-
-      {/* Search Bar */}
-      <div className="flex items-center gap-2 bg-[#121826] border border-white/10 rounded-xl px-3 py-2">
-        <Search className="w-4 h-4 text-slate-400" />
-        <input
-          type="text"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="Search by name, email, or account ID..."
-          className="bg-transparent text-xs text-white placeholder-slate-500 outline-none w-full"
-        />
-      </div>
-
-      {/* High-Propensity Leads Roster (Screen 4 Mockup) */}
-      <div className="glass-card p-5 sm:p-6">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-base font-bold text-white">High-Propensity Leads</h2>
-          <span className="text-xs text-slate-400">{filteredLeads.length} prioritized</span>
-        </div>
-
-        <div className="space-y-3">
-          {filteredLeads.map((lead) => {
-            const initials = lead.name.split(' ').map((n) => n[0]).join('');
-            return (
-              <div 
-                key={lead.id}
-                className="p-4 rounded-xl bg-white/[0.02] border border-white/10 hover:border-[#00f2fe]/40 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-3"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-[#3b82f6] to-[#8b5cf6] flex items-center justify-center text-xs font-extrabold text-white">
-                    {initials}
-                  </div>
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <h4 className="font-bold text-sm text-white">{lead.name}</h4>
-                      <span className="text-[10px] font-mono text-slate-400">({lead.id})</span>
-                    </div>
-                    <div className="text-xs text-slate-400">{lead.email} • {lead.signupDate}</div>
-                    
-                    {/* Feature Chips */}
-                    <div className="flex items-center gap-1.5 mt-2 flex-wrap">
-                      {lead.featuresUsed.map((f) => (
-                        <span key={f} className="text-[9px] font-bold bg-white/5 border border-white/10 text-slate-300 px-2 py-0.5 rounded-md">
-                          {f}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex items-center sm:flex-col items-end justify-between sm:justify-center shrink-0">
-                  <div className="text-right">
-                    <div className="text-sm font-extrabold text-[#10b981]">
-                      {lead.propensityScore} Score
-                    </div>
-                    <span className="text-[9px] font-extrabold uppercase px-2 py-0.5 rounded bg-[#10b981]/20 text-[#10b981]">
-                      {lead.status} Lead
-                    </span>
-                  </div>
-
-                  <a 
-                    href={`mailto:${lead.email}?subject=FeatureIQ%20Trial%20Exclusive%20Upgrade`}
-                    className="mt-2 text-xs font-bold text-[#00f2fe] flex items-center gap-1 hover:underline"
-                  >
-                    <span>Contact SDR</span>
-                    <ArrowUpRight className="w-3 h-3" />
-                  </a>
+              <div className="flex items-center gap-3 w-full sm:w-auto">
+                <div className="flex items-center gap-2 bg-[#09090b] border border-[#27272a] rounded-md px-3 py-2 w-full sm:w-[200px]">
+                  <Search className="w-4 h-4 text-[#71717a]" />
+                  <input
+                    type="text"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    placeholder="Search ID..."
+                    className="bg-transparent text-sm font-medium text-[#ffffff] placeholder-[#71717a] outline-none w-full"
+                  />
                 </div>
               </div>
-            );
-          })}
+            </div>
+
+            <div className="space-y-3">
+              {leads.slice(0, 15).map((lead: any) => {
+                const isHot = lead.status === 'Hot';
+                return (
+                  <div
+                    key={lead.id}
+                    className="p-4 rounded-lg bg-[#09090b] border border-[#27272a] hover:border-[#3b82f6]/40 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-5 shadow-sm group"
+                  >
+                    <div className="flex items-center gap-4">
+                      <div className="w-10 h-10 rounded bg-[#18181b] border border-[#27272a] flex items-center justify-center text-sm font-bold text-[#ffffff] shadow-sm">
+                        {lead.id.substring(0, 4)}
+                      </div>
+                      <div>
+                        <div className="flex items-center gap-2.5">
+                          <h4 className="font-bold text-[#ffffff]">{lead.name}</h4>
+                          <span className="text-[10px] font-mono font-semibold text-[#71717a]">({lead.id})</span>
+                        </div>
+                        <div className="text-xs font-medium text-[#a1a1aa] mt-1 capitalize">{lead.industry} • {lead.plan} Plan</div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center sm:flex-col items-end justify-between sm:justify-center shrink-0 w-full sm:w-auto border-t sm:border-t-0 border-[#27272a] pt-4 sm:pt-0">
+                      <div className="text-right flex items-center sm:items-end justify-between w-full sm:flex-col">
+                        <div className="text-xl font-bold text-[#10b981] tracking-tight">
+                          {lead.propensityScore} <span className="text-[10px] font-bold text-[#71717a] uppercase tracking-widest ml-0.5">Score</span>
+                        </div>
+                        <span className={`text-[9px] font-bold uppercase tracking-widest px-2 py-0.5 rounded mt-1.5 inline-block border ${
+                          isHot ? 'bg-rose-500/10 text-rose-500 border-rose-500/20' : 'bg-emerald-500/10 text-emerald-500 border-emerald-500/20'
+                        }`}>
+                          {lead.status} Lead
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+              {leads.length === 0 && (
+                <div className="text-center py-12">
+                  <div className="text-[#71717a] mb-2"><Search className="w-8 h-8 mx-auto opacity-50" /></div>
+                  <div className="text-sm font-medium text-[#a1a1aa]">No leads match your filter criteria.</div>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* ─── ANOMALY USERS DYNAMIC ──────────────────────────────────────────────────── */}
+          <div className="glass-card p-6 sm:p-8 border-[#f59e0b]/20 bg-[#18181b]">
+            <h2 className="text-lg font-bold text-[#f59e0b] mb-6">Anomaly Accounts Detected</h2>
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="border-b border-[#27272a] text-xs uppercase tracking-wider text-[#71717a]">
+                    <th className="pb-3 pr-4 font-bold">User ID</th>
+                    <th className="pb-3 px-4 font-bold text-right">Sessions</th>
+                    <th className="pb-3 px-4 font-bold">Converted</th>
+                    <th className="pb-3 pl-4 font-bold">Archetype</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {anomalies.map((row, idx) => (
+                    <tr key={idx} className="border-b border-[#27272a]/50 hover:bg-[#27272a] transition-colors text-sm">
+                      <td className="py-3 pr-4 font-mono font-bold text-[#ffffff]">{row.user_id}</td>
+                      <td className="py-3 px-4 font-medium text-[#f59e0b] text-right">{row.total_sessions}</td>
+                      <td className="py-3 px-4 font-medium text-[#a1a1aa]">
+                        {row.converted ? <span className="text-[#10b981]">Yes</span> : 'No'}
+                      </td>
+                      <td className="py-3 pl-4 font-medium text-[#a1a1aa]">
+                        {row.archetype}
+                      </td>
+                    </tr>
+                  ))}
+                  {anomalies.length === 0 && (
+                    <tr>
+                      <td colSpan={4} className="py-8 text-center text-[#71717a] text-sm">
+                        No anomaly data found in current filter.
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        {/* ─── SIDEBAR CHARTS ────────────────────────────────────────────────────── */}
+        <div className="space-y-6">
+          <div className="glass-card p-6">
+            <h3 className="text-lg font-bold text-[#ffffff] mb-1">Propensity Conversion</h3>
+            <p className="text-sm font-medium text-[#a1a1aa] mb-5">Historical conversion rate by ML-derived decile score.</p>
+            <div className="h-48 w-full mt-auto rounded-lg overflow-hidden border border-[#27272a] bg-[#09090b]">
+              {isUploaded ? (
+                <div className="w-full h-full p-2">
+                  <ResponsiveContainer width="100%" height="100%">
+                    <BarChart data={metrics.propensityTrend} margin={{ top: 10, right: 0, left: -20, bottom: 0 }}>
+                      <XAxis dataKey="decile" stroke="#71717a" fontSize={10} tickLine={false} axisLine={false} />
+                      <YAxis stroke="#71717a" fontSize={10} tickLine={false} axisLine={false} />
+                      <Tooltip
+                        cursor={{fill: '#27272a'}}
+                        contentStyle={{ backgroundColor: '#18181b', borderColor: '#27272a', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
+                      />
+                      <Bar dataKey="convRate" name="Conv Rate %" radius={[4, 4, 0, 0]}>
+                        {metrics.propensityTrend.map((entry: any, index: number) => (
+                          <Cell key={`cell-${index}`} fill={index < 3 ? '#10b981' : '#3b82f6'} />
+                        ))}
+                      </Bar>
+                    </BarChart>
+                  </ResponsiveContainer>
+                </div>
+              ) : (
+                <div className="w-full h-full relative">
+                  <Image
+                    src="/charts/14_propensity_decile_conv.png"
+                    alt="Propensity Decile Chart"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          <div className="glass-card p-6">
+            <h3 className="text-lg font-bold text-[#ffffff] mb-1">Firmographics</h3>
+            <p className="text-sm font-medium text-[#a1a1aa] mb-5">Lead distribution segmented by company size.</p>
+            <div className="h-48 w-full mt-auto flex justify-center rounded-lg overflow-hidden border border-[#27272a] bg-[#09090b]">
+              {isUploaded ? (
+                <ResponsiveContainer width="100%" height="100%">
+                  <PieChart>
+                    <Pie
+                      data={pieData}
+                      innerRadius={40}
+                      outerRadius={70}
+                      paddingAngle={2}
+                      dataKey="value"
+                      stroke="none"
+                    >
+                      {pieData.map((entry, index) => (
+                        <Cell key={`cell-${index}`} fill={['#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ef4444'][index % 5]} />
+                      ))}
+                    </Pie>
+                    <Tooltip
+                      contentStyle={{ backgroundColor: '#18181b', borderColor: '#27272a', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
+                    />
+                  </PieChart>
+                </ResponsiveContainer>
+              ) : (
+                <div className="w-full h-full relative">
+                  <Image
+                    src="/charts/15_company_size_conv.png"
+                    alt="Company Size Chart"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </div>

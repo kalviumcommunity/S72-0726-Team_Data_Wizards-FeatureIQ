@@ -1,0 +1,2001 @@
+user_id,conversion_propensity_score,converted,user_segment,archetype,propensity_rank,propensity_decile,avg_score_in_segment,running_conv_rate_pct
+U00199,99,1,High,Champion,1,1,90.36,71.43
+U00775,99,1,High,Champion,1,1,90.36,57.14
+U01236,99,0,High,Champion,1,1,90.36,53.33
+U00860,99,1,High,Champion,1,1,90.36,56.67
+U01562,99,0,High,Champion,1,1,90.36,54.84
+U01972,99,1,High,Champion,1,1,90.36,56.25
+U01967,99,0,High,Champion,1,1,90.36,47.73
+U00207,99,1,High,Champion,1,1,90.36,52.83
+U00302,99,1,High,Champion,1,1,90.36,53.7
+U00566,99,0,High,Champion,1,1,90.36,52.73
+U01198,99,1,High,Champion,1,1,90.36,53.57
+U01350,99,0,High,Champion,1,1,90.36,52.63
+U00815,99,1,High,Champion,1,1,90.36,52.11
+U00312,99,1,High,Champion,1,1,90.36,51.25
+U01211,99,0,High,Champion,1,1,90.36,50.62
+U01932,99,1,High,Champion,1,1,90.36,51.22
+U01984,99,0,High,Champion,1,1,90.36,48.35
+U00340,99,1,High,Champion,1,1,90.36,45.1
+U01127,99,1,High,Champion,1,1,90.36,45.63
+U01271,99,0,High,Champion,1,1,90.36,45.19
+U01474,99,0,High,Champion,1,1,90.36,44.76
+U00040,99,0,High,Champion,1,1,90.36,44.83
+U00603,99,1,High,Champion,1,1,90.36,45.3
+U01168,99,1,High,Champion,1,1,90.36,45.76
+U01768,99,1,High,Champion,1,1,90.36,46.22
+U00272,99,0,High,Champion,1,1,90.36,44.96
+U01693,99,1,High,Champion,1,1,90.36,45.38
+U01348,99,0,High,Champion,1,1,90.36,47.59
+U01839,99,1,High,Champion,1,1,90.36,47.95
+U00196,99,0,High,Champion,1,1,90.36,48.39
+U00725,99,1,High,Champion,1,1,90.36,48.72
+U01509,99,1,High,Champion,1,1,90.36,49.04
+U00636,99,0,High,Champion,1,1,90.36,48.8
+U00059,99,1,High,Champion,1,1,90.36,48.04
+U00331,99,0,High,Champion,1,1,90.36,47.78
+U00587,99,0,High,Champion,1,1,90.36,47.51
+U00817,99,1,High,Champion,1,1,90.36,47.8
+U00112,99,0,High,Champion,1,1,90.36,47.21
+U00695,99,1,High,Champion,1,1,90.36,47.47
+U00389,99,0,High,Champion,1,1,90.36,47.64
+U00490,99,0,High,Champion,1,1,90.36,47.42
+U01673,99,1,High,Champion,1,1,90.36,46.47
+U01798,99,0,High,Champion,1,1,90.36,46.28
+U01982,99,1,High,Champion,1,1,90.36,46.25
+U00565,99,1,High,Champion,1,1,90.36,45.98
+U01268,99,0,High,Champion,1,1,90.36,45.8
+U01538,99,1,High,Champion,1,1,90.36,46.01
+U01694,99,0,High,Champion,1,1,90.36,45.83
+U01712,99,1,High,Champion,1,1,90.36,46.04
+U01834,99,0,High,Champion,1,1,90.36,45.86
+U00082,99,1,High,Champion,1,1,90.36,43.91
+U00178,99,0,High,Champion,1,1,90.36,43.77
+U01476,99,0,High,Champion,1,1,90.36,43.63
+U00580,99,0,High,Champion,1,1,90.36,42.94
+U01295,99,0,High,Champion,1,1,90.36,42.81
+U01966,99,1,High,Champion,1,1,90.36,42.99
+U01640,99,0,High,Champion,1,1,90.36,42.01
+U01164,99,1,High,Champion,1,1,90.36,42.05
+U01664,99,0,High,Champion,1,1,90.36,41.93
+U00181,99,0,High,Champion,1,1,90.36,41.3
+U00320,99,1,High,Champion,1,1,90.36,41.46
+U01053,99,1,High,Champion,1,1,90.36,41.42
+U01069,99,1,High,Champion,1,1,90.36,41.58
+U00806,99,0,High,Champion,1,1,90.36,41.73
+U00940,99,1,High,Champion,1,1,90.36,41.88
+U01645,99,0,High,Champion,1,1,90.36,41.77
+U00640,99,1,High,Champion,1,1,90.36,42.43
+U00705,99,0,High,Champion,1,1,90.36,42.33
+U01082,99,1,High,Champion,1,1,90.36,42.47
+U01002,99,1,High,Champion,1,1,90.36,42.96
+U01232,99,1,High,Champion,1,1,90.36,43.1
+U00704,99,0,High,Champion,1,1,90.36,42.37
+U01679,99,0,High,Champion,1,1,90.36,41.54
+U01812,99,1,High,Champion,1,1,90.36,41.67
+U01062,99,1,High,Champion,1,1,90.36,41.27
+U01647,99,1,High,Champion,1,1,90.36,41.39
+U00728,99,1,High,Champion,1,1,90.36,41.58
+U00998,99,1,High,Champion,1,1,90.36,41.7
+U01701,99,0,High,Champion,1,1,90.36,41.62
+U01747,99,0,High,Champion,1,1,90.36,41.54
+U00942,99,0,High,Champion,1,1,90.36,41.35
+U01764,99,1,High,Champion,1,1,90.36,41.46
+U01904,99,0,High,Champion,1,1,90.36,41.38
+U00210,99,1,High,Champion,1,1,90.36,41.81
+U00465,99,1,High,Champion,1,1,90.36,41.92
+U01008,99,1,High,Champion,1,1,90.36,41.77
+U01087,99,1,High,Champion,1,1,90.36,41.79
+U01354,99,0,High,Champion,1,1,90.36,41.71
+U01956,99,0,High,Champion,1,1,90.36,41.64
+U00694,99,1,High,Champion,1,1,90.36,41.71
+U00767,99,0,High,Champion,1,1,90.36,41.64
+U00656,99,0,High,Champion,1,1,90.36,41.33
+U01321,99,1,High,Champion,1,1,90.36,41.43
+U00742,99,0,High,Champion,1,1,90.36,41.28
+U01371,99,1,High,Champion,1,1,90.36,41.38
+U00792,99,0,High,Champion,1,1,90.36,40.84
+U00726,99,1,High,Champion,1,1,90.36,41.39
+U01579,99,0,High,Champion,1,1,90.36,41.32
+U01314,99,1,High,Champion,1,1,90.36,41.31
+U01921,99,1,High,Champion,1,1,90.36,41.41
+U01929,99,0,High,Champion,1,1,90.36,41.06
+U01355,99,0,High,Champion,1,1,90.36,40.92
+U01362,99,0,High,Champion,1,1,90.36,40.85
+U00732,99,1,High,Champion,1,1,90.36,40.78
+U00809,99,1,High,Champion,1,1,90.36,40.87
+U00812,99,0,High,Champion,1,1,90.36,40.76
+U01810,99,0,High,Champion,1,1,90.36,40.7
+U00006,99,1,High,Champion,1,1,90.36,41.03
+U00984,99,1,High,Champion,1,1,90.36,41.11
+U01201,99,0,High,Champion,1,1,90.36,41.05
+U00102,99,0,High,Champion,1,1,90.36,41.12
+U01996,99,0,High,Champion,1,1,90.36,40.34
+U00026,99,1,High,Champion,1,1,90.36,40.31
+U00240,99,0,High,Champion,1,1,90.36,40.25
+U01843,99,0,High,Champion,1,1,90.36,39.97
+U01858,99,0,High,Champion,1,1,90.36,39.92
+U00258,99,0,High,Champion,1,1,90.36,40.14
+U01404,99,1,High,Champion,1,1,90.36,40.22
+U01767,99,0,High,Champion,1,1,90.36,40.16
+U00448,99,0,High,Champion,1,1,90.36,40.16
+U01238,99,1,High,Champion,1,1,90.36,40.24
+U01672,99,0,High,Champion,1,1,90.36,40.19
+U01773,99,0,High,Champion,1,1,90.36,40.13
+U01528,99,0,High,Champion,1,1,90.36,40.23
+U00047,99,0,High,Champion,1,1,90.36,40.0
+U01273,99,0,High,Champion,1,1,90.36,39.95
+U00246,99,1,High,Champion,1,1,90.36,39.88
+U01650,99,1,High,Champion,1,1,90.36,39.81
+U00019,99,0,High,Champion,1,1,90.36,39.88
+U01567,99,1,High,Champion,1,1,90.36,39.95
+U01351,99,1,High,Champion,1,1,90.36,39.98
+U01492,99,1,High,Champion,1,1,90.36,40.05
+U00710,99,1,High,Champion,1,1,90.36,39.91
+U00758,99,1,High,Champion,1,1,90.36,39.98
+U00888,99,1,High,Champion,1,1,90.36,40.05
+U00164,99,1,High,Champion,1,1,90.36,39.95
+U00952,99,0,High,Champion,1,1,90.36,39.91
+U00281,99,1,High,Champion,1,1,90.36,40.0
+U00464,99,1,High,Champion,1,1,90.36,39.96
+U00858,99,1,High,Champion,1,1,90.36,40.04
+U00677,99,1,High,Champion,1,1,90.36,40.0
+U00424,99,1,High,Champion,1,1,90.36,39.94
+U01880,99,1,High,Champion,1,1,90.36,40.0
+U00471,99,0,High,Champion,1,1,90.36,40.0
+U01156,99,0,High,Champion,1,1,90.36,39.96
+U00419,99,1,High,Champion,1,1,90.36,39.81
+U00532,99,0,High,Champion,1,1,90.36,39.77
+U00711,99,1,High,Champion,1,1,90.36,39.84
+U00939,99,1,High,Champion,1,1,90.36,40.12
+U01361,99,0,High,Champion,1,1,90.36,40.08
+U00012,99,0,High,Champion,1,1,90.36,39.9
+U01809,99,0,High,Champion,1,1,90.36,39.55
+U00144,99,0,High,Champion,1,1,90.36,39.34
+U01472,99,1,High,Champion,1,1,90.36,39.37
+U01778,99,1,High,Champion,1,1,90.36,39.43
+U01600,99,1,High,Champion,1,1,90.36,39.74
+U00641,99,1,High,Champion,1,1,90.36,39.68
+U01707,99,0,High,Champion,1,1,90.36,39.65
+U01962,99,1,High,Champion,1,1,90.36,39.15
+U01398,99,0,High,Champion,1,1,90.36,38.81
+U01677,99,1,High,Champion,1,1,90.36,38.86
+U01073,99,0,High,Champion,1,1,90.36,38.91
+U01516,99,0,High,Champion,1,1,90.36,38.88
+U00176,99,1,High,Champion,1,1,90.36,38.5
+U00533,99,0,High,Champion,1,1,90.36,38.47
+U00204,99,0,High,Champion,1,1,90.36,38.35
+U01269,99,0,High,Champion,1,1,90.36,38.32
+U01039,99,1,High,Champion,1,1,90.36,38.22
+U00227,99,0,High,Champion,1,1,90.36,38.1
+U01710,99,1,High,Champion,1,1,90.36,38.15
+U01796,99,0,High,Champion,1,1,90.36,38.12
+U00314,99,0,High,Champion,1,1,90.36,38.01
+U01606,99,1,High,Champion,1,1,90.36,38.06
+U00160,99,0,High,Champion,1,1,90.36,37.75
+U00529,99,0,High,Champion,1,1,90.36,37.72
+U00803,99,1,High,Champion,1,1,90.36,37.77
+U00922,99,1,High,Champion,1,1,90.36,37.82
+U01012,99,1,High,Champion,1,1,90.36,37.87
+U00838,99,0,High,Champion,1,1,90.36,37.84
+U01774,99,0,High,Champion,1,1,90.36,37.81
+U01896,99,1,High,Champion,1,1,90.36,37.74
+U00932,99,1,High,Champion,1,1,90.36,37.62
+U01279,99,1,High,Champion,1,1,90.36,37.67
+U01822,99,0,High,Champion,1,1,90.36,37.52
+U01596,99,1,High,Champion,1,1,90.36,37.63
+U01251,99,0,High,Champion,1,1,90.36,37.57
+U00153,99,0,High,Champion,1,1,90.36,37.55
+U00721,99,1,High,Champion,1,1,90.36,37.57
+U00476,99,1,High,Champion,1,1,90.36,37.67
+U00975,99,1,High,Champion,1,1,90.36,37.75
+U00110,99,1,High,Champion,1,1,90.36,37.79
+U00111,99,1,High,Champion,1,1,90.36,37.83
+U00555,99,1,High,Champion,1,1,90.36,37.78
+U01325,99,1,High,Champion,1,1,90.36,37.82
+U01795,99,1,High,Champion,1,1,90.36,37.86
+U01190,99,1,High,Champion,1,1,90.36,37.83
+U00972,99,0,High,Champion,1,1,90.36,37.89
+U00402,99,0,High,Champion,1,1,90.36,37.62
+U00761,99,0,High,Champion,1,1,90.36,37.59
+U01241,99,1,High,Champion,1,1,90.36,37.63
+U00628,99,1,High,Champion,1,2,90.36,37.66
+U00684,99,0,High,Champion,1,2,90.36,37.63
+U01459,99,1,High,Champion,1,2,90.36,37.67
+U00881,99,1,High,Champion,1,2,90.36,37.58
+U00588,99,1,High,Champion,1,2,90.36,37.65
+U01317,99,1,High,Champion,1,2,90.36,37.69
+U00039,99,0,High,Champion,1,2,90.36,37.76
+U00169,99,1,High,Champion,1,2,90.36,37.8
+U01410,99,1,High,Champion,1,2,90.36,37.84
+U00582,99,0,High,Champion,1,2,90.36,37.85
+U00676,99,0,High,Champion,1,2,90.36,37.82
+U01526,99,1,High,Champion,1,2,90.36,37.86
+U01615,99,1,High,Champion,1,2,90.36,37.9
+U01727,99,1,High,Champion,1,2,90.36,37.93
+U00237,99,1,High,Champion,1,2,90.36,38.09
+U00527,99,1,High,Champion,1,2,90.36,38.13
+U00791,99,0,High,Champion,1,2,90.36,38.1
+U00826,99,1,High,Champion,1,2,90.36,38.14
+U01505,99,1,High,Champion,1,2,90.36,38.18
+U00426,99,0,High,Champion,1,2,90.36,38.12
+U00727,99,0,High,Champion,1,2,90.36,38.09
+U00255,99,1,High,Champion,1,2,90.36,38.35
+U00440,99,1,High,Champion,1,2,90.36,38.38
+U00625,99,0,High,Champion,1,2,90.36,38.36
+U00956,99,0,High,Champion,1,2,90.36,38.2
+U01552,99,0,High,Champion,1,2,90.36,38.18
+U01901,99,0,High,Champion,1,2,90.36,38.15
+U00575,99,1,High,Champion,1,2,90.36,38.01
+U01463,99,1,High,Champion,1,2,90.36,38.05
+U00117,99,1,High,Champion,1,2,90.36,38.1
+U01905,99,1,High,Champion,1,2,90.36,38.09
+U00846,99,1,High,Champion,1,2,90.36,38.22
+U01465,99,1,High,Champion,1,2,90.36,38.26
+U00893,99,0,High,Champion,1,2,90.36,38.28
+U00058,99,1,High,Champion,1,2,90.36,38.39
+U00895,99,0,High,Champion,1,2,90.36,38.36
+U01318,99,1,High,Champion,1,2,90.36,38.4
+U01627,99,0,High,Champion,1,2,90.36,38.38
+U00339,99,1,High,Champion,1,2,90.36,38.47
+U00075,99,0,High,Champion,1,2,90.36,38.32
+U00304,99,1,High,Champion,1,2,90.36,38.35
+U01120,99,1,High,Champion,1,2,90.36,38.39
+U01720,99,1,High,Champion,1,2,90.36,38.42
+U00096,99,0,High,Champion,1,2,90.36,38.3
+U00132,99,0,High,Champion,1,2,90.36,38.29
+U01353,99,0,High,Champion,1,2,90.36,38.27
+U01529,99,1,High,Champion,1,2,90.36,38.31
+U00497,99,0,High,Champion,1,2,90.36,38.18
+U00899,99,1,High,Champion,1,2,90.36,38.22
+U00828,99,0,High,Champion,1,2,90.36,38.1
+U00947,99,1,High,Champion,1,2,90.36,38.13
+U01438,99,0,High,Champion,1,2,90.36,38.11
+U00042,99,0,High,Champion,1,2,90.36,38.16
+U01091,99,0,High,Champion,1,2,90.36,38.13
+U01806,99,1,High,Champion,1,2,90.36,38.17
+U00230,99,0,High,Champion,1,2,90.36,38.13
+U01165,99,0,High,Champion,1,2,90.36,38.04
+U01252,99,1,High,Champion,1,2,90.36,38.02
+U01489,99,1,High,Champion,1,2,90.36,38.05
+U01651,99,0,High,Champion,1,2,90.36,38.03
+U01775,99,0,High,Champion,1,2,90.36,38.01
+U00282,99,0,High,Champion,1,2,90.36,37.95
+U00643,99,1,High,Champion,1,2,90.36,37.98
+U01692,99,0,High,Champion,1,2,90.36,38.02
+U01897,99,1,High,Champion,1,2,90.36,38.05
+U01951,99,1,High,Champion,1,2,90.36,38.08
+U00317,99,1,High,Champion,1,2,90.36,38.01
+U00829,99,0,High,Champion,1,2,90.36,38.09
+U01406,99,1,High,Champion,1,2,90.36,38.2
+U01234,99,0,High,Champion,1,2,90.36,38.19
+U01366,99,0,High,Champion,1,2,90.36,38.17
+U01379,99,1,High,Champion,1,2,90.36,38.2
+U01913,99,1,High,Champion,1,2,90.36,38.23
+U00325,99,0,High,Champion,1,2,90.36,38.52
+U00584,98,1,High,Power Adopter,275,2,90.36,100.0
+U01441,98,1,High,Power Adopter,275,2,90.36,51.56
+U01239,98,0,High,Power Adopter,275,2,90.36,45.83
+U00693,98,0,High,Power Adopter,275,2,90.36,45.04
+U01565,98,1,High,Power Adopter,275,2,90.36,49.1
+U00018,98,1,High,Champion,275,2,90.36,48.09
+U01586,98,1,High,Power Adopter,275,2,90.36,47.74
+U01893,98,1,High,Power Adopter,275,2,90.36,48.0
+U00016,98,1,High,Power Adopter,275,2,90.36,46.05
+U00383,98,0,High,Champion,275,2,90.36,45.69
+U00020,98,1,High,Power Adopter,275,2,90.36,44.33
+U01425,98,1,High,Power Adopter,275,2,90.36,44.52
+U00484,98,1,High,Power Adopter,275,2,90.36,42.09
+U01227,98,0,High,Power Adopter,275,2,90.36,41.6
+U01391,98,0,High,Power Adopter,275,2,90.36,41.67
+U00401,98,1,High,Power Adopter,275,2,90.36,42.61
+U00295,98,0,High,Power Adopter,275,2,90.36,41.31
+U01007,98,1,High,Power Adopter,275,2,90.36,41.43
+U01487,98,1,High,Power Adopter,275,2,90.36,41.65
+U00869,98,1,High,Power Adopter,275,2,90.36,41.88
+U01582,98,0,High,Power Adopter,275,2,90.36,41.8
+U01479,98,1,High,Power Adopter,275,2,90.36,41.74
+U01851,98,0,High,Late Bloomer,275,2,90.36,41.36
+U01414,98,1,High,Late Bloomer,275,2,90.36,41.48
+U00324,98,1,High,Power Adopter,275,2,90.36,40.97
+U01620,98,1,High,Power Adopter,275,2,90.36,41.14
+U01820,98,1,High,Power Adopter,275,2,90.36,40.0
+U00591,98,1,High,Power Adopter,275,2,90.36,40.24
+U01927,98,0,High,Power Adopter,275,2,90.36,40.08
+U01177,98,0,High,Power Adopter,275,2,90.36,40.24
+U00050,98,0,High,Power Adopter,275,2,90.36,40.18
+U00664,98,0,High,Late Bloomer,275,2,90.36,40.13
+U01424,98,0,High,Power Adopter,275,2,90.36,40.08
+U00843,98,0,High,Power Adopter,275,2,90.36,39.9
+U00327,98,0,High,Power Adopter,275,2,90.36,39.77
+U01491,98,0,High,Late Bloomer,275,2,90.36,39.6
+U00373,98,0,High,Late Bloomer,275,2,90.36,40.0
+U00165,98,1,High,Power Adopter,275,2,90.36,39.98
+U00309,98,1,High,Late Bloomer,275,2,90.36,40.06
+U00769,98,0,High,Power Adopter,275,2,90.36,39.92
+U00140,98,0,High,Power Adopter,275,2,90.36,40.04
+U00171,98,1,High,Power Adopter,275,2,90.36,40.1
+U01771,98,0,High,Power Adopter,275,2,90.36,40.06
+U00078,98,1,High,Power Adopter,275,2,90.36,39.49
+U00923,98,1,High,Power Adopter,275,2,90.36,39.54
+U00372,98,0,High,Late Bloomer,275,2,90.36,39.7
+U00495,98,0,High,Power Adopter,275,2,90.36,39.61
+U01072,98,0,High,Power Adopter,275,2,90.36,39.31
+U01247,98,0,High,Power Adopter,275,2,90.36,38.83
+U00091,98,0,High,Late Bloomer,275,2,90.36,38.29
+U01941,98,1,High,Power Adopter,275,2,90.36,38.27
+U01292,98,0,High,Late Bloomer,275,2,90.36,38.08
+U01836,98,1,High,Power Adopter,275,2,90.36,37.72
+U00156,98,1,High,Late Bloomer,275,2,90.36,37.59
+U01108,98,0,High,Power Adopter,275,2,90.36,37.57
+U01288,98,0,High,Power Adopter,275,2,90.36,37.54
+U00511,98,1,High,Power Adopter,275,2,90.36,37.61
+U00619,98,0,High,Late Bloomer,275,2,90.36,37.58
+U01833,98,1,High,Late Bloomer,275,2,90.36,37.63
+U00921,98,1,High,Power Adopter,275,2,90.36,37.82
+U00429,98,1,High,Power Adopter,275,2,90.36,37.75
+U00672,98,0,High,Late Bloomer,275,2,90.36,37.85
+U00089,98,1,High,Power Adopter,275,2,90.36,37.93
+U00876,98,0,High,Power Adopter,275,2,90.36,37.9
+U01300,98,0,High,Power Adopter,275,2,90.36,37.87
+U01779,98,0,High,Power Adopter,275,2,90.36,37.84
+U01259,98,0,High,Late Bloomer,275,2,90.36,37.72
+U01051,98,1,High,Late Bloomer,275,2,90.36,37.68
+U01460,98,0,High,Power Adopter,275,2,90.36,37.65
+U01989,98,0,High,Power Adopter,275,2,90.36,37.56
+U01942,98,1,High,Late Bloomer,275,2,90.36,37.73
+U01243,98,1,High,Late Bloomer,275,2,90.36,38.46
+U01687,98,0,High,Power Adopter,275,2,90.36,38.44
+U00101,98,0,High,Power Adopter,275,2,90.36,38.15
+U00104,98,1,High,Power Adopter,275,2,90.36,38.18
+U00242,98,1,High,Power Adopter,275,2,90.36,38.02
+U00730,98,0,High,Power Adopter,275,2,90.36,38.0
+U01464,98,1,High,Power Adopter,275,2,90.36,37.92
+U01828,98,1,High,Power Adopter,275,2,90.36,37.95
+U00667,98,0,High,Power Adopter,275,2,90.36,38.07
+U01990,98,1,High,Late Bloomer,275,2,90.36,38.1
+U00307,98,1,High,Power Adopter,275,2,90.36,38.27
+U01048,98,1,High,Power Adopter,275,2,90.36,38.3
+U00768,98,1,High,Power Adopter,275,2,90.36,38.27
+U01564,98,0,High,Power Adopter,275,2,90.36,38.49
+U01076,98,1,High,Power Adopter,275,2,90.36,38.56
+U01936,97,0,High,Champion,361,2,90.36,50.0
+U01898,97,0,High,Champion,361,2,90.36,47.76
+U00900,97,1,High,Champion,361,2,90.36,47.66
+U00965,97,0,High,Champion,361,2,90.36,44.37
+U00488,97,1,High,Champion,361,2,90.36,39.6
+U01207,97,0,High,Champion,361,2,90.36,39.66
+U00518,97,1,High,Champion,361,2,90.36,38.52
+U01352,97,0,High,Champion,361,2,90.36,38.25
+U00433,97,1,High,Champion,361,2,90.36,38.08
+U00853,97,0,High,Champion,361,2,90.36,37.86
+U01784,97,1,High,Champion,361,2,90.36,38.51
+U00009,97,0,High,Champion,361,2,90.36,38.19
+U01228,96,1,High,Power Adopter,373,2,90.36,100.0
+U00574,96,1,High,Champion,373,2,90.36,57.58
+U01643,96,1,High,Power Adopter,373,2,90.36,48.89
+U00288,96,0,High,Power Adopter,373,2,90.36,51.39
+U01585,96,1,High,Power Adopter,373,2,90.36,45.45
+U00147,96,0,High,Champion,373,2,90.36,47.83
+U00130,96,0,High,Late Bloomer,373,2,90.36,47.44
+U01148,96,1,High,Champion,373,2,90.36,45.9
+U01885,96,1,High,Champion,373,2,90.36,44.84
+U00109,96,1,High,Champion,373,2,90.36,41.73
+U00522,96,1,High,Champion,373,2,90.36,42.5
+U00883,96,0,High,Champion,373,2,90.36,42.4
+U01531,96,0,High,Power Adopter,373,2,90.36,41.58
+U00031,96,0,High,Champion,373,2,90.36,41.34
+U00781,96,1,High,Late Bloomer,373,2,90.36,40.94
+U00145,96,0,High,Power Adopter,373,2,90.36,40.9
+U01394,96,0,High,Champion,373,2,90.36,40.84
+U00600,96,1,High,Power Adopter,373,2,90.36,40.02
+U00662,96,1,High,Power Adopter,373,2,90.36,39.96
+U00997,96,0,High,Late Bloomer,373,2,90.36,39.56
+U00265,96,0,High,Late Bloomer,373,2,90.36,39.57
+U00787,96,1,High,Champion,373,2,90.36,39.63
+U01755,96,1,High,Power Adopter,373,2,90.36,39.45
+U01648,96,0,High,Champion,373,2,90.36,38.03
+U00446,96,0,High,Champion,373,2,90.36,37.71
+U01554,96,1,High,Power Adopter,373,2,90.36,37.57
+U00185,96,1,High,Power Adopter,373,2,90.36,37.68
+U00409,96,0,High,Champion,373,2,90.36,37.64
+U01017,96,0,High,Power Adopter,373,3,90.36,37.81
+U00180,96,1,High,Late Bloomer,373,3,90.36,37.89
+U01599,96,0,High,Power Adopter,373,3,90.36,37.8
+U01724,96,1,High,Power Adopter,373,3,90.36,37.95
+U01147,96,1,High,Power Adopter,373,3,90.36,37.76
+U01533,96,0,High,Late Bloomer,373,3,90.36,37.74
+U00994,96,0,High,Champion,373,3,90.36,38.34
+U01915,96,1,High,Power Adopter,373,3,90.36,38.11
+U01804,96,0,High,Champion,373,3,90.36,38.03
+U01446,96,0,High,Power Adopter,373,3,90.36,38.26
+U01931,96,1,High,Power Adopter,373,3,90.36,38.47
+U00970,96,0,High,Champion,373,3,90.36,38.17
+U00844,96,0,High,Power Adopter,373,3,90.36,38.02
+U00116,96,1,High,Power Adopter,373,3,90.36,38.03
+U01339,96,0,High,Power Adopter,373,3,90.36,37.99
+U00510,96,0,High,Champion,373,3,90.36,38.08
+U00616,96,0,High,Champion,373,3,90.36,38.26
+U01176,96,1,High,Power Adopter,373,3,90.36,38.55
+U00879,95,1,High,Champion,419,3,90.36,58.82
+U00415,95,1,High,Champion,419,3,90.36,50.0
+U00173,95,1,High,Champion,419,3,90.36,53.45
+U01187,95,1,High,Power Adopter,419,3,90.36,52.05
+U01886,95,1,High,Champion,419,3,90.36,45.28
+U01558,95,1,High,Champion,419,3,90.36,45.86
+U00788,95,0,High,Champion,419,3,90.36,48.73
+U00274,95,0,High,Champion,419,3,90.36,47.52
+U00753,95,0,High,Power Adopter,419,3,90.36,46.06
+U00690,95,0,High,Champion,419,3,90.36,43.49
+U00572,95,1,High,Late Bloomer,419,3,90.36,42.75
+U00034,95,0,High,Champion,419,3,90.36,42.99
+U00049,95,0,High,Champion,419,3,90.36,41.33
+U01785,95,0,High,Power Adopter,419,3,90.36,41.25
+U00982,95,0,High,Late Bloomer,419,3,90.36,41.57
+U01133,95,0,High,Champion,419,3,90.36,41.3
+U01192,95,0,High,Power Adopter,419,3,90.36,41.41
+U01086,95,1,High,Late Bloomer,419,3,90.36,40.94
+U01999,95,1,High,Late Bloomer,419,3,90.36,41.04
+U01618,95,0,High,Late Bloomer,419,3,90.36,40.88
+U00554,95,1,High,Power Adopter,419,3,90.36,41.23
+U01761,95,0,High,Champion,419,3,90.36,41.06
+U01952,95,0,High,Power Adopter,419,3,90.36,40.2
+U01083,95,0,High,Power Adopter,419,3,90.36,39.94
+U01167,95,1,High,Champion,419,3,90.36,40.03
+U01916,95,1,High,Champion,419,3,90.36,40.16
+U01034,95,0,High,Power Adopter,419,3,90.36,39.85
+U00735,95,0,High,Power Adopter,419,3,90.36,39.55
+U01714,95,1,High,Champion,419,3,90.36,39.63
+U00836,95,0,High,Power Adopter,419,3,90.36,40.0
+U01766,95,0,High,Power Adopter,419,3,90.36,40.0
+U01557,95,1,High,Champion,419,3,90.36,39.9
+U00126,95,0,High,Power Adopter,419,3,90.36,40.02
+U01682,95,0,High,Late Bloomer,419,3,90.36,39.42
+U00945,95,1,High,Champion,419,3,90.36,38.88
+U01721,95,1,High,Power Adopter,419,3,90.36,38.94
+U00798,95,0,High,Late Bloomer,419,3,90.36,38.05
+U01688,95,1,High,Power Adopter,419,3,90.36,38.1
+U01947,95,1,High,Champion,419,3,90.36,38.13
+U01370,95,1,High,Champion,419,3,90.36,37.86
+U01129,95,1,High,Power Adopter,419,3,90.36,37.76
+U01997,95,1,High,Champion,419,3,90.36,37.73
+U00444,95,0,High,Champion,419,3,90.36,37.72
+U00810,95,1,High,Champion,419,3,90.36,37.94
+U00206,95,1,High,Late Bloomer,419,3,90.36,37.91
+U01412,95,0,High,Power Adopter,419,3,90.36,37.62
+U01613,95,1,High,Champion,419,3,90.36,37.6
+U01849,95,0,High,Champion,419,3,90.36,38.16
+U01146,95,0,High,Champion,419,3,90.36,38.31
+U01101,95,1,High,Power Adopter,419,3,90.36,38.21
+U01777,95,0,High,Champion,419,3,90.36,38.19
+U01510,95,0,High,Power Adopter,419,3,90.36,38.14
+U00443,95,1,High,Late Bloomer,419,3,90.36,38.14
+U01575,95,0,High,Champion,419,3,90.36,38.11
+U00988,95,1,High,Champion,419,3,90.36,38.15
+U00269,95,1,High,Power Adopter,419,3,90.36,38.29
+U00668,95,1,High,Champion,419,3,90.36,38.52
+U00398,95,0,High,Champion,419,3,90.36,38.53
+U00904,94,1,High,Champion,477,3,90.36,46.29
+U00273,94,1,High,Champion,477,3,90.36,42.18
+U00549,94,1,High,Champion,477,3,90.36,41.7
+U01689,94,0,High,Champion,477,3,90.36,40.64
+U01090,94,0,High,Champion,477,3,90.36,40.29
+U00369,94,1,High,Champion,477,3,90.36,40.32
+U01587,94,1,High,Champion,477,3,90.36,40.4
+U00127,94,0,High,Champion,477,3,90.36,40.03
+U01387,94,0,High,Champion,477,3,90.36,39.96
+U00852,94,0,High,Champion,477,3,90.36,40.02
+U00310,94,1,High,Champion,477,3,90.36,39.96
+U00222,94,0,High,Champion,477,3,90.36,39.28
+U00977,94,1,High,Champion,477,3,90.36,37.68
+U01837,94,0,High,Champion,477,3,90.36,37.91
+U01332,94,1,High,Champion,477,3,90.36,37.94
+U00188,94,0,High,Champion,477,3,90.36,38.13
+U00411,94,0,High,Champion,477,3,90.36,38.08
+U00268,94,1,High,Champion,477,3,90.36,38.15
+U01229,94,1,High,Champion,477,3,90.36,38.41
+U00660,94,1,High,Champion,477,3,90.36,38.18
+U01602,94,1,High,Champion,477,3,90.36,38.04
+U01593,94,0,High,Champion,477,3,90.36,38.06
+U00175,94,0,High,Champion,477,3,90.36,38.18
+U00052,94,0,High,Champion,477,3,90.36,38.27
+U00266,93,1,High,Late Bloomer,501,3,90.36,60.87
+U00578,93,0,High,Power Adopter,501,3,90.36,45.45
+U00170,93,1,High,Power Adopter,501,3,90.36,46.5
+U01246,93,1,High,Late Bloomer,501,3,90.36,43.89
+U00090,93,0,High,Power Adopter,501,3,90.36,41.34
+U01655,93,0,High,Power Adopter,501,3,90.36,41.26
+U01264,93,1,High,Power Adopter,501,3,90.36,41.14
+U01597,93,1,High,Power Adopter,501,3,90.36,40.11
+U01411,93,0,High,Power Adopter,501,3,90.36,39.76
+U01726,93,0,High,Power Adopter,501,3,90.36,39.96
+U00158,93,1,High,Power Adopter,501,3,90.36,40.02
+U00388,93,0,High,Power Adopter,501,3,90.36,39.92
+U01208,93,1,High,Power Adopter,501,3,90.36,39.62
+U01162,93,0,High,Power Adopter,501,3,90.36,39.62
+U01094,93,1,High,Power Adopter,501,3,90.36,39.47
+U01569,93,1,High,Power Adopter,501,3,90.36,38.15
+U00354,93,0,High,Power Adopter,501,3,90.36,37.51
+U01365,93,1,High,Power Adopter,501,3,90.36,37.96
+U00305,93,1,High,Power Adopter,501,3,90.36,37.97
+U01970,93,0,High,Power Adopter,501,3,90.36,38.0
+U00796,93,1,High,Power Adopter,501,3,90.36,38.3
+U00226,93,0,High,Power Adopter,501,3,90.36,38.45
+U01577,93,0,High,Power Adopter,501,3,90.36,38.16
+U01605,93,1,High,Power Adopter,501,3,90.36,38.21
+U00293,93,0,High,Power Adopter,501,3,90.36,38.51
+U00045,92,0,High,Power Adopter,526,3,90.36,47.06
+U00455,92,1,High,Power Adopter,526,3,90.36,46.27
+U01107,92,0,High,Champion,526,3,90.36,47.62
+U01036,92,1,High,Power Adopter,526,3,90.36,49.06
+U00545,92,0,High,Power Adopter,526,3,90.36,47.22
+U00535,92,1,High,Champion,526,3,90.36,46.52
+U00918,92,0,High,Champion,526,3,90.36,45.72
+U00319,92,1,High,Champion,526,3,90.36,41.88
+U01653,92,0,High,Champion,526,3,90.36,42.89
+U01289,92,0,High,Power Adopter,526,3,90.36,42.52
+U00219,92,0,High,Champion,526,3,90.36,41.61
+U01902,92,0,High,Champion,526,3,90.36,41.56
+U00063,92,0,High,Power Adopter,526,3,90.36,41.34
+U01030,92,0,High,Power Adopter,526,3,90.36,41.07
+U00125,92,0,High,Power Adopter,526,3,90.36,39.58
+U01135,92,1,High,Power Adopter,526,3,90.36,39.83
+U01547,92,1,High,Champion,526,3,90.36,39.9
+U01145,92,0,High,Champion,526,3,90.36,39.91
+U01230,92,0,High,Late Bloomer,526,3,90.36,39.96
+U01216,92,0,High,Power Adopter,526,3,90.36,39.98
+U01746,92,0,High,Champion,526,3,90.36,39.51
+U00854,92,0,High,Late Bloomer,526,3,90.36,39.59
+U00254,92,0,High,Champion,526,3,90.36,39.24
+U00969,92,0,High,Power Adopter,526,3,90.36,39.12
+U00954,92,1,High,Power Adopter,526,3,90.36,38.99
+U00915,92,0,High,Power Adopter,526,3,90.36,38.85
+U00589,92,0,High,Power Adopter,526,3,90.36,38.22
+U01258,92,0,High,Power Adopter,526,3,90.36,38.24
+U00346,92,0,High,Champion,526,3,90.36,37.84
+U00973,92,0,High,Champion,526,3,90.36,37.68
+U00608,92,1,High,Late Bloomer,526,3,90.36,37.62
+U00841,92,0,High,Champion,526,3,90.36,37.69
+U01010,92,0,High,Power Adopter,526,3,90.36,37.81
+U00113,92,1,High,Champion,526,3,90.36,37.77
+U00524,92,0,High,Power Adopter,526,3,90.36,37.75
+U01705,92,1,High,Power Adopter,526,3,90.36,38.01
+U01790,92,1,High,Champion,526,3,90.36,38.17
+U00717,92,1,High,Champion,526,3,90.36,38.13
+U01603,92,1,High,Champion,526,3,90.36,38.22
+U01681,92,0,High,Champion,526,3,90.36,38.2
+U01512,92,0,High,Champion,526,3,90.36,38.24
+U00106,92,1,High,Power Adopter,526,3,90.36,38.33
+U00593,92,1,High,Late Bloomer,526,3,90.36,38.33
+U00055,92,0,High,Champion,526,3,90.36,38.11
+U00700,92,1,High,Power Adopter,526,3,90.36,38.05
+U00380,92,0,High,Power Adopter,526,3,90.36,38.06
+U01581,92,1,High,Champion,526,3,90.36,38.54
+U01633,91,0,High,Late Bloomer,573,3,90.36,62.5
+U00070,91,1,High,Power Adopter,573,3,90.36,47.78
+U01566,91,1,High,Champion,573,3,90.36,48.04
+U01253,91,0,High,Champion,573,3,90.36,44.22
+U01309,91,0,High,Champion,573,3,90.36,44.07
+U01244,91,1,High,Late Bloomer,573,3,90.36,41.37
+U00494,91,0,High,Power Adopter,573,3,90.36,41.32
+U00506,91,0,High,Champion,573,3,90.36,41.22
+U00107,91,1,High,Champion,573,3,90.36,41.17
+U00859,91,0,High,Power Adopter,573,3,90.36,40.82
+U01305,91,0,High,Power Adopter,573,3,90.36,41.0
+U01376,91,1,High,Late Bloomer,573,3,90.36,39.65
+U00092,91,0,High,Power Adopter,573,3,90.36,39.69
+U00161,91,0,High,Power Adopter,573,3,90.36,39.95
+U00159,91,0,High,Late Bloomer,573,3,90.36,39.95
+U01221,91,1,High,Power Adopter,573,3,90.36,40.04
+U01110,91,0,High,Power Adopter,573,3,90.36,39.98
+U00626,91,1,High,Champion,573,3,90.36,40.02
+U00647,91,1,High,Power Adopter,573,3,90.36,40.02
+U01592,91,1,High,Champion,573,3,90.36,40.09
+U00964,91,1,High,Power Adopter,573,3,90.36,40.08
+U00766,91,0,High,Power Adopter,573,3,90.36,39.88
+U00456,91,0,High,Champion,573,3,90.36,39.58
+U01364,91,1,High,Power Adopter,573,3,90.36,39.17
+U00508,91,0,High,Champion,573,3,90.36,37.79
+U00393,91,1,High,Power Adopter,573,3,90.36,37.79
+U00837,91,0,High,Power Adopter,573,3,90.36,37.93
+U00214,91,0,High,Champion,573,3,90.36,37.76
+U00703,91,0,High,Power Adopter,573,4,90.36,37.83
+U00202,91,0,High,Champion,573,4,90.36,37.79
+U01632,91,0,High,Power Adopter,573,4,90.36,37.76
+U00362,91,0,High,Power Adopter,573,4,90.36,37.6
+U00808,91,0,High,Champion,573,4,90.36,38.29
+U00729,91,1,High,Late Bloomer,573,4,90.36,38.12
+U01456,91,1,High,Champion,573,4,90.36,38.04
+U00037,91,1,High,Champion,573,4,90.36,38.34
+U00418,91,0,High,Power Adopter,573,4,90.36,38.15
+U01092,90,1,High,Power Adopter,610,4,90.36,62.5
+U00432,90,0,High,Champion,610,4,90.36,50.77
+U00515,90,0,High,Champion,610,4,90.36,50.6
+U00316,90,1,High,Power Adopter,610,4,90.36,46.67
+U00391,90,0,High,Power Adopter,610,4,90.36,45.56
+U01409,90,0,High,Champion,610,4,90.36,42.65
+U01870,90,1,High,Champion,610,4,90.36,41.85
+U01124,90,1,High,Late Bloomer,610,4,90.36,40.24
+U01310,90,0,High,Champion,610,4,90.36,39.91
+U00367,90,0,High,Champion,610,4,90.36,39.47
+U00855,90,1,High,Champion,610,4,90.36,39.69
+U01081,90,1,High,Power Adopter,610,4,90.36,38.57
+U00634,90,0,High,Champion,610,4,90.36,37.61
+U00648,90,0,High,Late Bloomer,610,4,90.36,37.88
+U01541,90,1,High,Champion,610,4,90.36,37.88
+U01277,90,0,High,Power Adopter,610,4,90.36,38.13
+U01544,90,1,High,Late Bloomer,610,4,90.36,38.1
+U01088,90,0,High,Champion,610,4,90.36,38.52
+U00333,89,1,High,Power Adopter,628,4,90.36,100.0
+U01451,89,1,High,Power Adopter,628,4,90.36,47.06
+U01178,89,0,High,Power Adopter,628,4,90.36,48.81
+U01219,89,1,High,Late Bloomer,628,4,90.36,48.29
+U00498,89,0,High,Champion,628,4,90.36,46.32
+U01612,89,0,High,Power Adopter,628,4,90.36,45.22
+U01174,89,0,High,Late Bloomer,628,4,90.36,41.78
+U01944,89,1,High,Power Adopter,628,4,90.36,41.93
+U00118,89,1,High,Late Bloomer,628,4,90.36,41.81
+U00483,89,1,High,Late Bloomer,628,4,90.36,42.79
+U00903,89,0,High,Champion,628,4,90.36,42.68
+U01992,89,1,High,Champion,628,4,90.36,42.53
+U00916,89,0,High,Late Bloomer,628,4,90.36,41.52
+U00387,89,1,High,Champion,628,4,90.36,41.38
+U01160,89,1,High,Power Adopter,628,4,90.36,41.5
+U01616,89,1,High,Power Adopter,628,4,90.36,41.33
+U01685,89,1,High,Late Bloomer,628,4,90.36,41.44
+U00552,89,0,High,Power Adopter,628,4,90.36,40.94
+U00002,89,0,High,Late Bloomer,628,4,90.36,40.14
+U00927,89,1,High,Late Bloomer,628,4,90.36,40.23
+U00785,89,0,High,Champion,628,4,90.36,40.06
+U00929,89,0,High,Power Adopter,628,4,90.36,39.8
+U00311,89,1,High,Late Bloomer,628,4,90.36,39.76
+U00439,89,0,High,Power Adopter,628,4,90.36,39.88
+U00234,89,1,High,Power Adopter,628,4,90.36,39.8
+U01196,89,1,High,Late Bloomer,628,4,90.36,39.53
+U01326,89,0,High,Late Bloomer,628,4,90.36,39.49
+U01866,89,0,High,Late Bloomer,628,4,90.36,39.55
+U01772,89,0,High,Power Adopter,628,4,90.36,39.65
+U01876,89,0,High,Power Adopter,628,4,90.36,39.44
+U00065,89,0,High,Champion,628,4,90.36,39.14
+U01750,89,0,High,Power Adopter,628,4,90.36,38.81
+U00084,89,1,High,Power Adopter,628,4,90.36,37.66
+U01182,89,0,High,Champion,628,4,90.36,37.54
+U01715,89,1,High,Power Adopter,628,4,90.36,37.84
+U01815,89,0,High,Power Adopter,628,4,90.36,37.71
+U01494,89,0,High,Power Adopter,628,4,90.36,37.92
+U01711,89,1,High,Late Bloomer,628,4,90.36,38.05
+U01200,89,0,High,Late Bloomer,628,4,90.36,38.26
+U00486,89,0,High,Power Adopter,628,4,90.36,38.13
+U01504,89,1,High,Power Adopter,628,4,90.36,38.17
+U00028,89,1,High,Late Bloomer,628,4,90.36,38.13
+U00830,89,1,High,Late Bloomer,628,4,90.36,38.17
+U00585,89,0,High,Power Adopter,628,4,90.36,38.49
+U00530,89,0,High,Power Adopter,628,4,90.36,38.09
+U00615,89,0,High,Champion,628,4,90.36,38.07
+U01448,89,0,High,Champion,628,4,90.36,37.93
+U01384,89,1,High,Power Adopter,628,4,90.36,38.09
+U00780,89,1,High,Champion,628,4,90.36,38.3
+U00400,89,0,High,Power Adopter,628,4,90.36,38.54
+U01105,89,1,High,Power Adopter,628,4,90.36,38.57
+U01861,89,1,Medium,Power Adopter,628,4,64.82,49.38
+U00786,89,1,Medium,Power Adopter,628,4,64.82,46.55
+U01793,89,0,Medium,Power Adopter,628,4,64.82,46.35
+U00124,89,0,Medium,Power Adopter,628,4,64.82,45.39
+U00061,89,1,Medium,Power Adopter,628,4,64.82,40.1
+U00493,89,0,Medium,Power Adopter,628,4,64.82,38.0
+U00221,89,1,Medium,Power Adopter,628,4,64.82,38.37
+U01220,89,0,Medium,Power Adopter,628,4,64.82,38.11
+U00467,89,1,Medium,Power Adopter,628,4,64.82,38.33
+U00509,89,1,Medium,Power Adopter,628,4,64.82,38.55
+U00891,88,1,High,Champion,689,4,90.36,47.97
+U00417,88,0,High,Late Bloomer,689,4,90.36,47.57
+U00450,88,0,High,Champion,689,4,90.36,45.05
+U01327,88,0,High,Champion,689,4,90.36,44.89
+U00679,88,0,High,Champion,689,4,90.36,44.68
+U00562,88,0,High,Champion,689,4,90.36,41.35
+U01378,88,0,High,Champion,689,4,90.36,41.82
+U01471,88,0,High,Plateaued User,689,4,90.36,40.75
+U01583,88,0,High,Plateaued User,689,4,90.36,40.35
+U00827,88,0,High,Plateaued User,689,4,90.36,39.6
+U00289,88,1,High,Champion,689,4,90.36,39.98
+U00752,88,1,High,Champion,689,4,90.36,39.83
+U01298,88,0,High,Champion,689,4,90.36,39.78
+U01515,88,1,High,Champion,689,4,90.36,39.86
+U01700,88,1,High,Champion,689,4,90.36,39.93
+U01722,88,0,High,Champion,689,4,90.36,39.84
+U01440,88,0,High,Champion,689,4,90.36,38.78
+U01725,88,1,High,Plateaued User,689,4,90.36,38.83
+U01004,88,0,High,Champion,689,4,90.36,38.54
+U01070,88,0,High,Champion,689,4,90.36,38.51
+U01478,88,0,High,Late Bloomer,689,4,90.36,38.2
+U01683,88,0,High,Champion,689,4,90.36,38.12
+U00249,88,1,High,Plateaued User,689,4,90.36,37.89
+U01222,88,1,High,Champion,689,4,90.36,37.56
+U00168,88,0,High,Champion,689,4,90.36,37.58
+U00328,88,0,High,Champion,689,4,90.36,37.73
+U01549,88,1,High,Plateaued User,689,4,90.36,37.8
+U01089,88,0,High,Champion,689,4,90.36,37.65
+U00238,88,1,High,Plateaued User,689,4,90.36,38.24
+U01358,88,1,High,Champion,689,4,90.36,38.2
+U01303,88,0,High,Power Adopter,689,4,90.36,38.02
+U00638,88,1,High,Champion,689,4,90.36,38.33
+U01649,88,0,High,Champion,689,4,90.36,38.31
+U00980,88,0,High,Power Adopter,689,4,90.36,38.5
+U01675,87,0,High,Champion,723,4,90.36,55.56
+U00365,87,1,High,Late Bloomer,723,4,90.36,50.0
+U00194,87,0,High,Power Adopter,723,4,90.36,48.52
+U00500,87,0,High,Growing Casual,723,4,90.36,47.0
+U01297,87,1,High,Champion,723,4,90.36,44.26
+U01419,87,0,High,Champion,723,4,90.36,42.86
+U00981,87,1,High,Power Adopter,723,4,90.36,41.62
+U00071,87,1,High,Champion,723,4,90.36,40.73
+U00313,87,0,High,Champion,723,4,90.36,40.29
+U00885,87,0,High,Late Bloomer,723,4,90.36,39.75
+U00073,87,0,High,Champion,723,4,90.36,39.83
+U01349,87,0,High,Champion,723,4,90.36,40.04
+U00825,87,1,High,Champion,723,4,90.36,40.04
+U00976,87,0,High,Power Adopter,723,4,90.36,39.31
+U01161,87,0,High,Power Adopter,723,4,90.36,37.86
+U00203,87,0,High,Champion,723,4,90.36,37.53
+U01555,87,1,High,Champion,723,4,90.36,37.58
+U01150,87,1,High,Champion,723,4,90.36,37.85
+U01333,87,1,High,Champion,723,4,90.36,37.92
+U01588,87,0,High,Champion,723,4,90.36,37.78
+U00864,87,0,High,Champion,723,4,90.36,37.57
+U01322,87,1,High,Champion,723,4,90.36,37.79
+U01032,87,0,High,Champion,723,4,90.36,38.22
+U01991,87,0,High,Champion,723,4,90.36,38.18
+U01144,86,1,High,Power Adopter,747,4,90.36,52.63
+U00819,86,0,High,Power Adopter,747,4,90.36,45.08
+U00435,86,1,High,Late Bloomer,747,4,90.36,48.54
+U01894,86,1,High,Late Bloomer,747,4,90.36,46.58
+U00738,86,0,High,Late Bloomer,747,4,90.36,42.42
+U01706,86,0,High,Power Adopter,747,4,90.36,41.24
+U01254,86,0,High,Late Bloomer,747,4,90.36,41.77
+U00569,86,1,High,Late Bloomer,747,4,90.36,40.93
+U01716,86,1,High,Power Adopter,747,4,90.36,40.31
+U01276,86,0,High,Plateaued User,747,4,90.36,39.46
+U01195,86,1,High,Late Bloomer,747,4,90.36,39.61
+U01534,86,1,High,Late Bloomer,747,4,90.36,39.66
+U01892,86,0,High,Late Bloomer,747,4,90.36,39.4
+U01393,86,0,High,Late Bloomer,747,4,90.36,37.94
+U00722,86,0,High,Late Bloomer,747,4,90.36,37.8
+U00949,86,0,High,Power Adopter,747,4,90.36,37.65
+U01320,86,0,High,Late Bloomer,747,4,90.36,37.81
+U01922,86,0,High,Late Bloomer,747,4,90.36,38.13
+U01468,86,1,High,Late Bloomer,747,4,90.36,38.27
+U01075,86,0,High,Plateaued User,747,4,90.36,38.34
+U01891,86,0,High,Late Bloomer,747,4,90.36,38.16
+U01500,86,1,High,Power Adopter,747,4,90.36,38.37
+U00005,86,1,Medium,Power Adopter,747,4,64.82,52.7
+U00622,86,0,Medium,Power Adopter,747,4,64.82,52.0
+U00744,86,1,Medium,Power Adopter,747,4,64.82,42.82
+U01763,86,0,Medium,Power Adopter,747,4,64.82,42.44
+U01690,86,1,Medium,Power Adopter,747,4,64.82,41.49
+U01888,86,0,Medium,Power Adopter,747,4,64.82,41.49
+U00262,86,1,Medium,Power Adopter,747,4,64.82,39.68
+U00431,86,0,Medium,Power Adopter,747,4,64.82,40.0
+U00674,86,0,Medium,Power Adopter,747,4,64.82,40.0
+U00167,86,0,Medium,Power Adopter,747,4,64.82,40.0
+U00205,86,0,Medium,Power Adopter,747,4,64.82,37.97
+U00551,86,0,Medium,Power Adopter,747,4,64.82,37.83
+U00689,86,1,Medium,Power Adopter,747,4,64.82,37.77
+U01018,86,0,Medium,Power Adopter,747,4,64.82,37.63
+U00428,86,0,Medium,Power Adopter,747,4,64.82,37.9
+U01621,86,0,Medium,Power Adopter,747,4,64.82,38.03
+U01968,86,0,Medium,Power Adopter,747,4,64.82,38.19
+U01923,86,1,Medium,Champion,747,4,64.82,38.52
+U00382,86,1,Medium,Power Adopter,747,4,64.82,38.37
+U01235,86,1,Medium,Power Adopter,747,4,64.82,38.34
+U00482,85,1,High,Power Adopter,789,4,90.36,60.0
+U01831,85,1,High,Late Bloomer,789,4,90.36,51.06
+U01323,85,1,High,Power Adopter,789,4,90.36,51.52
+U00571,85,0,High,Power Adopter,789,4,90.36,50.0
+U00894,85,0,High,Champion,789,4,90.36,47.83
+U00430,85,1,High,Late Bloomer,789,4,90.36,45.79
+U01134,85,1,High,Power Adopter,789,4,90.36,46.3
+U00466,85,0,High,Power Adopter,789,4,90.36,47.31
+U00514,85,1,High,Power Adopter,789,4,90.36,48.79
+U01343,85,0,High,Champion,789,4,90.36,43.35
+U00048,85,0,High,Power Adopter,789,4,90.36,42.73
+U01436,85,1,High,Power Adopter,789,4,90.36,42.9
+U01935,85,1,High,Champion,789,5,90.36,42.13
+U01450,85,0,High,Power Adopter,789,5,90.36,42.34
+U01925,85,1,High,Champion,789,5,90.36,41.65
+U01169,85,1,High,Power Adopter,789,5,90.36,41.68
+U01373,85,1,High,Power Adopter,789,5,90.36,42.03
+U00799,85,1,High,Champion,789,5,90.36,41.16
+U00821,85,0,High,Power Adopter,789,5,90.36,41.17
+U00745,85,0,High,Late Bloomer,789,5,90.36,40.23
+U01449,85,1,High,Late Bloomer,789,5,90.36,40.14
+U01256,85,1,High,Late Bloomer,789,5,90.36,40.13
+U00757,85,0,High,Late Bloomer,789,5,90.36,39.91
+U01024,85,1,High,Power Adopter,789,5,90.36,39.98
+U01106,85,1,High,Late Bloomer,789,5,90.36,40.04
+U01454,85,1,High,Power Adopter,789,5,90.36,40.06
+U00256,85,0,High,Late Bloomer,789,5,90.36,40.04
+U00740,85,0,High,Champion,789,5,90.36,39.42
+U01031,85,1,High,Power Adopter,789,5,90.36,39.36
+U00961,85,0,High,Late Bloomer,789,5,90.36,39.55
+U00406,85,1,High,Late Bloomer,789,5,90.36,37.73
+U00292,85,1,High,Power Adopter,789,5,90.36,37.71
+U00800,85,0,High,Power Adopter,789,5,90.36,37.68
+U01955,85,0,High,Plateaued User,789,5,90.36,37.65
+U01067,85,0,High,Late Bloomer,789,5,90.36,37.56
+U01669,85,0,High,Late Bloomer,789,5,90.36,37.92
+U01005,85,0,High,Late Bloomer,789,5,90.36,37.75
+U00386,85,0,High,Power Adopter,789,5,90.36,38.24
+U01383,85,1,High,Growing Casual,789,5,90.36,38.28
+U01862,85,1,High,Champion,789,5,90.36,38.27
+U00131,85,0,High,Champion,789,5,90.36,38.1
+U01280,85,0,High,Plateaued User,789,5,90.36,38.5
+U01140,85,1,High,Power Adopter,789,5,90.36,38.19
+U01324,85,0,High,Late Bloomer,789,5,90.36,38.14
+U00772,85,0,Medium,Power Adopter,789,5,64.82,54.55
+U01122,85,0,Medium,Power Adopter,789,5,64.82,47.65
+U00849,85,0,Medium,Power Adopter,789,5,64.82,41.97
+U01611,85,1,Medium,Power Adopter,789,5,64.82,41.96
+U00392,85,0,Medium,Power Adopter,789,5,64.82,40.05
+U00011,85,0,Medium,Champion,789,5,64.82,39.78
+U01342,85,0,Medium,Champion,789,5,64.82,39.93
+U00453,85,0,Medium,Power Adopter,789,5,64.82,40.0
+U00718,85,0,Medium,Power Adopter,789,5,64.82,38.8
+U00669,85,0,Medium,Power Adopter,789,5,64.82,37.91
+U00489,85,0,Medium,Power Adopter,789,5,64.82,37.55
+U00250,85,1,Medium,Power Adopter,789,5,64.82,37.96
+U00601,85,0,Medium,Champion,789,5,64.82,37.94
+U00842,85,1,Medium,Power Adopter,789,5,64.82,38.23
+U01374,85,0,Medium,Champion,789,5,64.82,38.19
+U01085,84,0,High,Late Bloomer,848,5,90.36,52.54
+U00452,84,1,High,Late Bloomer,848,5,90.36,49.69
+U01859,84,0,High,Power Adopter,848,5,90.36,44.73
+U00548,84,0,High,Power Adopter,848,5,90.36,41.71
+U00436,84,0,High,Champion,848,5,90.36,42.33
+U01609,84,0,High,Power Adopter,848,5,90.36,42.25
+U01377,84,0,High,Power Adopter,848,5,90.36,41.24
+U01319,84,1,High,Late Bloomer,848,5,90.36,41.44
+U01733,84,0,High,Late Bloomer,848,5,90.36,41.37
+U00754,84,1,High,Late Bloomer,848,5,90.36,41.26
+U01903,84,0,High,Late Bloomer,848,5,90.36,40.08
+U01245,84,1,High,Champion,848,5,90.36,40.02
+U01697,84,0,High,Power Adopter,848,5,90.36,39.21
+U00568,84,0,High,Power Adopter,848,5,90.36,38.47
+U01881,84,1,High,Late Bloomer,848,5,90.36,38.27
+U01631,84,0,High,Late Bloomer,848,5,90.36,37.88
+U00811,84,0,High,Late Bloomer,848,5,90.36,37.63
+U00257,84,0,High,Power Adopter,848,5,90.36,37.78
+U01969,84,0,High,Champion,848,5,90.36,38.05
+U00784,84,1,High,Power Adopter,848,5,90.36,38.08
+U00183,84,1,High,Champion,848,5,90.36,38.31
+U01400,84,1,High,Champion,848,5,90.36,38.15
+U01738,84,0,High,Late Bloomer,848,5,90.36,38.05
+U00348,84,1,High,Late Bloomer,848,5,90.36,38.03
+U01028,84,0,High,Champion,848,5,90.36,38.17
+U01867,84,0,Medium,Power Adopter,848,5,64.82,40.24
+U01115,84,0,Medium,Power Adopter,848,5,64.82,40.26
+U01537,84,0,Medium,Power Adopter,848,5,64.82,38.08
+U01713,84,0,Medium,Power Adopter,848,5,64.82,38.32
+U00287,84,0,Medium,Power Adopter,848,5,64.82,38.12
+U01231,84,1,Medium,Power Adopter,848,5,64.82,38.41
+U01708,83,0,High,Champion,879,5,90.36,75.0
+U01749,83,1,High,Plateaued User,879,5,90.36,55.0
+U00948,83,1,High,Champion,879,5,90.36,53.33
+U00908,83,1,High,Champion,879,5,90.36,52.24
+U01532,83,1,High,Champion,879,5,90.36,47.45
+U01096,83,0,High,Plateaued User,879,5,90.36,47.06
+U00914,83,0,High,Growing Casual,879,5,90.36,46.31
+U01275,83,0,High,Champion,879,5,90.36,44.52
+U01900,83,0,High,Plateaued User,879,5,90.36,44.11
+U00993,83,1,High,Plateaued User,879,5,90.36,42.35
+U01638,83,0,High,Growing Casual,879,5,90.36,42.02
+U01347,83,0,High,Champion,879,5,90.36,42.15
+U00115,83,1,High,Growing Casual,879,5,90.36,41.36
+U00062,83,0,High,Growing Casual,879,5,90.36,41.27
+U00850,83,0,High,Champion,879,5,90.36,40.17
+U00447,83,0,High,Champion,879,5,90.36,39.98
+U00017,83,0,High,Champion,879,5,90.36,39.61
+U00370,83,0,High,Champion,879,5,90.36,38.44
+U00105,83,0,High,Champion,879,5,90.36,37.73
+U01183,83,0,High,Growing Casual,879,5,90.36,37.55
+U00051,83,1,High,Champion,879,5,90.36,37.83
+U00870,83,1,High,Champion,879,5,90.36,38.17
+U00880,83,0,High,Champion,879,5,90.36,38.24
+U00871,82,1,High,Late Bloomer,902,5,90.36,58.33
+U01987,82,1,High,Late Bloomer,902,5,90.36,60.0
+U01973,82,1,High,Plateaued User,902,5,90.36,46.79
+U00318,82,1,High,Power Adopter,902,5,90.36,47.83
+U01071,82,0,High,Late Bloomer,902,5,90.36,43.75
+U00627,82,1,High,Late Bloomer,902,5,90.36,42.52
+U00946,82,0,High,Late Bloomer,902,5,90.36,42.4
+U00629,82,0,High,Late Bloomer,902,5,90.36,41.9
+U00177,82,1,High,Power Adopter,902,5,90.36,42.46
+U01296,82,1,High,Late Bloomer,902,5,90.36,42.59
+U00193,82,0,High,Power Adopter,902,5,90.36,41.56
+U00366,82,0,High,Champion,902,5,90.36,41.28
+U01263,82,0,High,Late Bloomer,902,5,90.36,41.3
+U01103,82,1,High,Late Bloomer,902,5,90.36,41.26
+U00261,82,0,High,Late Bloomer,902,5,90.36,41.09
+U01125,82,1,High,Late Bloomer,902,5,90.36,40.82
+U01734,82,0,High,Late Bloomer,902,5,90.36,40.17
+U01157,82,0,High,Power Adopter,902,5,90.36,39.72
+U01827,82,1,High,Power Adopter,902,5,90.36,39.98
+U00095,82,0,High,Late Bloomer,902,5,90.36,39.98
+U00057,82,1,High,Late Bloomer,902,5,90.36,39.98
+U01751,82,0,High,Late Bloomer,902,5,90.36,39.79
+U01242,82,0,High,Power Adopter,902,5,90.36,38.96
+U01917,82,0,High,Late Bloomer,902,5,90.36,38.09
+U01304,82,1,High,Power Adopter,902,5,90.36,38.18
+U01946,82,0,High,Power Adopter,902,5,90.36,38.15
+U00526,82,0,High,Late Bloomer,902,5,90.36,37.62
+U00220,82,0,High,Late Bloomer,902,5,90.36,37.91
+U01949,82,0,High,Power Adopter,902,5,90.36,37.73
+U00099,82,1,High,Power Adopter,902,5,90.36,37.64
+U00100,82,1,High,Champion,902,5,90.36,37.88
+U01548,82,0,High,Late Bloomer,902,5,90.36,37.87
+U01255,82,1,High,Late Bloomer,902,5,90.36,38.16
+U01607,82,0,High,Late Bloomer,902,5,90.36,38.14
+U00152,82,1,High,Late Bloomer,902,5,90.36,38.19
+U00120,82,0,High,Growing Casual,902,5,90.36,38.03
+U00512,82,1,High,Late Bloomer,902,5,90.36,38.2
+U00617,82,1,High,Champion,902,5,90.36,38.47
+U00963,82,1,High,Power Adopter,902,5,90.36,38.53
+U00520,82,0,High,Late Bloomer,902,5,90.36,38.53
+U00284,82,0,Medium,Power Adopter,902,5,64.82,46.38
+U00379,82,0,Medium,Power Adopter,902,5,64.82,42.72
+U01519,82,0,Medium,Power Adopter,902,5,64.82,41.23
+U01863,82,0,Medium,Power Adopter,902,5,64.82,41.19
+U00731,82,1,Medium,Power Adopter,902,5,64.82,40.17
+U00654,82,1,Medium,Power Adopter,902,5,64.82,40.13
+U00611,82,0,Medium,Power Adopter,902,5,64.82,39.83
+U01783,82,1,Medium,Power Adopter,902,5,64.82,39.9
+U01426,82,0,Medium,Power Adopter,902,5,64.82,39.58
+U00804,82,0,Medium,Power Adopter,902,5,64.82,39.1
+U01191,82,0,Medium,Power Adopter,902,5,64.82,38.41
+U01093,82,0,Medium,Power Adopter,902,5,64.82,38.24
+U01480,82,0,Medium,Champion,902,5,64.82,37.7
+U01845,82,1,Medium,Power Adopter,902,5,64.82,37.9
+U00606,82,1,Medium,Champion,902,5,64.82,37.59
+U01635,82,0,Medium,Power Adopter,902,5,64.82,37.85
+U01535,82,1,Medium,Power Adopter,902,5,64.82,38.21
+U02000,82,0,Medium,Power Adopter,902,5,64.82,38.12
+U01481,82,0,Medium,Power Adopter,902,5,64.82,38.09
+U00001,82,1,Medium,Power Adopter,902,5,64.82,38.44
+U00342,82,0,Medium,Power Adopter,902,5,64.82,38.55
+U01536,81,1,High,Late Bloomer,963,5,90.36,47.34
+U01313,81,0,High,Late Bloomer,963,5,90.36,45.7
+U00610,81,0,High,Power Adopter,963,5,90.36,40.08
+U01214,81,0,High,Late Bloomer,963,5,90.36,39.96
+U01789,81,0,High,Late Bloomer,963,5,90.36,39.54
+U01043,81,0,High,Late Bloomer,963,5,90.36,37.84
+U00461,81,1,High,Power Adopter,963,5,90.36,37.78
+U00491,81,0,High,Power Adopter,963,5,90.36,37.75
+U01065,81,0,High,Plateaued User,963,5,90.36,37.78
+U01315,81,0,High,Power Adopter,963,5,90.36,38.0
+U00688,81,0,High,Late Bloomer,963,5,90.36,38.17
+U01561,81,1,High,Champion,963,5,90.36,38.24
+U00343,81,1,Medium,Growing Casual,963,5,64.82,50.59
+U01054,81,1,Medium,Champion,963,5,64.82,45.53
+U01261,81,0,Medium,Champion,963,5,64.82,45.88
+U00681,81,1,Medium,Power Adopter,963,5,64.82,41.4
+U00685,81,1,Medium,Champion,963,5,64.82,38.26
+U01976,81,0,Medium,Champion,963,5,64.82,37.86
+U00487,81,0,Medium,Champion,963,5,64.82,37.62
+U00966,81,0,Medium,Champion,963,5,64.82,37.86
+U01473,81,1,Medium,Power Adopter,963,5,64.82,38.21
+U01743,81,0,Medium,Power Adopter,963,5,64.82,38.43
+U01625,81,0,Medium,Champion,963,5,64.82,38.31
+U00504,80,1,High,Champion,986,5,90.36,42.73
+U01274,80,0,High,Late Bloomer,986,5,90.36,42.06
+U01910,80,0,High,Late Bloomer,986,5,90.36,41.31
+U01285,80,0,High,Late Bloomer,986,5,90.36,41.72
+U00306,80,0,High,Power Adopter,986,5,90.36,41.95
+U01016,80,1,High,Champion,986,5,90.36,41.02
+U01974,80,0,High,Champion,986,5,90.36,39.88
+U00344,80,1,High,Champion,986,5,90.36,40.02
+U00774,80,1,High,Champion,986,5,90.36,40.08
+U00759,80,0,High,Late Bloomer,986,5,90.36,39.98
+U00933,80,0,High,Growing Casual,986,5,90.36,39.5
+U00539,80,1,High,Late Bloomer,986,5,90.36,39.01
+U00737,80,0,High,Champion,986,5,90.36,38.76
+U00241,80,1,High,Champion,986,5,90.36,37.74
+U00469,80,0,High,Power Adopter,986,5,90.36,37.75
+U01770,80,1,High,Late Bloomer,986,6,90.36,37.95
+U00351,80,1,High,Late Bloomer,986,6,90.36,37.77
+U00699,80,1,High,Champion,986,6,90.36,38.22
+U00394,80,1,High,Champion,986,6,90.36,38.35
+U00559,80,0,High,Late Bloomer,986,6,90.36,38.01
+U01224,80,0,High,Late Bloomer,986,6,90.36,38.03
+U01521,80,0,High,Late Bloomer,986,6,90.36,38.51
+U01346,80,0,High,Late Bloomer,986,6,90.36,38.52
+U00563,80,0,Medium,Power Adopter,986,6,64.82,41.41
+U00755,80,1,Medium,Champion,986,6,64.82,41.8
+U01141,80,0,Medium,Power Adopter,986,6,64.82,40.11
+U01267,80,0,Medium,Power Adopter,986,6,64.82,37.69
+U00323,80,0,Medium,Power Adopter,986,6,64.82,38.12
+U01889,80,0,Medium,Power Adopter,986,6,64.82,38.48
+U00223,80,1,Medium,Champion,986,6,64.82,38.05
+U00217,79,0,High,Late Bloomer,1016,6,90.36,47.31
+U01769,79,0,High,Late Bloomer,1016,6,90.36,49.38
+U01629,79,0,High,Power Adopter,1016,6,90.36,46.79
+U00892,79,1,High,Plateaued User,1016,6,90.36,46.53
+U01215,79,1,High,Late Bloomer,1016,6,90.36,41.86
+U01830,79,0,High,Late Bloomer,1016,6,90.36,41.96
+U00363,79,0,High,Late Bloomer,1016,6,90.36,41.13
+U00353,79,1,High,Late Bloomer,1016,6,90.36,40.0
+U01163,79,0,High,Late Bloomer,1016,6,90.36,39.93
+U00195,79,1,High,Power Adopter,1016,6,90.36,40.14
+U00038,79,0,High,Late Bloomer,1016,6,90.36,39.47
+U00336,79,1,High,Plateaued User,1016,6,90.36,37.96
+U01442,79,1,High,Plateaued User,1016,6,90.36,38.0
+U01776,79,0,High,Late Bloomer,1016,6,90.36,38.4
+U00985,79,1,Medium,Power Adopter,1016,6,64.82,41.91
+U00074,79,1,Medium,Power Adopter,1016,6,64.82,41.37
+U01735,79,0,Medium,Plateaued User,1016,6,64.82,40.76
+U01154,79,0,Medium,Plateaued User,1016,6,64.82,40.88
+U01799,79,1,Medium,Plateaued User,1016,6,64.82,40.11
+U00762,79,0,Medium,Power Adopter,1016,6,64.82,37.83
+U00645,79,1,Medium,Plateaued User,1016,6,64.82,37.82
+U01084,79,1,Medium,Power Adopter,1016,6,64.82,38.12
+U00378,79,0,Medium,Power Adopter,1016,6,64.82,37.91
+U01623,78,0,High,Late Bloomer,1039,6,90.36,46.81
+U00594,78,0,High,Growing Casual,1039,6,90.36,46.36
+U00671,78,1,High,Growing Casual,1039,6,90.36,41.44
+U00935,78,0,High,Champion,1039,6,90.36,41.29
+U00943,78,1,High,Late Bloomer,1039,6,90.36,40.05
+U01979,78,0,High,Plateaued User,1039,6,90.36,40.0
+U00245,78,0,High,Late Bloomer,1039,6,90.36,39.51
+U01287,78,0,High,Growing Casual,1039,6,90.36,37.6
+U01543,78,0,High,Late Bloomer,1039,6,90.36,37.77
+U01121,78,0,High,Plateaued User,1039,6,90.36,37.73
+U01530,78,1,High,Late Bloomer,1039,6,90.36,37.87
+U01486,78,1,High,Champion,1039,6,90.36,38.05
+U00832,78,1,High,Late Bloomer,1039,6,90.36,38.29
+U00334,78,1,High,Growing Casual,1039,6,90.36,38.12
+U01206,78,0,High,Late Bloomer,1039,6,90.36,38.17
+U01857,78,1,High,Late Bloomer,1039,6,90.36,38.2
+U01375,78,1,High,Champion,1039,6,90.36,38.34
+U01854,78,1,Medium,Power Adopter,1039,6,64.82,64.0
+U00097,78,1,Medium,Champion,1039,6,64.82,49.69
+U00347,78,1,Medium,Power Adopter,1039,6,64.82,47.03
+U00586,78,0,Medium,Power Adopter,1039,6,64.82,46.34
+U01993,78,0,Medium,Power Adopter,1039,6,64.82,45.53
+U01397,78,1,Medium,Power Adopter,1039,6,64.82,41.51
+U00868,78,1,Medium,Champion,1039,6,64.82,42.86
+U01437,78,0,Medium,Power Adopter,1039,6,64.82,41.35
+U01637,78,0,Medium,Power Adopter,1039,6,64.82,41.26
+U00632,78,1,Medium,Champion,1039,6,64.82,41.33
+U01899,78,0,Medium,Growing Casual,1039,6,64.82,41.03
+U01760,78,1,Medium,Power Adopter,1039,6,64.82,40.85
+U00657,78,1,Medium,Champion,1039,6,64.82,39.75
+U01965,78,0,Medium,Growing Casual,1039,6,64.82,39.95
+U01985,78,0,Medium,Power Adopter,1039,6,64.82,39.89
+U01038,78,0,Medium,Power Adopter,1039,6,64.82,40.04
+U01369,78,0,Medium,Power Adopter,1039,6,64.82,38.73
+U01493,78,0,Medium,Champion,1039,6,64.82,37.77
+U00957,78,0,Medium,Power Adopter,1039,6,64.82,37.7
+U01702,78,0,Medium,Power Adopter,1039,6,64.82,37.59
+U01095,78,1,Medium,Champion,1039,6,64.82,37.82
+U01622,78,0,Medium,Champion,1039,6,64.82,37.79
+U01483,78,0,Medium,Power Adopter,1039,6,64.82,37.8
+U00540,78,1,Medium,Power Adopter,1039,6,64.82,38.25
+U01912,78,1,Medium,Growing Casual,1039,6,64.82,38.12
+U00119,78,1,Medium,Power Adopter,1039,6,64.82,38.15
+U01939,78,1,Medium,Power Adopter,1039,6,64.82,38.38
+U00907,78,1,Medium,Power Adopter,1039,6,64.82,38.07
+U01740,78,1,Medium,Power Adopter,1039,6,64.82,37.94
+U00041,78,1,Medium,Champion,1039,6,64.82,38.12
+U01429,78,0,Medium,Power Adopter,1039,6,64.82,38.49
+U01666,78,0,Medium,Growing Casual,1039,6,64.82,38.5
+U01842,77,0,High,Power Adopter,1088,6,90.36,61.54
+U00375,77,1,High,Power Adopter,1088,6,90.36,45.97
+U01049,77,0,High,Late Bloomer,1088,6,90.36,48.24
+U00856,77,0,High,Late Bloomer,1088,6,90.36,43.96
+U01759,77,0,High,Late Bloomer,1088,6,90.36,41.75
+U01732,77,0,High,Late Bloomer,1088,6,90.36,41.62
+U00873,77,0,High,Late Bloomer,1088,6,90.36,40.96
+U01293,77,1,High,Late Bloomer,1088,6,90.36,39.83
+U01572,77,0,High,Late Bloomer,1088,6,90.36,39.93
+U00134,77,0,High,Late Bloomer,1088,6,90.36,39.84
+U01981,77,1,High,Late Bloomer,1088,6,90.36,40.04
+U01290,77,0,High,Late Bloomer,1088,6,90.36,39.96
+U00675,77,0,High,Power Adopter,1088,6,90.36,38.11
+U00271,77,1,High,Power Adopter,1088,6,90.36,37.86
+U01098,77,1,High,Growing Casual,1088,6,90.36,37.88
+U01496,77,1,High,Power Adopter,1088,6,90.36,38.19
+U00570,77,1,High,Late Bloomer,1088,6,90.36,38.53
+U00701,77,0,Medium,Growing Casual,1088,6,64.82,46.32
+U01119,77,0,Medium,Power Adopter,1088,6,64.82,47.95
+U00414,77,1,Medium,Power Adopter,1088,6,64.82,44.93
+U01948,77,1,Medium,Power Adopter,1088,6,64.82,42.11
+U00814,77,0,Medium,Power Adopter,1088,6,64.82,41.7
+U00848,77,0,Medium,Power Adopter,1088,6,64.82,41.3
+U00823,77,0,Medium,Champion,1088,6,64.82,41.07
+U00371,77,0,Medium,Power Adopter,1088,6,64.82,40.82
+U01832,77,0,Medium,Power Adopter,1088,6,64.82,39.69
+U01787,77,1,Medium,Plateaued User,1088,6,64.82,40.07
+U01345,77,0,Medium,Power Adopter,1088,6,64.82,39.75
+U01930,77,1,Medium,Power Adopter,1088,6,64.82,39.81
+U00865,77,0,Medium,Plateaued User,1088,6,64.82,39.86
+U00614,77,1,Medium,Power Adopter,1088,6,64.82,39.42
+U01175,77,0,Medium,Champion,1088,6,64.82,39.07
+U00546,77,1,Medium,Power Adopter,1088,6,64.82,37.84
+U01938,77,1,Medium,Champion,1088,6,64.82,38.33
+U01209,77,0,Medium,Power Adopter,1088,6,64.82,38.36
+U00707,77,0,Medium,Power Adopter,1088,6,64.82,38.05
+U00650,77,1,Medium,Power Adopter,1088,6,64.82,38.5
+U01077,76,1,High,Growing Casual,1125,6,90.36,41.4
+U00709,76,1,High,Plateaued User,1125,6,90.36,38.2
+U00991,76,0,High,Plateaued User,1125,6,90.36,38.22
+U00231,76,0,Medium,Late Bloomer,1125,6,64.82,45.83
+U00592,76,1,Medium,Champion,1125,6,64.82,47.62
+U01185,76,0,Medium,Champion,1125,6,64.82,41.33
+U01444,76,0,Medium,Champion,1125,6,64.82,40.0
+U01656,76,0,Medium,Champion,1125,6,64.82,39.76
+U00502,76,0,Medium,Champion,1125,6,64.82,39.39
+U01061,76,0,Medium,Plateaued User,1125,6,64.82,39.03
+U00986,76,0,Medium,Plateaued User,1125,6,64.82,38.06
+U00630,76,0,Medium,Champion,1125,6,64.82,37.74
+U00541,76,0,Medium,Power Adopter,1125,6,64.82,37.83
+U01801,76,1,Medium,Plateaued User,1125,6,64.82,38.36
+U00408,75,1,High,Late Bloomer,1139,6,90.36,52.63
+U00275,75,1,High,Champion,1139,6,90.36,48.2
+U01780,75,0,High,Late Bloomer,1139,6,90.36,46.19
+U00763,75,0,High,Champion,1139,6,90.36,42.77
+U01217,75,1,High,Plateaued User,1139,6,90.36,42.86
+U00971,75,0,High,Plateaued User,1139,6,90.36,41.78
+U01497,75,0,High,Late Bloomer,1139,6,90.36,41.25
+U00631,75,0,High,Plateaued User,1139,6,90.36,39.9
+U00653,75,0,High,Late Bloomer,1139,6,90.36,39.96
+U01385,75,1,High,Late Bloomer,1139,6,90.36,39.48
+U00567,75,1,High,Late Bloomer,1139,6,90.36,38.11
+U01149,75,0,High,Late Bloomer,1139,6,90.36,37.74
+U01807,75,0,High,Late Bloomer,1139,6,90.36,37.52
+U00919,75,1,High,Late Bloomer,1139,6,90.36,37.6
+U01272,75,0,High,Late Bloomer,1139,6,90.36,37.85
+U00751,75,0,High,Late Bloomer,1139,6,90.36,37.84
+U00458,75,0,High,Champion,1139,6,90.36,38.02
+U01617,75,0,High,Late Bloomer,1139,6,90.36,37.99
+U01835,75,0,High,Late Bloomer,1139,6,90.36,37.6
+U01283,75,1,High,Late Bloomer,1139,6,90.36,38.04
+U00315,75,0,High,Late Bloomer,1139,6,90.36,38.1
+U01136,75,0,High,Late Bloomer,1139,6,90.36,38.17
+U01360,75,0,High,Late Bloomer,1139,6,90.36,38.29
+U01153,75,1,High,Late Bloomer,1139,6,90.36,38.45
+U00278,75,0,High,Growing Casual,1139,6,90.36,38.03
+U00673,75,0,High,Champion,1139,6,90.36,38.01
+U01808,75,0,High,Late Bloomer,1139,6,90.36,38.51
+U01856,75,1,Medium,Plateaued User,1139,6,64.82,57.14
+U00670,75,0,Medium,Power Adopter,1139,6,64.82,48.56
+U00845,75,0,Medium,Power Adopter,1139,6,64.82,48.33
+U01551,75,0,Medium,Plateaued User,1139,6,64.82,44.37
+U00335,75,0,Medium,Power Adopter,1139,6,64.82,41.87
+U01097,75,1,Medium,Power Adopter,1139,6,64.82,41.05
+U00290,75,0,Medium,Power Adopter,1139,6,64.82,41.01
+U00719,75,0,Medium,Power Adopter,1139,6,64.82,40.06
+U01546,75,0,Medium,Power Adopter,1139,6,64.82,40.18
+U01308,75,0,Medium,Power Adopter,1139,6,64.82,39.73
+U01540,75,1,Medium,Power Adopter,1139,6,64.82,40.0
+U00706,75,0,Medium,Power Adopter,1139,6,64.82,39.91
+U00958,75,0,Medium,Power Adopter,1139,6,64.82,39.43
+U00928,75,0,Medium,Power Adopter,1139,6,64.82,38.7
+U01299,75,0,Medium,Power Adopter,1139,6,64.82,37.71
+U01240,75,0,Medium,Power Adopter,1139,6,64.82,37.68
+U00060,75,0,Medium,Late Bloomer,1139,6,64.82,37.93
+U01380,75,1,Medium,Power Adopter,1139,6,64.82,37.88
+U01046,75,0,Medium,Power Adopter,1139,6,64.82,38.34
+U01680,75,0,Medium,Late Bloomer,1139,6,64.82,38.33
+U00579,75,1,Medium,Late Bloomer,1139,6,64.82,38.53
+U01877,75,0,Medium,Power Adopter,1139,6,64.82,38.49
+U00531,75,0,Medium,Power Adopter,1139,6,64.82,38.47
+U00179,74,0,High,Late Bloomer,1189,6,90.36,41.37
+U00218,74,0,High,Late Bloomer,1189,6,90.36,41.26
+U01817,74,0,High,Late Bloomer,1189,6,90.36,40.95
+U00612,74,1,High,Plateaued User,1189,6,90.36,39.91
+U01699,74,1,High,Growing Casual,1189,6,90.36,38.17
+U00861,74,0,High,Plateaued User,1189,6,90.36,38.32
+U00712,74,0,High,Late Bloomer,1189,6,90.36,38.31
+U01657,74,1,High,Late Bloomer,1189,6,90.36,38.21
+U01461,74,0,Medium,Power Adopter,1189,6,64.82,58.33
+U01918,74,0,Medium,Power Adopter,1189,6,64.82,51.95
+U01335,74,1,Medium,Power Adopter,1189,6,64.82,40.32
+U01203,74,1,Medium,Champion,1189,6,64.82,38.24
+U01470,73,0,High,Late Bloomer,1201,7,90.36,42.15
+U01584,73,0,High,Late Bloomer,1201,7,90.36,41.87
+U00834,73,0,High,Late Bloomer,1201,7,90.36,38.98
+U01994,73,0,High,Late Bloomer,1201,7,90.36,38.19
+U00303,73,1,High,Late Bloomer,1201,7,90.36,38.16
+U00248,73,0,Medium,Power Adopter,1201,7,64.82,46.15
+U01717,73,1,Medium,Power Adopter,1201,7,64.82,43.53
+U00046,73,0,Medium,Power Adopter,1201,7,64.82,42.27
+U01652,73,1,Medium,Power Adopter,1201,7,64.82,41.35
+U00285,73,1,Medium,Power Adopter,1201,7,64.82,41.83
+U00882,73,1,Medium,Late Bloomer,1201,7,64.82,41.48
+U00941,73,0,Medium,Power Adopter,1201,7,64.82,41.19
+U00840,73,1,Medium,Power Adopter,1201,7,64.82,40.26
+U01020,73,1,Medium,Power Adopter,1201,7,64.82,39.77
+U01741,73,0,Medium,Power Adopter,1201,7,64.82,39.78
+U01781,73,0,Medium,Power Adopter,1201,7,64.82,39.86
+U01943,73,0,Medium,Champion,1201,7,64.82,40.02
+U00978,73,1,Medium,Power Adopter,1201,7,64.82,39.98
+U00014,73,1,Medium,Power Adopter,1201,7,64.82,39.53
+U00030,73,0,Medium,Plateaued User,1201,7,64.82,38.13
+U01078,73,1,Medium,Power Adopter,1201,7,64.82,37.76
+U01312,73,0,Medium,Plateaued User,1201,7,64.82,37.67
+U01179,73,0,Medium,Power Adopter,1201,7,64.82,37.57
+U01389,73,1,Medium,Plateaued User,1201,7,64.82,37.77
+U00642,73,0,Medium,Power Adopter,1201,7,64.82,37.82
+U00683,73,1,Medium,Power Adopter,1201,7,64.82,37.89
+U00607,73,0,Medium,Power Adopter,1201,7,64.82,38.02
+U01873,73,0,Medium,Late Bloomer,1201,7,64.82,38.15
+U00884,73,1,Medium,Champion,1201,7,64.82,37.98
+U01663,72,0,High,Late Bloomer,1230,7,90.36,50.0
+U01019,72,0,High,Late Bloomer,1230,7,90.36,42.64
+U00294,72,0,High,Plateaued User,1230,7,90.36,42.79
+U00974,72,1,High,Late Bloomer,1230,7,90.36,42.92
+U00485,72,0,High,Late Bloomer,1230,7,90.36,41.75
+U00480,72,0,High,Late Bloomer,1230,7,90.36,39.87
+U01155,72,0,High,Late Bloomer,1230,7,90.36,39.96
+U00404,72,0,High,Late Bloomer,1230,7,90.36,38.21
+U00556,72,0,High,Late Bloomer,1230,7,90.36,37.57
+U01850,72,0,High,Late Bloomer,1230,7,90.36,37.97
+U00123,72,0,High,Plateaued User,1230,7,90.36,37.66
+U01484,72,0,Medium,Plateaued User,1230,7,64.82,53.85
+U00198,72,1,Medium,Power Adopter,1230,7,64.82,52.08
+U01117,72,0,Medium,Plateaued User,1230,7,64.82,41.78
+U01037,72,0,Medium,Plateaued User,1230,7,64.82,41.65
+U01074,72,0,Medium,Plateaued User,1230,7,64.82,42.82
+U00321,72,0,Medium,Late Bloomer,1230,7,64.82,40.11
+U01752,72,0,Medium,Plateaued User,1230,7,64.82,40.21
+U00897,72,1,Medium,Plateaued User,1230,7,64.82,39.8
+U01729,72,1,Medium,Power Adopter,1230,7,64.82,39.82
+U01025,72,1,Medium,Power Adopter,1230,7,64.82,39.44
+U00723,72,0,Medium,Power Adopter,1230,7,64.82,37.73
+U01823,72,1,Medium,Late Bloomer,1230,7,64.82,38.06
+U00581,72,0,Medium,Power Adopter,1230,7,64.82,38.2
+U00247,72,1,Medium,Growing Casual,1230,7,64.82,38.25
+U01170,72,0,Medium,Plateaued User,1230,7,64.82,38.23
+U00007,72,1,Medium,Power Adopter,1230,7,64.82,38.32
+U00743,72,0,Medium,Power Adopter,1230,7,64.82,38.3
+U00713,72,0,Medium,Power Adopter,1230,7,64.82,38.22
+U00277,71,0,High,Plateaued User,1259,7,90.36,41.67
+U01665,71,1,High,Growing Casual,1259,7,90.36,41.79
+U00252,71,0,High,Plateaued User,1259,7,90.36,39.95
+U01860,71,0,High,Late Bloomer,1259,7,90.36,39.82
+U01911,71,0,High,Growing Casual,1259,7,90.36,37.55
+U01660,71,0,High,Growing Casual,1259,7,90.36,37.86
+U00599,71,1,Medium,Plateaued User,1259,7,64.82,46.85
+U00114,71,1,Medium,Plateaued User,1259,7,64.82,47.89
+U01589,71,0,Medium,Champion,1259,7,64.82,41.49
+U00702,71,0,Medium,Power Adopter,1259,7,64.82,42.75
+U00088,71,1,Medium,Late Bloomer,1259,7,64.82,40.9
+U00253,71,1,Medium,Power Adopter,1259,7,64.82,40.14
+U00741,71,1,Medium,Late Bloomer,1259,7,64.82,40.34
+U01059,71,0,Medium,Plateaued User,1259,7,64.82,39.73
+U01302,71,1,Medium,Growing Casual,1259,7,64.82,39.8
+U00983,71,1,Medium,Power Adopter,1259,7,64.82,40.2
+U01197,71,0,Medium,Plateaued User,1259,7,64.82,38.18
+U00064,71,0,Medium,Late Bloomer,1259,7,64.82,38.1
+U01130,71,0,Medium,Power Adopter,1259,7,64.82,37.64
+U01503,71,0,Medium,Power Adopter,1259,7,64.82,37.61
+U01998,71,0,Medium,Plateaued User,1259,7,64.82,37.71
+U00596,71,1,Medium,Growing Casual,1259,7,64.82,37.92
+U01213,71,0,Medium,Late Bloomer,1259,7,64.82,38.34
+U01608,71,0,Medium,Growing Casual,1259,7,64.82,38.07
+U00665,71,0,Medium,Late Bloomer,1259,7,64.82,38.46
+U00438,71,0,Medium,Power Adopter,1259,7,64.82,38.29
+U00479,71,0,Medium,Power Adopter,1259,7,64.82,38.18
+U00441,71,0,Medium,Power Adopter,1259,7,64.82,37.99
+U00505,71,1,Medium,Late Bloomer,1259,7,64.82,38.02
+U01152,71,1,Medium,Late Bloomer,1259,7,64.82,38.52
+U00243,70,0,High,Late Bloomer,1289,7,90.36,51.47
+U01042,70,0,High,Late Bloomer,1289,7,90.36,46.82
+U01079,70,0,High,Late Bloomer,1289,7,90.36,40.99
+U00577,70,0,High,Late Bloomer,1289,7,90.36,40.84
+U01934,70,0,High,Late Bloomer,1289,7,90.36,39.41
+U00698,70,0,High,Late Bloomer,1289,7,90.36,38.22
+U01527,70,0,High,Late Bloomer,1289,7,90.36,37.72
+U00930,70,0,High,Late Bloomer,1289,7,90.36,37.57
+U00201,70,0,High,Late Bloomer,1289,7,90.36,38.03
+U01522,70,0,High,Late Bloomer,1289,7,90.36,38.01
+U00296,70,1,High,Late Bloomer,1289,7,90.36,38.48
+U01066,70,0,High,Late Bloomer,1289,7,90.36,38.16
+U01029,70,0,High,Late Bloomer,1289,7,90.36,38.03
+U00142,70,0,Medium,Plateaued User,1289,7,64.82,43.4
+U00652,70,0,Medium,Power Adopter,1289,7,64.82,41.4
+U00155,70,0,Medium,Power Adopter,1289,7,64.82,41.55
+U00330,70,1,Medium,Plateaued User,1289,7,64.82,41.65
+U01457,70,0,Medium,Plateaued User,1289,7,64.82,40.78
+U00678,70,1,Medium,Power Adopter,1289,7,64.82,39.85
+U01281,70,0,Medium,Power Adopter,1289,7,64.82,39.93
+U01920,70,1,Medium,Power Adopter,1289,7,64.82,40.02
+U01143,70,0,Medium,Power Adopter,1289,7,64.82,39.5
+U00423,70,0,Medium,Plateaued User,1289,7,64.82,39.63
+U00561,70,1,Medium,Growing Casual,1289,7,64.82,39.09
+U00874,70,0,Medium,Power Adopter,1289,7,64.82,39.05
+U01821,70,1,Medium,Growing Casual,1289,7,64.82,39.03
+U01386,70,0,Medium,Late Bloomer,1289,7,64.82,38.38
+U00449,70,1,Medium,Power Adopter,1289,7,64.82,37.97
+U01417,70,0,Medium,Power Adopter,1289,7,64.82,37.94
+U00477,70,1,Medium,Power Adopter,1289,7,64.82,37.93
+U00564,70,0,Medium,Late Bloomer,1289,7,64.82,37.9
+U00044,70,0,Medium,Plateaued User,1289,7,64.82,38.26
+U00215,70,1,Medium,Plateaued User,1289,7,64.82,38.11
+U01210,70,1,Medium,Power Adopter,1289,7,64.82,38.15
+U01805,70,0,Medium,Power Adopter,1289,7,64.82,38.12
+U00129,70,0,Medium,Plateaued User,1289,7,64.82,38.28
+U01003,70,0,Medium,Power Adopter,1289,7,64.82,38.18
+U01654,70,1,Medium,Power Adopter,1289,7,64.82,38.06
+U00820,69,0,Medium,Power Adopter,1327,7,64.82,46.43
+U00029,69,1,Medium,Growing Casual,1327,7,64.82,48.0
+U00801,69,1,Medium,Champion,1327,7,64.82,48.26
+U00979,69,0,Medium,Champion,1327,7,64.82,42.03
+U01676,69,0,Medium,Champion,1327,7,64.82,41.55
+U01112,69,0,Medium,Plateaued User,1327,7,64.82,42.65
+U00898,69,1,Medium,Late Bloomer,1327,7,64.82,41.59
+U01523,69,0,Medium,Late Bloomer,1327,7,64.82,41.22
+U01405,69,0,Medium,Power Adopter,1327,7,64.82,41.2
+U01050,69,0,Medium,Champion,1327,7,64.82,40.92
+U01539,69,0,Medium,Plateaued User,1327,7,64.82,40.16
+U00022,69,0,Medium,Power Adopter,1327,7,64.82,39.17
+U01439,69,0,Medium,Growing Casual,1327,7,64.82,37.54
+U00794,69,1,Medium,Champion,1327,7,64.82,37.76
+U01723,69,0,Medium,Power Adopter,1327,7,64.82,37.87
+U01686,69,0,Medium,Growing Casual,1327,7,64.82,37.92
+U01813,69,0,Medium,Plateaued User,1327,7,64.82,38.16
+U01825,69,0,Medium,Power Adopter,1327,7,64.82,38.22
+U01022,69,0,Medium,Late Bloomer,1327,7,64.82,37.98
+U00950,68,0,High,Late Bloomer,1346,7,90.36,47.64
+U01063,68,1,High,Growing Casual,1346,7,90.36,41.04
+U00542,68,1,High,Late Bloomer,1346,7,90.36,39.49
+U00182,68,0,High,Late Bloomer,1346,7,90.36,37.9
+U01874,68,0,High,Growing Casual,1346,7,90.36,38.23
+U00967,68,0,High,Late Bloomer,1346,7,90.36,38.21
+U00056,68,0,Medium,Champion,1346,7,64.82,56.76
+U00412,68,0,Medium,Power Adopter,1346,7,64.82,49.39
+U00300,68,1,Medium,Growing Casual,1346,7,64.82,46.41
+U00889,68,0,Medium,Late Bloomer,1346,7,64.82,44.77
+U01542,68,0,Medium,Plateaued User,1346,7,64.82,41.91
+U01576,68,1,Medium,Late Bloomer,1346,7,64.82,41.55
+U01116,68,0,Medium,Late Bloomer,1346,7,64.82,41.38
+U01475,68,1,Medium,Late Bloomer,1346,7,64.82,42.79
+U00583,68,0,Medium,Plateaued User,1346,7,64.82,42.72
+U01506,68,0,Medium,Plateaued User,1346,7,64.82,42.76
+U00192,68,0,Medium,Plateaued User,1346,7,64.82,41.69
+U00765,68,0,Medium,Late Bloomer,1346,7,64.82,41.83
+U00172,68,0,Medium,Power Adopter,1346,7,64.82,40.96
+U00187,68,0,Medium,Power Adopter,1346,7,64.82,40.11
+U00437,68,0,Medium,Plateaued User,1346,7,64.82,39.75
+U00212,68,1,Medium,Late Bloomer,1346,7,64.82,39.88
+U01466,68,0,Medium,Power Adopter,1346,7,64.82,39.78
+U01357,68,1,Medium,Plateaued User,1346,7,64.82,39.68
+U01978,68,0,Medium,Power Adopter,1346,7,64.82,39.45
+U01678,68,0,Medium,Champion,1346,7,64.82,37.83
+U00454,68,1,Medium,Plateaued User,1346,7,64.82,37.78
+U01511,68,0,Medium,Late Bloomer,1346,7,64.82,37.71
+U01181,68,1,Medium,Late Bloomer,1346,7,64.82,37.95
+U00143,68,1,Medium,Champion,1346,7,64.82,37.83
+U00802,68,0,Medium,Plateaued User,1346,7,64.82,37.81
+U01359,68,1,Medium,Growing Casual,1346,7,64.82,37.85
+U01301,68,0,Medium,Late Bloomer,1346,7,64.82,37.94
+U01595,68,0,Medium,Champion,1346,7,64.82,38.46
+U00715,68,1,Medium,Power Adopter,1346,7,64.82,38.36
+U00708,68,1,Medium,Plateaued User,1346,7,64.82,38.2
+U01294,68,1,Medium,Plateaued User,1346,7,64.82,38.09
+U00934,68,1,Medium,Champion,1346,7,64.82,38.16
+U00877,67,0,Medium,Plateaued User,1384,7,64.82,55.26
+U01422,67,0,Medium,Plateaued User,1384,7,64.82,43.81
+U00501,67,1,Medium,Growing Casual,1384,7,64.82,42.07
+U01571,67,1,Medium,Plateaued User,1384,7,64.82,42.25
+U01826,67,1,Medium,Plateaued User,1384,7,64.82,41.76
+U00989,67,0,Medium,Growing Casual,1384,7,64.82,41.26
+U01237,67,1,Medium,Power Adopter,1384,7,64.82,40.19
+U00691,67,1,Medium,Late Bloomer,1384,7,64.82,40.21
+U01131,67,1,Medium,Growing Casual,1384,7,64.82,39.8
+U01517,67,0,Medium,Plateaued User,1384,7,64.82,39.91
+U00211,67,0,Medium,Late Bloomer,1384,7,64.82,39.83
+U01818,67,0,Medium,Plateaued User,1384,7,64.82,39.02
+U00557,67,0,Medium,Growing Casual,1384,7,64.82,38.66
+U01639,67,0,Medium,Plateaued User,1384,7,64.82,37.58
+U00015,67,1,Medium,Plateaued User,1384,7,64.82,37.91
+U00186,67,0,Medium,Plateaued User,1384,7,64.82,37.92
+U00955,67,0,Medium,Growing Casual,1384,7,64.82,37.9
+U00299,67,0,Medium,Plateaued User,1384,8,64.82,38.1
+U00696,67,1,Medium,Champion,1384,8,64.82,38.15
+U00093,67,0,Medium,Plateaued User,1384,8,64.82,38.19
+U00925,66,0,Medium,Power Adopter,1404,8,64.82,59.26
+U00770,66,0,Medium,Plateaued User,1404,8,64.82,44.21
+U01159,66,0,Medium,Late Bloomer,1404,8,64.82,43.26
+U00138,66,1,Medium,Late Bloomer,1404,8,64.82,41.68
+U00931,66,0,Medium,Power Adopter,1404,8,64.82,41.53
+U01205,66,0,Medium,Late Bloomer,1404,8,64.82,41.67
+U00035,66,0,Medium,Power Adopter,1404,8,64.82,40.14
+U00136,66,1,Medium,Late Bloomer,1404,8,64.82,40.22
+U01171,66,0,Medium,Power Adopter,1404,8,64.82,40.16
+U00553,66,0,Medium,Power Adopter,1404,8,64.82,39.83
+U00734,66,0,Medium,Power Adopter,1404,8,64.82,39.37
+U01392,66,0,Medium,Power Adopter,1404,8,64.82,39.65
+U01488,66,0,Medium,Power Adopter,1404,8,64.82,38.14
+U01490,66,1,Medium,Plateaued User,1404,8,64.82,37.72
+U01667,66,0,Medium,Power Adopter,1404,8,64.82,37.69
+U00576,66,0,Medium,Late Bloomer,1404,8,64.82,37.57
+U00232,66,0,Medium,Late Bloomer,1404,8,64.82,37.69
+U00651,66,0,Medium,Power Adopter,1404,8,64.82,37.51
+U00779,66,1,Medium,Power Adopter,1404,8,64.82,37.66
+U01744,66,0,Medium,Power Adopter,1404,8,64.82,38.32
+U00184,66,0,Medium,Power Adopter,1404,8,64.82,38.01
+U01356,66,0,Medium,Late Bloomer,1404,8,64.82,38.5
+U01080,65,0,High,Late Bloomer,1426,8,90.36,42.69
+U01286,65,0,High,Late Bloomer,1426,8,90.36,41.42
+U01811,65,1,High,Late Bloomer,1426,8,90.36,39.93
+U01099,65,1,High,Late Bloomer,1426,8,90.36,37.63
+U01013,65,1,High,Late Bloomer,1426,8,90.36,37.59
+U00086,65,0,High,Late Bloomer,1426,8,90.36,38.13
+U01928,65,0,High,Late Bloomer,1426,8,90.36,38.43
+U01518,65,0,Medium,Plateaued User,1426,8,64.82,57.14
+U00425,65,1,Medium,Plateaued User,1426,8,64.82,48.57
+U00597,65,0,Medium,Growing Casual,1426,8,64.82,47.98
+U00990,65,0,Medium,Power Adopter,1426,8,64.82,47.7
+U00229,65,0,Medium,Plateaued User,1426,8,64.82,43.61
+U01855,65,0,Medium,Growing Casual,1426,8,64.82,41.44
+U00618,65,1,Medium,Champion,1426,8,64.82,41.39
+U01961,65,0,Medium,Power Adopter,1426,8,64.82,40.98
+U01883,65,0,Medium,Power Adopter,1426,8,64.82,39.78
+U01875,65,0,Medium,Plateaued User,1426,8,64.82,39.91
+U01052,65,0,Medium,Power Adopter,1426,8,64.82,39.78
+U00121,65,0,Medium,Plateaued User,1426,8,64.82,39.74
+U01802,65,0,Medium,Power Adopter,1426,8,64.82,39.61
+U00451,65,0,Medium,Power Adopter,1426,8,64.82,38.98
+U01057,65,1,Medium,Plateaued User,1426,8,64.82,37.74
+U00297,65,0,Medium,Growing Casual,1426,8,64.82,37.79
+U01306,65,0,Medium,Plateaued User,1426,8,64.82,37.89
+U01829,65,1,Medium,Plateaued User,1426,8,64.82,37.7
+U01420,65,1,Medium,Plateaued User,1426,8,64.82,37.62
+U01381,65,0,Medium,Plateaued User,1426,8,64.82,38.2
+U00521,65,0,Medium,Plateaued User,1426,8,64.82,38.0
+U00361,65,1,Medium,Plateaued User,1426,8,64.82,38.04
+U00503,65,1,Medium,Plateaued User,1426,8,64.82,38.5
+U00807,64,1,Medium,Power Adopter,1456,8,64.82,41.6
+U00682,64,0,Medium,Late Bloomer,1456,8,64.82,41.68
+U00992,64,0,Medium,Plateaued User,1456,8,64.82,39.79
+U00349,64,0,Medium,Plateaued User,1456,8,64.82,40.12
+U01344,64,0,Medium,Growing Casual,1456,8,64.82,39.74
+U01871,64,0,Medium,Plateaued User,1456,8,64.82,39.33
+U00680,64,1,Medium,Growing Casual,1456,8,64.82,38.43
+U00081,64,0,Medium,Plateaued User,1456,8,64.82,37.81
+U00298,64,0,Medium,Power Adopter,1456,8,64.82,37.78
+U00475,64,0,Medium,Late Bloomer,1456,8,64.82,37.54
+U01427,64,0,Medium,Late Bloomer,1456,8,64.82,37.71
+U00396,64,0,Medium,Plateaued User,1456,8,64.82,37.82
+U00462,64,1,Medium,Plateaued User,1456,8,64.82,38.58
+U00760,64,0,Medium,Late Bloomer,1456,8,64.82,38.56
+U00644,63,0,High,Growing Casual,1470,8,90.36,38.08
+U01890,63,0,High,Growing Casual,1470,8,90.36,37.72
+U00137,63,0,High,Growing Casual,1470,8,90.36,38.25
+U01418,63,1,Medium,Power Adopter,1470,8,64.82,80.0
+U01659,63,0,Medium,Late Bloomer,1470,8,64.82,53.85
+U00547,63,1,Medium,Plateaued User,1470,8,64.82,50.57
+U00598,63,0,Medium,Power Adopter,1470,8,64.82,50.0
+U01698,63,0,Medium,Power Adopter,1470,8,64.82,49.44
+U00098,63,0,Medium,Late Bloomer,1470,8,64.82,45.6
+U00687,63,0,Medium,Late Bloomer,1470,8,64.82,45.24
+U00560,63,0,Medium,Late Bloomer,1470,8,64.82,48.23
+U01218,63,0,Medium,Late Bloomer,1470,8,64.82,42.51
+U00920,63,1,Medium,Plateaued User,1470,8,64.82,41.94
+U00749,63,1,Medium,Plateaued User,1470,8,64.82,42.82
+U00790,63,0,Medium,Plateaued User,1470,8,64.82,41.59
+U01852,63,0,Medium,Late Bloomer,1470,8,64.82,40.86
+U00747,63,1,Medium,Growing Casual,1470,8,64.82,41.06
+U00773,63,0,Medium,Late Bloomer,1470,8,64.82,40.72
+U01233,63,1,Medium,Plateaued User,1470,8,64.82,40.81
+U01718,63,0,Medium,Plateaued User,1470,8,64.82,39.86
+U01573,63,0,Medium,Plateaued User,1470,8,64.82,39.89
+U01266,63,0,Medium,Late Bloomer,1470,8,64.82,39.89
+U00902,63,0,Medium,Plateaued User,1470,8,64.82,40.08
+U01447,63,0,Medium,Late Bloomer,1470,8,64.82,39.7
+U01430,63,1,Medium,Plateaued User,1470,8,64.82,39.66
+U00621,63,1,Medium,Growing Casual,1470,8,64.82,39.45
+U01757,63,0,Medium,Late Bloomer,1470,8,64.82,38.95
+U01937,63,0,Medium,Growing Casual,1470,8,64.82,38.63
+U00537,63,0,Medium,Late Bloomer,1470,8,64.82,38.19
+U00359,63,0,Medium,Late Bloomer,1470,8,64.82,37.75
+U00200,63,0,Medium,Late Bloomer,1470,8,64.82,37.67
+U00209,63,0,Medium,Power Adopter,1470,8,64.82,37.68
+U00818,63,0,Medium,Late Bloomer,1470,8,64.82,37.73
+U01045,63,0,Medium,Late Bloomer,1470,8,64.82,37.74
+U01983,63,1,Medium,Plateaued User,1470,8,64.82,37.96
+U00909,63,1,Medium,Plateaued User,1470,8,64.82,37.74
+U01869,63,0,Medium,Plateaued User,1470,8,64.82,38.08
+U00736,63,0,Medium,Late Bloomer,1470,8,64.82,38.41
+U01926,63,0,Medium,Plateaued User,1470,8,64.82,38.27
+U01914,63,0,Medium,Late Bloomer,1470,8,64.82,37.99
+U01513,63,0,Medium,Plateaued User,1470,8,64.82,38.48
+U01000,62,1,Low,Power Adopter,1511,8,37.33,42.39
+U01166,62,0,Low,Power Adopter,1511,8,37.33,39.75
+U00748,62,1,Low,Power Adopter,1511,8,37.33,40.14
+U01748,62,0,Low,Power Adopter,1511,8,37.33,38.03
+U00427,62,1,Medium,Growing Casual,1511,8,64.82,48.0
+U01568,62,1,Medium,Growing Casual,1511,8,64.82,45.74
+U01151,62,0,Medium,Plateaued User,1511,8,64.82,44.06
+U00154,62,0,Medium,Plateaued User,1511,8,64.82,41.95
+U01223,62,0,Medium,Plateaued User,1511,8,64.82,41.59
+U01432,62,0,Medium,Late Bloomer,1511,8,64.82,41.79
+U01878,62,0,Medium,Plateaued User,1511,8,64.82,41.76
+U00338,62,1,Medium,Plateaued User,1511,8,64.82,40.1
+U01988,62,1,Medium,Plateaued User,1511,8,64.82,39.57
+U01628,62,0,Medium,Growing Casual,1511,8,64.82,39.0
+U01403,62,0,Medium,Growing Casual,1511,8,64.82,38.59
+U01868,62,0,Medium,Growing Casual,1511,8,64.82,37.51
+U00795,62,0,Medium,Growing Casual,1511,8,64.82,37.88
+U01819,62,0,Medium,Late Bloomer,1511,8,64.82,38.23
+U00270,62,0,Medium,Plateaued User,1511,8,64.82,38.39
+U01058,62,0,Medium,Growing Casual,1511,8,64.82,38.51
+U00360,61,1,High,Growing Casual,1531,8,90.36,41.9
+U00376,61,0,High,Growing Casual,1531,8,90.36,39.81
+U00072,61,0,Medium,Late Bloomer,1531,8,64.82,48.1
+U01737,61,1,Medium,Power Adopter,1531,8,64.82,43.44
+U00442,61,0,Medium,Late Bloomer,1531,8,64.82,41.83
+U01636,61,0,Medium,Plateaued User,1531,8,64.82,41.2
+U01731,61,1,Medium,Late Bloomer,1531,8,64.82,40.95
+U00544,61,0,Medium,Late Bloomer,1531,8,64.82,40.9
+U01844,61,1,Medium,Late Bloomer,1531,8,64.82,40.25
+U00463,61,1,Medium,Power Adopter,1531,8,64.82,39.92
+U01044,61,0,Medium,Late Bloomer,1531,8,64.82,39.76
+U01824,61,0,Medium,Late Bloomer,1531,8,64.82,39.74
+U00797,61,0,Medium,Late Bloomer,1531,8,64.82,39.85
+U00322,61,0,Medium,Plateaued User,1531,8,64.82,40.07
+U00191,61,1,Medium,Growing Casual,1531,8,64.82,40.04
+U01501,61,1,Medium,Late Bloomer,1531,8,64.82,39.62
+U00692,61,0,Medium,Late Bloomer,1531,8,64.82,39.42
+U00481,61,0,Medium,Late Bloomer,1531,8,64.82,38.05
+U00833,61,0,Medium,Late Bloomer,1531,8,64.82,37.8
+U00558,61,0,Medium,Late Bloomer,1531,8,64.82,37.64
+U01458,61,1,Medium,Power Adopter,1531,8,64.82,37.64
+U00260,61,1,Medium,Plateaued User,1531,8,64.82,38.24
+U01416,61,0,Medium,Growing Casual,1531,8,64.82,38.11
+U01495,61,0,Medium,Late Bloomer,1531,8,64.82,38.08
+U01882,61,0,Medium,Late Bloomer,1531,8,64.82,38.12
+U00166,61,0,Medium,Late Bloomer,1531,8,64.82,38.34
+U00658,61,0,Medium,Plateaued User,1531,8,64.82,38.01
+U01614,61,0,Medium,Plateaued User,1531,8,64.82,37.99
+U00148,61,0,Medium,Power Adopter,1531,8,64.82,38.54
+U01455,60,0,Medium,Plateaued User,1560,8,64.82,44.88
+U01100,60,0,Medium,Plateaued User,1560,8,64.82,45.97
+U00782,60,0,Medium,Plateaued User,1560,8,64.82,41.59
+U00938,60,0,Medium,Plateaued User,1560,8,64.82,38.56
+U00733,60,0,Medium,Growing Casual,1560,8,64.82,37.69
+U00149,60,0,Medium,Plateaued User,1560,8,64.82,38.21
+U01329,60,0,Medium,Plateaued User,1560,8,64.82,38.37
+U00962,60,0,Medium,Plateaued User,1560,8,64.82,38.02
+U01975,60,0,Medium,Growing Casual,1560,8,64.82,37.96
+U00021,60,0,Medium,Plateaued User,1560,8,64.82,38.32
+U01193,59,0,Low,Power Adopter,1570,8,37.33,40.19
+U00286,59,0,Medium,Late Bloomer,1570,8,64.82,66.67
+U01278,59,0,Medium,Late Bloomer,1570,8,64.82,49.09
+U00906,59,0,Medium,Plateaued User,1570,8,64.82,46.61
+U01064,59,0,Medium,Plateaued User,1570,8,64.82,43.9
+U00867,59,1,Medium,Plateaued User,1570,8,64.82,41.47
+U00264,59,0,Medium,Growing Casual,1570,8,64.82,41.34
+U01887,59,0,Medium,Power Adopter,1570,8,64.82,41.12
+U01610,59,1,Medium,Champion,1570,8,64.82,40.99
+U01560,59,1,Medium,Growing Casual,1570,8,64.82,40.29
+U01226,59,1,Medium,Late Bloomer,1570,8,64.82,39.91
+U00499,59,1,Medium,Growing Casual,1570,8,64.82,39.76
+U01137,59,0,Medium,Power Adopter,1570,8,64.82,39.13
+U01634,59,1,Medium,Growing Casual,1570,8,64.82,37.56
+U01803,59,0,Medium,Plateaued User,1570,8,64.82,37.77
+U00076,59,0,Medium,Late Bloomer,1570,8,64.82,37.86
+U01189,59,0,Medium,Late Bloomer,1570,8,64.82,37.57
+U01684,59,0,Medium,Plateaued User,1570,8,64.82,38.1
+U01644,59,0,Medium,Growing Casual,1570,8,64.82,38.35
+U01950,59,0,Medium,Plateaued User,1570,8,64.82,38.32
+U00944,59,0,Medium,Plateaued User,1570,8,64.82,38.38
+U00263,59,0,Medium,Power Adopter,1570,8,64.82,38.16
+U00407,59,0,Medium,Plateaued User,1570,8,64.82,37.97
+U01282,58,0,Low,Plateaued User,1593,8,37.33,51.28
+U00595,58,1,Low,Plateaued User,1593,8,37.33,39.82
+U01104,58,0,Low,Plateaued User,1593,8,37.33,38.16
+U01816,58,1,Medium,Growing Casual,1593,8,64.82,59.09
+U00356,58,0,Medium,Growing Casual,1593,8,64.82,50.72
+U01248,58,0,Medium,Growing Casual,1593,8,64.82,46.4
+U01047,58,0,Medium,Plateaued User,1593,8,64.82,44.6
+U00077,58,1,Medium,Plateaued User,1593,8,64.82,44.1
+U00550,58,1,Medium,Plateaued User,1593,9,64.82,41.65
+U00162,58,1,Medium,Plateaued User,1593,9,64.82,41.45
+U00157,58,1,Medium,Plateaued User,1593,9,64.82,41.32
+U01756,58,0,Medium,Late Bloomer,1593,9,64.82,41.19
+U00279,58,1,Medium,Late Bloomer,1593,9,64.82,41.08
+U00141,58,0,Medium,Plateaued User,1593,9,64.82,40.14
+U00913,58,0,Medium,Plateaued User,1593,9,64.82,40.08
+U01728,58,1,Medium,Late Bloomer,1593,9,64.82,40.16
+U00474,58,0,Medium,Plateaued User,1593,9,64.82,39.75
+U01060,58,0,Medium,Growing Casual,1593,9,64.82,39.41
+U00013,58,0,Medium,Plateaued User,1593,9,64.82,38.53
+U01482,58,0,Medium,Plateaued User,1593,9,64.82,37.93
+U00839,58,1,Medium,Late Bloomer,1593,9,64.82,38.27
+U00329,58,0,Medium,Plateaued User,1593,9,64.82,38.08
+U01204,58,0,Medium,Plateaued User,1593,9,64.82,38.36
+U00291,58,0,Medium,Plateaued User,1593,9,64.82,38.14
+U01670,58,1,Medium,Growing Casual,1593,9,64.82,38.17
+U00010,57,1,Low,Power Adopter,1618,9,37.33,41.51
+U00816,57,0,Medium,Late Bloomer,1618,9,64.82,52.5
+U00357,57,1,Medium,Plateaued User,1618,9,64.82,48.34
+U00624,57,0,Medium,Late Bloomer,1618,9,64.82,46.19
+U00259,57,0,Medium,Plateaued User,1618,9,64.82,41.37
+U01847,57,0,Medium,Plateaued User,1618,9,64.82,40.02
+U01311,57,0,Medium,Growing Casual,1618,9,64.82,40.06
+U00813,57,0,Medium,Growing Casual,1618,9,64.82,39.46
+U01630,57,0,Medium,Late Bloomer,1618,9,64.82,38.96
+U01270,57,1,Medium,Growing Casual,1618,9,64.82,38.58
+U01328,57,0,Medium,Plateaued User,1618,9,64.82,38.4
+U00714,57,0,Medium,Growing Casual,1618,9,64.82,37.84
+U01745,57,0,Medium,Late Bloomer,1618,9,64.82,38.05
+U01840,57,0,Medium,Late Bloomer,1618,9,64.82,37.96
+U00878,57,0,Medium,Growing Casual,1618,9,64.82,38.06
+U00996,57,0,Medium,Plateaued User,1618,9,64.82,38.15
+U01906,57,1,Medium,Plateaued User,1618,9,64.82,38.54
+U00831,57,0,Medium,Plateaued User,1618,9,64.82,38.52
+U00602,57,1,Medium,Growing Casual,1618,9,64.82,38.52
+U01619,56,0,Medium,Plateaued User,1637,9,64.82,47.73
+U00233,56,0,Medium,Window Shopper,1637,9,64.82,47.4
+U01035,56,0,Medium,Late Bloomer,1637,9,64.82,43.94
+U00960,56,0,Medium,Plateaued User,1637,9,64.82,43.3
+U01642,56,0,Medium,Plateaued User,1637,9,64.82,41.32
+U00413,56,0,Medium,Plateaued User,1637,9,64.82,41.61
+U01033,56,0,Medium,Late Bloomer,1637,9,64.82,39.98
+U01001,56,1,Medium,Plateaued User,1637,9,64.82,39.98
+U00135,56,0,Medium,Plateaued User,1637,9,64.82,39.63
+U01895,56,0,Medium,Plateaued User,1637,9,64.82,39.38
+U01879,56,0,Medium,Plateaued User,1637,9,64.82,39.38
+U01986,56,0,Medium,Plateaued User,1637,9,64.82,38.13
+U01674,56,1,Medium,Growing Casual,1637,9,64.82,37.85
+U01953,56,1,Medium,Plateaued User,1637,9,64.82,37.56
+U00659,56,0,Medium,Plateaued User,1637,9,64.82,37.63
+U01559,55,0,Medium,Plateaued User,1652,9,64.82,47.87
+U01661,55,0,Medium,Growing Casual,1652,9,64.82,41.5
+U01257,55,0,Medium,Window Shopper,1652,9,64.82,40.75
+U00523,55,0,Medium,Plateaued User,1652,9,64.82,39.71
+U01658,55,0,Medium,Plateaued User,1652,9,64.82,38.36
+U00633,55,0,Medium,Window Shopper,1652,9,64.82,37.68
+U00887,55,1,Medium,Plateaued User,1652,9,64.82,38.39
+U00968,55,0,Medium,Growing Casual,1652,9,64.82,38.34
+U01959,55,0,Medium,Plateaued User,1652,9,64.82,37.95
+U00216,55,0,Medium,Plateaued User,1652,9,64.82,38.49
+U01924,54,0,Low,Power Adopter,1662,9,37.33,48.89
+U00525,54,0,Low,Power Adopter,1662,9,37.33,45.36
+U01709,54,0,Low,Power Adopter,1662,9,37.33,39.7
+U00573,54,0,Low,Window Shopper,1662,9,37.33,37.93
+U01194,54,0,Medium,Late Bloomer,1662,9,64.82,51.22
+U01739,54,0,Medium,Plateaued User,1662,9,64.82,44.9
+U00620,54,0,Medium,Late Bloomer,1662,9,64.82,47.15
+U01407,54,0,Medium,Late Bloomer,1662,9,64.82,43.67
+U01671,54,0,Medium,Late Bloomer,1662,9,64.82,43.52
+U00478,54,0,Medium,Late Bloomer,1662,9,64.82,42.39
+U00416,54,0,Medium,Late Bloomer,1662,9,64.82,41.27
+U00953,54,0,Medium,Late Bloomer,1662,9,64.82,41.51
+U00163,54,0,Medium,Window Shopper,1662,9,64.82,41.51
+U01413,54,0,Medium,Growing Casual,1662,9,64.82,41.05
+U01846,54,0,Medium,Plateaued User,1662,9,64.82,41.12
+U01940,54,0,Medium,Growing Casual,1662,9,64.82,40.69
+U00067,54,0,Medium,Plateaued User,1662,9,64.82,41.01
+U01467,54,0,Medium,Plateaued User,1662,9,64.82,40.95
+U00857,54,0,Medium,Growing Casual,1662,9,64.82,40.0
+U01838,54,0,Medium,Late Bloomer,1662,9,64.82,40.1
+U00886,54,0,Medium,Plateaued User,1662,9,64.82,38.91
+U00910,54,0,Medium,Late Bloomer,1662,9,64.82,38.93
+U00756,54,0,Medium,Late Bloomer,1662,9,64.82,38.02
+U01794,54,1,Medium,Late Bloomer,1662,9,64.82,38.07
+U01691,54,0,Medium,Late Bloomer,1662,9,64.82,38.07
+U01118,54,0,Medium,Plateaued User,1662,9,64.82,37.65
+U01907,54,0,Medium,Late Bloomer,1662,9,64.82,37.62
+U00251,54,0,Medium,Plateaued User,1662,9,64.82,37.7
+U00066,54,0,Medium,Growing Casual,1662,9,64.82,37.65
+U00399,54,0,Medium,Plateaued User,1662,9,64.82,37.92
+U01872,54,0,Medium,Plateaued User,1662,9,64.82,37.74
+U00083,54,0,Medium,Plateaued User,1662,9,64.82,38.19
+U01594,54,0,Medium,Late Bloomer,1662,9,64.82,38.25
+U01396,54,0,Medium,Growing Casual,1662,9,64.82,38.13
+U01334,54,0,Medium,Late Bloomer,1662,9,64.82,38.1
+U00783,54,0,Medium,Plateaued User,1662,9,64.82,37.97
+U01109,54,0,Medium,Plateaued User,1662,9,64.82,38.0
+U00999,54,0,Medium,Plateaued User,1662,9,64.82,37.91
+U00661,54,0,Medium,Late Bloomer,1662,9,64.82,38.07
+U00590,54,0,Medium,Late Bloomer,1662,9,64.82,38.3
+U00666,54,0,Medium,Late Bloomer,1662,9,64.82,38.52
+U01884,54,0,Medium,Plateaued User,1662,9,64.82,38.5
+U00087,54,1,Medium,Power Adopter,1662,9,64.82,38.52
+U00609,53,0,Low,Plateaued User,1705,9,37.33,41.82
+U01026,53,0,Low,Plateaued User,1705,9,37.33,40.69
+U00890,53,0,Low,Plateaued User,1705,9,37.33,38.89
+U00534,53,0,Low,Plateaued User,1705,9,37.33,37.98
+U01199,53,1,Medium,Plateaued User,1705,9,64.82,51.43
+U01021,53,0,Medium,Plateaued User,1705,9,64.82,44.44
+U01977,53,1,Medium,Plateaued User,1705,9,64.82,47.42
+U01421,53,0,Medium,Growing Casual,1705,9,64.82,45.98
+U00395,53,0,Medium,Growing Casual,1705,9,64.82,43.17
+U00777,53,0,Medium,Plateaued User,1705,9,64.82,41.48
+U00470,53,0,Medium,Growing Casual,1705,9,64.82,39.1
+U00528,53,0,Medium,Plateaued User,1705,9,64.82,38.88
+U01011,53,1,Medium,Growing Casual,1705,9,64.82,38.42
+U01250,53,0,Medium,Plateaued User,1705,9,64.82,37.89
+U01848,53,1,Medium,Growing Casual,1705,9,64.82,38.25
+U00875,53,0,Medium,Growing Casual,1705,9,64.82,38.5
+U01841,52,0,Low,Plateaued User,1721,9,37.33,41.3
+U00776,52,0,Low,Plateaued User,1721,9,37.33,40.63
+U01580,52,0,Low,Plateaued User,1721,9,37.33,39.42
+U01452,52,0,Low,Plateaued User,1721,9,37.33,37.83
+U00235,52,1,Medium,Growing Casual,1721,9,64.82,43.34
+U00496,52,0,Medium,Growing Casual,1721,9,64.82,43.21
+U00150,52,1,Medium,Late Bloomer,1721,9,64.82,42.0
+U00236,52,0,Medium,Late Bloomer,1721,9,64.82,41.42
+U01113,52,0,Medium,Plateaued User,1721,9,64.82,41.24
+U01453,52,0,Medium,Growing Casual,1721,9,64.82,41.57
+U01980,52,1,Medium,Late Bloomer,1721,9,64.82,41.15
+U01753,52,0,Medium,Growing Casual,1721,9,64.82,40.15
+U00862,52,1,Medium,Plateaued User,1721,9,64.82,39.93
+U00459,52,1,Medium,Growing Casual,1721,9,64.82,39.39
+U00377,52,1,Medium,Plateaued User,1721,9,64.82,39.68
+U00128,52,1,Medium,Growing Casual,1721,9,64.82,37.68
+U00434,52,0,Medium,Growing Casual,1721,9,64.82,37.67
+U01957,52,0,Medium,Growing Casual,1721,9,64.82,38.14
+U01995,52,1,Medium,Plateaued User,1721,9,64.82,38.19
+U00613,51,0,Low,Plateaued User,1740,9,37.33,41.48
+U01408,51,0,Low,Plateaued User,1740,9,37.33,39.7
+U00139,51,0,Low,Window Shopper,1740,9,37.33,37.72
+U00094,51,0,Low,Plateaued User,1740,9,37.33,37.74
+U01499,51,1,Low,Plateaued User,1740,9,37.33,38.55
+U00936,51,0,Medium,Plateaued User,1740,9,64.82,42.29
+U01908,51,0,Medium,Plateaued User,1740,9,64.82,41.74
+U00341,51,0,Medium,Plateaued User,1740,9,64.82,38.55
+U00280,51,1,Medium,Window Shopper,1740,9,64.82,37.73
+U00835,51,0,Medium,Growing Casual,1740,9,64.82,37.81
+U00746,51,0,Medium,Plateaued User,1740,9,64.82,38.25
+U00239,51,0,Medium,Plateaued User,1740,9,64.82,38.18
+U01367,51,1,Medium,Plateaued User,1740,9,64.82,37.99
+U01556,50,0,Medium,Growing Casual,1753,9,64.82,52.46
+U01009,50,0,Medium,Growing Casual,1753,9,64.82,47.89
+U01395,50,0,Medium,Growing Casual,1753,9,64.82,41.13
+U01186,50,0,Medium,Late Bloomer,1753,9,64.82,39.71
+U01786,50,0,Medium,Growing Casual,1753,9,64.82,39.87
+U00764,50,0,Medium,Growing Casual,1753,9,64.82,37.9
+U00405,50,1,Medium,Late Bloomer,1753,9,64.82,38.09
+U01502,50,0,Medium,Growing Casual,1753,9,64.82,38.3
+U01736,50,0,Medium,Late Bloomer,1753,9,64.82,37.97
+U00368,50,0,Medium,Growing Casual,1753,9,64.82,38.48
+U00003,49,0,Low,Growing Casual,1763,9,37.33,43.46
+U01550,49,0,Low,Growing Casual,1763,9,37.33,40.02
+U00079,49,0,Medium,Plateaued User,1763,9,64.82,47.55
+U01507,49,1,Medium,Plateaued User,1763,9,64.82,48.68
+U01553,49,1,Medium,Plateaued User,1763,9,64.82,48.02
+U00517,49,1,Medium,Plateaued User,1763,9,64.82,44.8
+U01428,49,1,Medium,Plateaued User,1763,9,64.82,44.14
+U01797,49,1,Medium,Plateaued User,1763,9,64.82,43.65
+U00604,49,1,Medium,Late Bloomer,1763,9,64.82,41.71
+U01111,49,0,Medium,Plateaued User,1763,9,64.82,41.43
+U00901,49,1,Medium,Late Bloomer,1763,9,64.82,40.2
+U00460,49,0,Medium,Late Bloomer,1763,9,64.82,39.66
+U00649,49,0,Medium,Plateaued User,1763,9,64.82,39.38
+U00350,49,0,Medium,Plateaued User,1763,9,64.82,38.51
+U00033,49,0,Medium,Late Bloomer,1763,9,64.82,38.04
+U00008,49,0,Medium,Plateaued User,1763,9,64.82,37.61
+U01336,49,1,Medium,Plateaued User,1763,9,64.82,37.59
+U00655,49,1,Medium,Plateaued User,1763,9,64.82,38.07
+U01445,49,0,Medium,Plateaued User,1763,9,64.82,38.29
+U00036,49,0,Medium,Late Bloomer,1763,9,64.82,38.17
+U01945,49,1,Medium,Late Bloomer,1763,9,64.82,38.34
+U01262,49,0,Medium,Plateaued User,1763,9,64.82,38.17
+U00024,49,0,Medium,Plateaued User,1763,9,64.82,38.5
+U00053,48,1,Low,Plateaued User,1786,9,37.33,41.42
+U01068,48,0,Low,Plateaued User,1786,9,37.33,39.63
+U00308,48,0,Low,Plateaued User,1786,9,37.33,39.35
+U00410,48,1,Low,Plateaued User,1786,9,37.33,39.43
+U00605,48,1,Low,Plateaued User,1786,9,37.33,37.6
+U00987,48,0,Low,Plateaued User,1786,9,37.33,37.89
+U01023,48,1,Medium,Growing Casual,1786,9,64.82,43.83
+U00697,48,0,Medium,Growing Casual,1786,9,64.82,41.37
+U00276,48,0,Medium,Growing Casual,1786,9,64.82,39.98
+U00332,48,0,Medium,Growing Casual,1786,9,64.82,39.67
+U01800,48,1,Medium,Growing Casual,1786,9,64.82,37.78
+U00724,48,0,Medium,Growing Casual,1786,9,64.82,37.8
+U00646,48,0,Medium,Growing Casual,1786,9,64.82,38.32
+U00924,48,0,Medium,Plateaued User,1786,9,64.82,38.08
+U00492,48,1,Medium,Growing Casual,1786,9,64.82,38.51
+U01401,47,0,Low,Plateaued User,1801,10,37.33,51.02
+U01415,47,0,Low,Plateaued User,1801,10,37.33,39.89
+U00905,47,1,Medium,Growing Casual,1801,10,64.82,47.92
+U00872,47,1,Medium,Growing Casual,1801,10,64.82,47.69
+U00663,47,1,Medium,Plateaued User,1801,10,64.82,46.64
+U00686,47,1,Medium,Plateaued User,1801,10,64.82,41.05
+U00507,47,0,Medium,Growing Casual,1801,10,64.82,37.89
+U00397,47,1,Medium,Plateaued User,1801,10,64.82,38.27
+U01704,46,0,Low,Window Shopper,1809,10,37.33,50.63
+U00473,46,1,Low,Plateaued User,1809,10,37.33,38.0
+U01782,46,0,Medium,Growing Casual,1809,10,64.82,42.66
+U00283,46,1,Medium,Plateaued User,1809,10,64.82,41.22
+U01508,46,1,Medium,Growing Casual,1809,10,64.82,39.88
+U01909,46,0,Medium,Growing Casual,1809,10,64.82,37.81
+U00337,46,0,Medium,Growing Casual,1809,10,64.82,37.94
+U01578,46,0,Medium,Growing Casual,1809,10,64.82,38.06
+U01574,46,0,Medium,Growing Casual,1809,10,64.82,38.48
+U01431,45,0,Low,Plateaued User,1818,10,37.33,44.64
+U01368,45,0,Low,Window Shopper,1818,10,37.33,37.61
+U00538,45,0,Medium,Late Bloomer,1818,10,64.82,45.78
+U00355,45,1,Medium,Plateaued User,1818,10,64.82,43.71
+U01340,45,1,Medium,Late Bloomer,1818,10,64.82,44.01
+U00778,45,0,Medium,Growing Casual,1818,10,64.82,41.42
+U01202,45,1,Medium,Late Bloomer,1818,10,64.82,40.24
+U00635,45,0,Medium,Late Bloomer,1818,10,64.82,39.96
+U00197,45,0,Medium,Plateaued User,1818,10,64.82,38.11
+U01399,45,0,Medium,Growing Casual,1818,10,64.82,38.17
+U01788,45,1,Medium,Growing Casual,1818,10,64.82,38.51
+U01291,44,0,Low,Plateaued User,1829,10,37.33,45.56
+U01128,44,1,Low,Window Shopper,1829,10,37.33,41.63
+U00805,44,1,Low,Plateaued User,1829,10,37.33,38.95
+U00519,44,0,Medium,Plateaued User,1829,10,64.82,44.0
+U01102,44,1,Medium,Plateaued User,1829,10,64.82,46.0
+U00720,44,0,Medium,Plateaued User,1829,10,64.82,42.26
+U00917,44,0,Medium,Plateaued User,1829,10,64.82,39.92
+U01114,44,0,Medium,Plateaued User,1829,10,64.82,38.14
+U00995,44,1,Medium,Plateaued User,1829,10,64.82,38.17
+U01126,43,0,Low,Plateaued User,1838,10,37.33,46.02
+U01954,43,1,Low,Plateaued User,1838,10,37.33,45.77
+U00468,43,0,Low,Plateaued User,1838,10,37.33,40.98
+U00032,43,1,Low,Plateaued User,1838,10,37.33,39.94
+U01641,43,1,Low,Plateaued User,1838,10,37.33,37.94
+U00457,43,0,Low,Plateaued User,1838,10,37.33,37.79
+U00025,43,0,Low,Plateaued User,1838,10,37.33,38.28
+U00122,43,0,Low,Plateaued User,1838,10,37.33,38.26
+U00068,43,1,Medium,Growing Casual,1838,10,64.82,52.0
+U01485,43,1,Medium,Growing Casual,1838,10,64.82,45.31
+U01142,43,1,Medium,Growing Casual,1838,10,64.82,37.9
+U01041,43,0,Medium,Growing Casual,1838,10,64.82,37.6
+U00623,43,1,Medium,Growing Casual,1838,10,64.82,37.7
+U01316,43,1,Medium,Growing Casual,1838,10,64.82,37.92
+U00750,42,0,Low,Window Shopper,1852,10,37.33,37.87
+U01055,42,0,Medium,Plateaued User,1852,10,64.82,50.0
+U01158,42,0,Medium,Plateaued User,1852,10,64.82,40.98
+U00108,42,0,Medium,Plateaued User,1852,10,64.82,40.14
+U00771,42,0,Medium,Plateaued User,1852,10,64.82,37.91
+U00793,42,0,Medium,Plateaued User,1852,10,64.82,37.64
+U01604,41,0,Low,Window Shopper,1858,10,37.33,45.78
+U01960,41,0,Low,Plateaued User,1858,10,37.33,42.56
+U00326,41,0,Low,Window Shopper,1858,10,37.33,39.93
+U01433,41,0,Low,Window Shopper,1858,10,37.33,38.04
+U00069,41,0,Low,Window Shopper,1858,10,37.33,38.11
+U00513,41,0,Medium,Growing Casual,1858,10,64.82,48.37
+U00472,41,1,Medium,Growing Casual,1858,10,64.82,46.22
+U00224,41,0,Medium,Growing Casual,1858,10,64.82,41.15
+U01662,41,1,Medium,Growing Casual,1858,10,64.82,41.7
+U00146,41,1,Medium,Window Shopper,1858,10,64.82,41.4
+U00789,41,0,Medium,Growing Casual,1858,10,64.82,40.91
+U01337,41,0,Medium,Growing Casual,1858,10,64.82,40.27
+U01498,41,1,Medium,Growing Casual,1858,10,64.82,40.0
+U00926,41,1,Medium,Growing Casual,1858,10,64.82,38.16
+U01341,41,1,Medium,Growing Casual,1858,10,64.82,38.3
+U00896,40,0,Low,Window Shopper,1873,10,37.33,45.61
+U01260,40,0,Low,Window Shopper,1873,10,37.33,39.4
+U01434,40,0,Low,Plateaued User,1873,10,37.33,38.38
+U00345,40,1,Low,Plateaued User,1873,10,37.33,38.33
+U00004,40,1,Low,Plateaued User,1873,10,37.33,37.97
+U00445,40,0,Medium,Plateaued User,1873,10,64.82,39.78
+U01056,40,0,Medium,Window Shopper,1873,10,64.82,37.57
+U01765,40,0,Medium,Plateaued User,1873,10,64.82,38.23
+U01933,39,0,Low,Growing Casual,1881,10,37.33,46.44
+U01284,39,0,Low,Growing Casual,1881,10,37.33,42.47
+U00244,39,0,Low,Growing Casual,1881,10,37.33,41.67
+U00023,39,0,Low,Growing Casual,1881,10,37.33,39.87
+U00739,39,0,Low,Growing Casual,1881,10,37.33,39.83
+U01249,39,0,Low,Plateaued User,1881,10,37.33,39.74
+U00374,39,1,Low,Growing Casual,1881,10,37.33,38.09
+U01014,39,0,Low,Plateaued User,1881,10,37.33,38.37
+U01591,39,0,Low,Growing Casual,1881,10,37.33,37.98
+U01570,38,0,Low,Plateaued User,1890,10,37.33,41.34
+U00637,38,0,Low,Plateaued User,1890,10,37.33,39.95
+U00951,38,0,Low,Plateaued User,1890,10,37.33,37.54
+U01138,38,0,Low,Plateaued User,1890,10,37.33,38.35
+U00174,38,1,Low,Plateaued User,1890,10,37.33,38.04
+U01139,38,1,Low,Plateaued User,1890,10,37.33,38.11
+U00912,38,0,Medium,Growing Casual,1890,10,64.82,46.03
+U00385,38,0,Medium,Growing Casual,1890,10,64.82,41.84
+U00937,38,0,Medium,Growing Casual,1890,10,64.82,38.06
+U01462,38,0,Medium,Growing Casual,1890,10,64.82,37.69
+U00866,38,1,Medium,Growing Casual,1890,10,64.82,38.54
+U00422,37,0,Low,Window Shopper,1901,10,37.33,51.61
+U01646,37,1,Low,Window Shopper,1901,10,37.33,44.55
+U00358,37,1,Low,Window Shopper,1901,10,37.33,37.6
+U00080,37,0,Low,Window Shopper,1901,10,37.33,38.49
+U01525,37,0,Medium,Plateaued User,1901,10,64.82,45.58
+U01388,36,0,Low,Plateaued User,1906,10,37.33,45.22
+U01265,36,0,Low,Window Shopper,1906,10,37.33,46.25
+U01601,36,0,Low,Plateaued User,1906,10,37.33,43.08
+U00851,36,1,Low,Plateaued User,1906,10,37.33,41.29
+U01520,36,0,Low,Window Shopper,1906,10,37.33,40.89
+U01212,36,1,Low,Plateaued User,1906,10,37.33,41.24
+U00267,36,0,Low,Window Shopper,1906,10,37.33,39.66
+U01814,36,1,Low,Window Shopper,1906,10,37.33,39.91
+U01184,36,0,Low,Plateaued User,1906,10,37.33,37.6
+U01719,36,0,Low,Plateaued User,1906,10,37.33,37.89
+U01853,36,0,Low,Window Shopper,1906,10,37.33,38.24
+U01598,36,1,Medium,Window Shopper,1906,10,64.82,39.73
+U00384,36,0,Medium,Window Shopper,1906,10,64.82,37.57
+U01754,36,0,Medium,Window Shopper,1906,10,64.82,37.77
+U01971,35,0,Low,Window Shopper,1920,10,37.33,42.62
+U01668,35,0,Low,Plateaued User,1920,10,37.33,38.22
+U01173,34,0,Low,Growing Casual,1922,10,37.33,55.17
+U01919,34,0,Low,Plateaued User,1922,10,37.33,48.84
+U00208,34,0,Low,Growing Casual,1922,10,37.33,50.79
+U00228,34,1,Low,Growing Casual,1922,10,37.33,45.81
+U01402,34,0,Low,Growing Casual,1922,10,37.33,41.88
+U01477,34,0,Low,Growing Casual,1922,10,37.33,41.35
+U00085,34,0,Low,Growing Casual,1922,10,37.33,40.19
+U00421,34,0,Low,Plateaued User,1922,10,37.33,40.21
+U01180,34,0,Low,Plateaued User,1922,10,37.33,40.06
+U00543,34,0,Low,Growing Casual,1922,10,37.33,39.59
+U00390,34,0,Low,Growing Casual,1922,10,37.33,38.02
+U01435,34,0,Low,Growing Casual,1922,10,37.33,37.58
+U01372,34,0,Low,Growing Casual,1922,10,37.33,37.88
+U01695,34,0,Low,Growing Casual,1922,10,37.33,38.06
+U01123,33,0,Low,Plateaued User,1936,10,37.33,41.4
+U01590,33,0,Low,Plateaued User,1936,10,37.33,40.58
+U01964,33,0,Low,Plateaued User,1936,10,37.33,40.08
+U01524,33,0,Low,Plateaued User,1936,10,37.33,39.84
+U01762,33,0,Low,Plateaued User,1936,10,37.33,38.48
+U00103,33,0,Low,Plateaued User,1936,10,37.33,38.44
+U01172,32,0,Low,Window Shopper,1942,10,37.33,43.87
+U01791,32,0,Low,Window Shopper,1942,10,37.33,41.68
+U00189,32,1,Low,Window Shopper,1942,10,37.33,40.23
+U00151,32,0,Low,Window Shopper,1942,10,37.33,40.1
+U00190,32,1,Low,Window Shopper,1942,10,37.33,39.98
+U00133,32,0,Low,Window Shopper,1942,10,37.33,37.58
+U01703,32,0,Low,Window Shopper,1942,10,37.33,38.05
+U01865,31,0,Low,Window Shopper,1949,10,37.33,50.98
+U01696,31,0,Low,Plateaued User,1949,10,37.33,47.75
+U01963,31,0,Low,Plateaued User,1949,10,37.33,42.14
+U00364,31,0,Low,Window Shopper,1949,10,37.33,40.29
+U01626,31,0,Low,Window Shopper,1949,10,37.33,40.05
+U00213,31,0,Low,Plateaued User,1949,10,37.33,37.55
+U01443,31,1,Low,Window Shopper,1949,10,37.33,37.62
+U01390,31,0,Low,Window Shopper,1949,10,37.33,38.31
+U00716,31,0,Low,Window Shopper,1949,10,37.33,38.22
+U00911,31,0,Low,Window Shopper,1949,10,37.33,38.2
+U01027,31,1,Low,Window Shopper,1949,10,37.33,38.14
+U01363,30,0,Low,Window Shopper,1960,10,37.33,39.93
+U01792,29,0,Low,Plateaued User,1961,10,37.33,40.52
+U01188,29,0,Low,Plateaued User,1961,10,37.33,40.03
+U01307,28,1,Low,Plateaued User,1963,10,37.33,51.92
+U00352,28,0,Low,Plateaued User,1963,10,37.33,47.45
+U01331,28,0,Low,Plateaued User,1963,10,37.33,39.82
+U00420,28,1,Low,Plateaued User,1963,10,37.33,39.8
+U01338,28,0,Low,Plateaued User,1963,10,37.33,39.93
+U00403,27,0,Low,Window Shopper,1968,10,37.33,40.46
+U01514,27,0,Low,Window Shopper,1968,10,37.33,40.4
+U00027,27,0,Low,Window Shopper,1968,10,37.33,39.65
+U00381,27,0,Low,Window Shopper,1968,10,37.33,39.98
+U01382,27,0,Low,Window Shopper,1968,10,37.33,38.84
+U00043,27,0,Low,Window Shopper,1968,10,37.33,38.45
+U00054,27,0,Low,Window Shopper,1968,10,37.33,38.07
+U00225,27,0,Low,Window Shopper,1968,10,37.33,38.31
+U01225,27,0,Low,Window Shopper,1968,10,37.33,38.12
+U01040,27,0,Low,Window Shopper,1968,10,37.33,38.21
+U01864,27,1,Low,Window Shopper,1968,10,37.33,38.52
+U00863,26,1,Low,Window Shopper,1979,10,37.33,40.94
+U01758,26,1,Low,Window Shopper,1979,10,37.33,39.73
+U00516,26,0,Low,Window Shopper,1979,10,37.33,39.93
+U01958,26,0,Low,Window Shopper,1979,10,37.33,39.89
+U01730,26,0,Low,Window Shopper,1979,10,37.33,37.79
+U01006,26,0,Low,Window Shopper,1979,10,37.33,38.5
+U01624,24,0,Low,Plateaued User,1985,10,37.33,43.73
+U01563,24,0,Low,Plateaued User,1985,10,37.33,41.26
+U01545,24,1,Low,Plateaued User,1985,10,37.33,40.08
+U00847,24,0,Low,Plateaued User,1985,10,37.33,39.94
+U01742,24,1,Low,Plateaued User,1985,10,37.33,37.87
+U00959,24,0,Low,Plateaued User,1985,10,37.33,38.15
+U01330,24,1,Low,Plateaued User,1985,10,37.33,38.53
+U01132,22,1,Low,Window Shopper,1992,10,37.33,41.42
+U00301,22,0,Low,Window Shopper,1992,10,37.33,40.04
+U00822,17,1,Low,Window Shopper,1994,10,37.33,48.7
+U00639,17,0,Low,Window Shopper,1994,10,37.33,40.83
+U01423,17,0,Low,Window Shopper,1994,10,37.33,41.18
+U01015,17,0,Low,Window Shopper,1994,10,37.33,39.91
+U00824,17,0,Low,Window Shopper,1994,10,37.33,39.87
+U00536,17,0,Low,Window Shopper,1994,10,37.33,39.31
+U01469,17,0,Low,Window Shopper,1994,10,37.33,39.35

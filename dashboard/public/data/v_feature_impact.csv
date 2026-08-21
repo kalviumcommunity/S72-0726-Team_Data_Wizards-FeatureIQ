@@ -1,0 +1,11 @@
+feature,unique_users,total_usage_events,conv_rate_pct,avg_propensity_score,avg_sessions
+integrations,908,10917,60.32,88.34,7.26
+automation_rules,887,10390,59.75,88.01,7.37
+team_invite,848,9640,57.94,88.34,7.32
+reports,907,7617,44.77,85.01,7.17
+custom_alerts,895,7505,44.75,85.13,7.26
+api_access,876,7210,44.56,85.35,7.32
+advanced_search,902,7634,44.09,85.58,7.26
+billing_page,873,7445,44.0,84.21,7.18
+export_csv,895,7559,43.77,84.43,7.18
+dashboard,920,7611,43.58,85.48,7.28

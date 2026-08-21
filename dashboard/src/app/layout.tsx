@@ -1,10 +1,14 @@
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import './globals.css';
 import Navigation from '@/components/Navigation';
+import { DataProvider } from '@/lib/DataContext';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
 
 export const metadata: Metadata = {
-  title: 'FeatureIQ - SaaS Trial Conversion Executive Dashboard',
-  description: 'Connecting free-trial activity patterns to high-converting user upgrades',
+  title: 'FeatureIQ | Enterprise Analytics',
+  description: 'Predictive Trial Conversion & Behavioral Telemetry',
 };
 
 export default function RootLayout({
@@ -13,12 +17,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className="bg-[#0c101d] text-slate-100 min-h-screen flex flex-col md:flex-row antialiased selection:bg-[#00f2fe]/30 selection:text-[#00f2fe]">
-        <Navigation />
-        <main className="flex-1 min-w-0 pb-20 md:pb-8 overflow-y-auto">
-          {children}
-        </main>
+    <html lang="en" className="dark" suppressHydrationWarning>
+      <body className={`${inter.variable} font-sans bg-canvas text-text-secondary min-h-screen flex flex-col md:flex-row antialiased selection:bg-accent-blue/30 selection:text-accent-blue`} suppressHydrationWarning>
+        <DataProvider>
+          <Navigation />
+          <main className="flex-1 min-w-0 pb-20 md:pb-8 overflow-y-auto relative">
+            <div className="absolute top-0 left-0 right-0 h-[500px] bg-gradient-to-b from-accent-blue/5 to-transparent pointer-events-none -z-10" />
+            {children}
+          </main>
+        </DataProvider>
       </body>
     </html>
   );
